@@ -1,0 +1,1435 @@
+
+<title>Sense → Symmetry Migration Guide · Eltee Sydney</title>
+<meta name="description" content="Step-by-step guide for migrating elteesydney.com.au from Sense 15.4.1 to Symmetry, covering SEO code, app blocks, custom sections, and testing.">
+
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --teal:    #5DBAA9;
+    --teal-dk: #3D9A89;
+    --purple:  #2E2A39;
+    --orange:  #F2581F;
+    --cream:   #FFFBF2;
+    --bg:      #F4F6F8;
+    --surface: #FFFFFF;
+    --border:  #E2E6EB;
+    --muted:   #6B7280;
+    --text:    #1A1C20;
+
+    --font: system-ui, -apple-system, 'Segoe UI', sans-serif;
+    --mono: 'SF Mono', 'Fira Code', 'Consolas', monospace;
+
+    --r: 10px;
+    --r-sm: 6px;
+  }
+
+  html { font-size: 15px; background: var(--bg); color: var(--text); font-family: var(--font); }
+  body { min-height: 100vh; }
+
+  /* ── HEADER ── */
+  .site-header {
+    background: var(--purple);
+    color: #fff;
+    padding: 28px 40px 24px;
+    display: flex;
+    align-items: flex-end;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  .site-header h1 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    line-height: 1.3;
+    flex: 1;
+    min-width: 240px;
+  }
+  .site-header .sub {
+    font-size: 0.8rem;
+    color: rgba(255,255,255,0.55);
+    margin-top: 4px;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+  }
+  .theme-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.75rem;
+    font-weight: 500;
+    padding: 5px 12px;
+    border-radius: 100px;
+    white-space: nowrap;
+  }
+  .chip-sense { background: rgba(255,255,255,0.12); color: rgba(255,255,255,0.8); }
+  .chip-arrow { color: var(--teal); font-size: 1rem; }
+  .chip-sym { background: var(--teal); color: var(--purple); }
+
+  /* ── PHASE NAV ── */
+  .phase-nav {
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    overflow-x: auto;
+    display: flex;
+    align-items: stretch;
+    gap: 0;
+    padding: 0 32px;
+    scrollbar-width: none;
+  }
+  .phase-nav::-webkit-scrollbar { display: none; }
+  .phase-nav a {
+    text-decoration: none;
+    color: var(--muted);
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: 13px 16px;
+    white-space: nowrap;
+    border-bottom: 2px solid transparent;
+    transition: color 0.15s, border-color 0.15s;
+  }
+  .phase-nav a:hover { color: var(--teal); border-bottom-color: var(--teal); }
+
+  /* ── LAYOUT ── */
+  .wrap {
+    max-width: 1040px;
+    margin: 0 auto;
+    padding: 40px 32px 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  /* ── ALERT ── */
+  .alert {
+    border-radius: var(--r);
+    padding: 18px 22px;
+    display: flex;
+    gap: 14px;
+    align-items: flex-start;
+    font-size: 0.875rem;
+    line-height: 1.6;
+  }
+  .alert-critical { background: #FFF1EC; border: 1px solid #F2581F40; }
+  .alert-info     { background: #EEF9F7; border: 1px solid #5DBAA940; }
+  .alert-warn     { background: #FFFBEB; border: 1px solid #D97706; }
+  .alert .icon { font-size: 1.1rem; flex-shrink: 0; margin-top: 1px; }
+  .alert strong { display: block; margin-bottom: 3px; color: var(--text); font-size: 0.82rem; letter-spacing: 0.04em; text-transform: uppercase; }
+
+  /* ── PHASE SECTION ── */
+  .phase {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .phase-header {
+    display: flex;
+    align-items: baseline;
+    gap: 14px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid var(--border);
+  }
+  .phase-num {
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--teal);
+  }
+  .phase-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--purple);
+    letter-spacing: -0.01em;
+    text-wrap: balance;
+  }
+  .phase-desc {
+    font-size: 0.875rem;
+    color: var(--muted);
+    line-height: 1.65;
+    max-width: 680px;
+  }
+
+  /* ── CARDS ── */
+  .card-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+  }
+  .card-grid.single { grid-template-columns: 1fr; }
+  .card-grid.thirds { grid-template-columns: 1fr 1fr 1fr; }
+
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--r);
+    padding: 20px;
+  }
+  .card-head {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  .card-title {
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: var(--text);
+  }
+  .card p, .card li {
+    font-size: 0.83rem;
+    line-height: 1.65;
+    color: #444;
+  }
+  .card ul, .card ol {
+    padding-left: 1.1em;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  .card ol { list-style-type: decimal; }
+
+  /* ── STATUS BADGE ── */
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 0.67rem;
+    font-weight: 700;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    padding: 3px 9px;
+    border-radius: 100px;
+    flex-shrink: 0;
+  }
+  .badge-auto     { background: #EEF9F7; color: #1D7A6B; }
+  .badge-manual   { background: #EEF0FF; color: #4450B5; }
+  .badge-critical { background: #FFF1EC; color: #C93D0A; }
+  .badge-warn     { background: #FFFBEB; color: #92400E; }
+  .badge::before  { content: '●'; font-size: 0.5rem; }
+
+  /* ── CODE BLOCK ── */
+  .code-wrap {
+    overflow-x: auto;
+    background: var(--purple);
+    border-radius: var(--r-sm);
+    padding: 16px 18px;
+    margin-top: 10px;
+  }
+  .code-wrap pre {
+    font-family: var(--mono);
+    font-size: 0.75rem;
+    line-height: 1.7;
+    color: #C8D6E5;
+    white-space: pre;
+  }
+  .code-wrap .hl { color: #5DBAA9; }
+  .code-wrap .cm { color: #6B7280; font-style: italic; }
+  .code-wrap .str { color: #F2A86A; }
+
+  /* ── STEP LIST ── */
+  .step-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    counter-reset: steps;
+  }
+  .step {
+    display: flex;
+    gap: 16px;
+    padding: 16px 0;
+    border-bottom: 1px solid var(--border);
+  }
+  .step:last-child { border-bottom: none; }
+  .step-n {
+    counter-increment: steps;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background: var(--teal);
+    color: var(--purple);
+    font-size: 0.72rem;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    margin-top: 1px;
+  }
+  .step-body { flex: 1; }
+  .step-body strong { font-size: 0.875rem; color: var(--text); display: block; margin-bottom: 4px; }
+  .step-body p, .step-body li { font-size: 0.82rem; color: #555; line-height: 1.65; }
+  .step-body ul { padding-left: 1.1em; margin-top: 4px; display: flex; flex-direction: column; gap: 2px; }
+
+  /* ── COLOR SWATCH ROW ── */
+  .swatch-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  .swatch {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.76rem;
+    color: var(--text);
+  }
+  .swatch-dot {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    border: 1px solid rgba(0,0,0,0.1);
+    flex-shrink: 0;
+  }
+  .swatch code { font-family: var(--mono); font-size: 0.72rem; color: var(--muted); }
+
+  /* ── SECTION MAP TABLE ── */
+  .section-map {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.8rem;
+  }
+  .section-map thead th {
+    text-align: left;
+    padding: 8px 12px;
+    font-size: 0.68rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+    border-bottom: 2px solid var(--border);
+    font-weight: 700;
+  }
+  .section-map tbody tr:hover { background: var(--bg); }
+  .section-map td {
+    padding: 9px 12px;
+    border-bottom: 1px solid var(--border);
+    vertical-align: middle;
+    line-height: 1.4;
+  }
+  .section-map td:first-child { font-family: var(--mono); font-size: 0.73rem; color: var(--purple); }
+  .section-map .row-critical td { background: #FFF9F8; }
+  .section-map .row-ok td { background: #FAFFFE; }
+
+  /* ── CHECKLIST ── */
+  .checklist {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .check-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 11px 16px;
+    border-bottom: 1px solid var(--border);
+    cursor: pointer;
+    transition: background 0.1s;
+  }
+  .check-item:last-child { border-bottom: none; }
+  .check-item:hover { background: var(--bg); }
+  .check-item input[type="checkbox"] {
+    margin-top: 2px;
+    width: 16px;
+    height: 16px;
+    accent-color: var(--teal);
+    flex-shrink: 0;
+    cursor: pointer;
+  }
+  .check-item label {
+    font-size: 0.83rem;
+    line-height: 1.55;
+    color: var(--text);
+    cursor: pointer;
+  }
+  .check-item.checked label { color: var(--muted); text-decoration: line-through; }
+  .check-group-title {
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--teal-dk);
+    padding: 14px 16px 6px;
+  }
+
+  /* ── APP TABLE ── */
+  .app-table { width: 100%; border-collapse: collapse; font-size: 0.8rem; }
+  .app-table th {
+    text-align: left;
+    padding: 8px 12px;
+    font-size: 0.68rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+    border-bottom: 2px solid var(--border);
+    font-weight: 700;
+  }
+  .app-table td {
+    padding: 9px 12px;
+    border-bottom: 1px solid var(--border);
+    vertical-align: middle;
+  }
+  .app-table tr:last-child td { border-bottom: none; }
+  .app-table tr:hover td { background: var(--bg); }
+  .app-name { font-weight: 600; color: var(--text); }
+  .app-note { font-size: 0.75rem; color: var(--muted); margin-top: 2px; }
+
+  /* ── FOOTER ── */
+  .site-footer {
+    background: var(--purple);
+    color: rgba(255,255,255,0.45);
+    text-align: center;
+    font-size: 0.75rem;
+    padding: 24px;
+  }
+
+  /* ── RESPONSIVE ── */
+  @media (max-width: 720px) {
+    .site-header { padding: 20px; }
+    .wrap { padding: 24px 16px 60px; gap: 32px; }
+    .card-grid { grid-template-columns: 1fr; }
+    .card-grid.thirds { grid-template-columns: 1fr; }
+    .phase-nav { padding: 0 12px; }
+  }
+
+  /* ── DETAIL/SUMMARY ── */
+  details { margin-top: 10px; }
+  summary {
+    cursor: pointer;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--teal-dk);
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 0;
+  }
+  summary::-webkit-details-marker { display: none; }
+  summary::before { content: '▶'; font-size: 0.6rem; transition: transform 0.2s; }
+  details[open] summary::before { transform: rotate(90deg); }
+  details .inner { padding: 8px 0 4px; }
+
+  /* inline code */
+  code { font-family: var(--mono); font-size: 0.78em; background: #EEF0F4; padding: 1px 5px; border-radius: 3px; color: var(--purple); }
+</style>
+
+<!-- HEADER -->
+<header class="site-header">
+  <div>
+    <h1>Sense → Symmetry Migration Guide
+      <div class="sub">elteesydney.com.au · Prepared June 2026</div>
+    </h1>
+  </div>
+  <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;padding-bottom:2px;">
+    <span class="theme-chip chip-sense">Sense 15.4.1</span>
+    <span class="chip-arrow">→</span>
+    <span class="theme-chip chip-sym">Symmetry</span>
+  </div>
+</header>
+
+<!-- PHASE NAV -->
+<nav class="phase-nav" aria-label="Sections">
+  <a href="#phase-1">1. Prep</a>
+  <a href="#phase-2">2. Auto-Transfers</a>
+  <a href="#phase-3">3. Global Settings</a>
+  <a href="#phase-4">4. SEO &amp; Schema</a>
+  <a href="#phase-5">5. App Blocks</a>
+  <a href="#phase-6">6. Custom Assets</a>
+  <a href="#phase-7">7. Section Map</a>
+  <a href="#phase-8">8. Homepage</a>
+  <a href="#phase-9">9. Product Page</a>
+  <a href="#phase-cro">10. CRO</a>
+  <a href="#phase-10">11. Checklist</a>
+</nav>
+
+<!-- MAIN -->
+<main class="wrap">
+
+  <!-- OPENING ALERT -->
+  <div class="alert alert-critical">
+    <span class="icon">⚠️</span>
+    <div>
+      <strong>Read Before You Start</strong>
+      Sense and Symmetry are structurally different themes. Section types, setting IDs, and template schemas do not transfer between them. This guide walks you through everything that needs to be done manually — in order. Do not publish Symmetry until every phase is complete and tested in preview.
+    </div>
+  </div>
+
+  <!-- PHASE 1 -->
+  <section class="phase" id="phase-1">
+    <div class="phase-header">
+      <span class="phase-num">Phase 1</span>
+      <h2 class="phase-title">Pre-Migration Preparation</h2>
+    </div>
+    <p class="phase-desc">Before touching Symmetry, lock down a snapshot of the current live theme and gather what you'll need.</p>
+
+    <div class="card card-full" style="background:var(--surface);border:1px solid var(--border);border-radius:var(--r);padding:20px;">
+      <div class="step-list">
+        <div class="step">
+          <div class="step-n">1</div>
+          <div class="step-body">
+            <strong>Duplicate the live Sense theme</strong>
+            <p>In Shopify Admin → Online Store → Themes, click the ··· menu on <strong>Sense 15.4.1 (March 2026)</strong> and choose <em>Duplicate</em>. Name it "Sense 15.4.1 – Pre-Symmetry Backup [date]". This becomes your rollback point.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-n">2</div>
+          <div class="step-body">
+            <strong>Rename the Symmetry theme</strong>
+            <p>Rename the Symmetry demo theme to "Symmetry – Migration WIP" so it's clearly a work-in-progress. Never publish it until Phase 10 is complete.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-n">3</div>
+          <div class="step-body">
+            <strong>Screenshot every live page</strong>
+            <p>Take full-page screenshots of: Homepage, each Product page, Collection pages, the FAQ page (<code>page.faq-v2</code>), the Erina Store page, and the Demo Videos page. These are your visual reference for QA.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-n">4</div>
+          <div class="step-body">
+            <strong>Note the Pagetify pages</strong>
+            <p>The live theme contains two large Pagetify bundles: <code>pagetify-page-97139523721</code> and <code>pagetify-page-97489649801</code>. These CSS/JS files are baked into Sense. Log into Pagetify and confirm which pages use them — those pages will need to be republished from Pagetify into Symmetry.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-n">5</div>
+          <div class="step-body">
+            <strong>Note: ss- sections are replaced by Symmetry natively</strong>
+            <p>The homepage currently uses sections prefixed <code>ss-</code> (ss-slider-2, ss-hero-24, ss-featured-collection, etc.) from a third-party app. Symmetry has native equivalents for all of them — Featured Collection sliders, Image Banner, Logo List with marquee, Video with Text, and so on. You don't need the ss- app in Symmetry. See the Section Map in Phase 7 for exact replacements.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PHASE 2 -->
+  <section class="phase" id="phase-2">
+    <div class="phase-header">
+      <span class="phase-num">Phase 2</span>
+      <h2 class="phase-title">What Transfers Automatically</h2>
+    </div>
+    <p class="phase-desc">These items live in Shopify's data layer, not the theme. They require no action.</p>
+
+    <div class="card-grid thirds">
+      <div class="card">
+        <div class="card-head">
+          <span class="badge badge-auto">Auto</span>
+          <span class="card-title">Products &amp; Variants</span>
+        </div>
+        <p>All products, prices, variants, images, descriptions, and metafields are unchanged. Theme migration does not touch product data.</p>
+      </div>
+      <div class="card">
+        <div class="card-head">
+          <span class="badge badge-auto">Auto</span>
+          <span class="card-title">Collections</span>
+        </div>
+        <p>All manual and smart collections, including the cart drawer collection (<code>best-period-underwear</code>), transfer as-is.</p>
+      </div>
+      <div class="card">
+        <div class="card-head">
+          <span class="badge badge-auto">Auto</span>
+          <span class="card-title">Pages &amp; Blogs</span>
+        </div>
+        <p>All page content, blog posts, and article bodies remain in Shopify. Their URLs, handles, and SEO meta titles/descriptions are unaffected.</p>
+      </div>
+      <div class="card">
+        <div class="card-head">
+          <span class="badge badge-auto">Auto</span>
+          <span class="card-title">Product SEO</span>
+        </div>
+        <p>Page titles, meta descriptions, and URL handles on every product, collection, and page are stored in Shopify — not in theme files. Nothing to do.</p>
+      </div>
+      <div class="card">
+        <div class="card-head">
+          <span class="badge badge-auto">Auto</span>
+          <span class="card-title">Navigation Menus</span>
+        </div>
+        <p>Main menu, footer menus, and any other link lists are in Shopify Admin → Navigation. They'll work in Symmetry immediately.</p>
+      </div>
+      <div class="card">
+        <div class="card-head">
+          <span class="badge badge-auto">Auto</span>
+          <span class="card-title">Customer Accounts</span>
+        </div>
+        <p>All customer accounts, order history, and addresses live in Shopify. Unaffected by theme changes.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PHASE 3 -->
+  <section class="phase" id="phase-3">
+    <div class="phase-header">
+      <span class="phase-num">Phase 3</span>
+      <h2 class="phase-title">Global Settings in Symmetry</h2>
+    </div>
+    <p class="phase-desc">Open the Symmetry theme editor and recreate these settings. They cannot be copied from Sense — the schema IDs differ.</p>
+
+    <div class="card-grid">
+      <div class="card">
+        <div class="card-head">
+          <span class="badge badge-manual">Manual</span>
+          <span class="card-title">Brand Identity</span>
+        </div>
+        <ul>
+          <li>Logo: <code>ELTEE_SYDNEY_FULL_COLOUR_SQUARE_LOGO.png</code></li>
+          <li>Logo width: <strong>80px</strong></li>
+          <li>Favicon: <code>favicon-32x32.png</code></li>
+          <li>Brand headline: <em>"Your Teen's Fave Periodwear"</em></li>
+          <li>Brand description: the period underwear copy from Sense settings</li>
+          <li>Brand image: same square logo, 100px</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="card-head">
+          <span class="badge badge-manual">Manual</span>
+          <span class="card-title">Social Links</span>
+        </div>
+        <ul>
+          <li>Facebook: <code>https://facebook.com/eltee.sydney</code></li>
+          <li>Instagram: <code>https://instagram.com/eltee.sydney</code></li>
+          <li>TikTok: <code>https://tiktok.com/@eltee.sydney</code></li>
+          <li>YouTube, Twitter, Pinterest: leave blank</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-head">
+        <span class="badge badge-manual">Manual</span>
+        <span class="card-title">Colour Schemes — recreate these 5 in Symmetry</span>
+      </div>
+      <div class="swatch-row">
+        <div class="swatch"><div class="swatch-dot" style="background:#ffffff;border:1px solid #ddd;"></div><span>Background 1 · White<br><code>#ffffff</code> · btn teal</span></div>
+        <div class="swatch"><div class="swatch-dot" style="background:#fffbf2;"></div><span>Background 2 · Cream<br><code>#FFFBF2</code></span></div>
+        <div class="swatch"><div class="swatch-dot" style="background:#2e2a39;"></div><span>Inverse · Dark Purple<br><code>#2E2A39</code></span></div>
+        <div class="swatch"><div class="swatch-dot" style="background:#5dbaa9;"></div><span>Accent 1 · Teal<br><code>#5DBAA9</code></span></div>
+        <div class="swatch"><div class="swatch-dot" style="background:#813f8e;"></div><span>Accent 2 · Purple<br><code>#813F8E</code></span></div>
+        <div class="swatch"><div class="swatch-dot" style="background:#f2581f;"></div><span>Orange accent<br><code>#F2581F</code></span></div>
+      </div>
+      <p style="margin-top:12px;font-size:0.8rem;color:var(--muted);">The custom scheme with the orange gradient (background <code>#813F8E</code> → gradient <code>linear-gradient(135deg, rgba(242,88,31,1) 29%, rgba(255,167,88,1) 65%)</code>) is used on sale badges — recreate this too if Symmetry supports gradient schemes.</p>
+    </div>
+
+    <div class="card-grid">
+      <div class="card">
+        <div class="card-head">
+          <span class="badge badge-manual">Manual</span>
+          <span class="card-title">Typography</span>
+        </div>
+        <ul>
+          <li>Heading font: set to <strong>System sans-serif</strong> (currently active — note Poppins is only in the preset, not the live setting)</li>
+          <li>Body font: System sans-serif</li>
+          <li>Heading scale: 100%</li>
+          <li>Body scale: 100%</li>
+        </ul>
+        <p style="margin-top:8px;font-size:0.78rem;color:var(--muted);">If you want Poppins (used in the ss- section overrides), you can set that once Symmetry is live — it doesn't affect the current system-font live state.</p>
+      </div>
+      <div class="card">
+        <div class="card-head">
+          <span class="badge badge-manual">Manual</span>
+          <span class="card-title">Layout &amp; Cart</span>
+        </div>
+        <ul>
+          <li>Page width: <strong>1600px</strong></li>
+          <li>Section spacing: <strong>0px</strong></li>
+          <li>Grid gap horizontal: <strong>8px</strong></li>
+          <li>Grid gap vertical: <strong>4px</strong></li>
+          <li>Cart type: <strong>Drawer</strong></li>
+          <li>Show cart note: <strong>Yes</strong></li>
+          <li>Cart drawer collection: <code>best-period-underwear</code></li>
+          <li>Show currency code: <strong>Yes</strong></li>
+          <li>Predictive search: <strong>Off</strong></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- PHASE 4 -->
+  <section class="phase" id="phase-4">
+    <div class="phase-header">
+      <span class="phase-num">Phase 4</span>
+      <h2 class="phase-title">SEO &amp; Structured Data — Critical</h2>
+    </div>
+    <div class="alert alert-critical" style="margin-bottom:8px;">
+      <span class="icon">🔴</span>
+      <div>
+        <strong>This is the most important phase.</strong>
+        The live Sense theme.liquid contains extensive custom JSON-LD structured data that does not exist in any standard theme. It must be manually copied into Symmetry's theme.liquid. Missing this breaks rich results in Google Search for the homepage, store page, FAQ, articles, and collection pages.
+      </div>
+    </div>
+
+    <div class="card card-grid single">
+      <div class="card-head">
+        <span class="badge badge-critical">Critical</span>
+        <span class="card-title">Schemas currently embedded in Sense's theme.liquid</span>
+      </div>
+      <div class="card-grid" style="margin-top:12px;">
+        <div style="padding:12px;background:var(--bg);border-radius:var(--r-sm);">
+          <div style="font-size:0.72rem;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;color:var(--teal-dk);margin-bottom:6px;">Homepage</div>
+          <ul style="font-size:0.8rem;line-height:1.7;padding-left:1.1em;">
+            <li><code>Organization</code> — Eltee Sydney entity, social links, aggregate rating</li>
+            <li><code>ClothingStore</code> — Erina physical store (AU/NZ only)</li>
+            <li><code>WebSite</code> — with SearchAction for Shopify search</li>
+            <li><code>VideoObject</code> — Founder video</li>
+            <li><code>VideoObject</code> — Real blood test video</li>
+          </ul>
+        </div>
+        <div style="padding:12px;background:var(--bg);border-radius:var(--r-sm);">
+          <div style="font-size:0.72rem;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;color:var(--teal-dk);margin-bottom:6px;">Other Pages</div>
+          <ul style="font-size:0.8rem;line-height:1.7;padding-left:1.1em;">
+            <li><code>Article</code> — article template <code>article.sons-coach</code></li>
+            <li><code>VideoObject</code> — article <code>eltee-sydney-period-swim-comparison</code></li>
+            <li><code>ClothingStore</code> — page handle <code>erina-store</code></li>
+            <li><code>VideoObject ×7</code> — page handle <code>period-undies-demo-videos</code></li>
+            <li><code>ItemList</code> — all collection pages</li>
+            <li><code>FAQPage</code> — template <code>page.faq-v2</code> with 14 Q&amp;As</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="card card-grid single">
+      <div class="card-head">
+        <span class="badge badge-critical">Critical</span>
+        <span class="card-title">Step-by-step: transfer the schema to Symmetry</span>
+      </div>
+      <div class="step-list" style="margin-top:4px;">
+        <div class="step">
+          <div class="step-n">1</div>
+          <div class="step-body">
+            <strong>Open both theme files side by side</strong>
+            <p>Go to Shopify Admin → Online Store → Themes. On <strong>Sense 15.4.1</strong>, click ··· → Edit code → <code>layout/theme.liquid</code>. Leave this tab open. Open a second browser tab and do the same for <strong>Symmetry (Migration WIP)</strong> → Edit code → <code>layout/theme.liquid</code>.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-n">2</div>
+          <div class="step-body">
+            <strong>Copy the Pinterest meta tag first</strong>
+            <p>In Sense's theme.liquid, use <strong>Cmd+F</strong> (Mac) or <strong>Ctrl+F</strong> (Windows) to search for <code>p:domain_verify</code>. Copy the entire line:</p>
+            <div class="code-wrap"><pre><span class="hl">&lt;meta name="p:domain_verify" content="c74d47d6c4801cc26977c8dc5c005912"/&gt;</span></pre></div>
+            <p style="margin-top:8px;">In Symmetry's theme.liquid, find the opening <code>&lt;head&gt;</code> tag and paste this as the <strong>very first line</strong> inside it.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-n">3</div>
+          <div class="step-body">
+            <strong>Find the start of the JSON-LD block in Sense</strong>
+            <p>In Sense's theme.liquid, search for <code>application/ld+json</code>. Scroll up a few lines from the first result until you see:</p>
+            <div class="code-wrap"><pre><span class="hl">{% if template == 'index' %}</span></pre></div>
+            <p style="margin-top:8px;">That line is the beginning of your entire schema block.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-n">4</div>
+          <div class="step-body">
+            <strong>Find the end of the JSON-LD block</strong>
+            <p>Scroll down from the <code>{% if template == 'index' %}</code> line through all the schemas — Organization, ClothingStore, WebSite, VideoObjects, Article, ItemList, FAQPage — until you reach the final <code>&lt;/script&gt;</code> tag that closes the FAQPage schema. That closing tag is the end of your selection.</p>
+            <p style="margin-top:6px;">Select everything from <code>{% if template == 'index' %}</code> to that final <code>&lt;/script&gt;</code>. Copy it all.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-n">5</div>
+          <div class="step-body">
+            <strong>Paste into Symmetry's theme.liquid</strong>
+            <p>In Symmetry's theme.liquid, search for <code>&lt;/head&gt;</code>. Paste the entire copied block immediately <strong>before</strong> that closing tag. Save the file.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-n">6</div>
+          <div class="step-body">
+            <strong>Copy the CodeUp / GA4 head scripts</strong>
+            <p>Still in Sense's theme.liquid, find the CodeUp app block — a Liquid <code>render</code> or <code>section</code> tag near the top of <code>&lt;head&gt;</code> that outputs your GA4 tag and other head scripts. Copy it. Paste it in the same position in Symmetry's theme.liquid. Save.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-n">7</div>
+          <div class="step-body">
+            <strong>Verify GA4 is firing on Symmetry preview</strong>
+            <p>Open the Symmetry preview URL in Chrome. Open DevTools → Network tab and filter by <code>collect</code> or open GA4 → Admin → DebugView in a second tab. Navigate between the homepage, a product page, a collection page, and the FAQ page in the preview. Confirm a <code>page_view</code> event fires on each template type before moving on.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-n">8</div>
+          <div class="step-body">
+            <strong>Run Google Rich Results Test on 5 pages</strong>
+            <p>Go to <code>search.google.com/test/rich-results</code>. Use the Symmetry preview URL format: <code>https://elteesydney.com.au/?preview_theme_id=154441416841&amp;path=/your-page</code>. Test all five:</p>
+            <ul style="margin-top:6px;">
+              <li>Homepage — expect Organization, ClothingStore, WebSite, VideoObject</li>
+              <li><code>/pages/erina-store</code> — ClothingStore</li>
+              <li><code>/pages/faq</code> — FAQPage with all 14 Q&amp;As</li>
+              <li><code>/pages/period-undies-demo-videos</code> — 7 × VideoObject</li>
+              <li>Any collection page — ItemList</li>
+            </ul>
+            <p style="margin-top:6px;">All five must pass with no errors before Stage 6 (publish).</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="alert alert-info">
+      <span class="icon">ℹ️</span>
+      <div>
+        <strong>Aggregate rating</strong>
+        The Organization schema hardcodes <code>reviewCount: "486"</code>. Update this figure before publishing — it directly influences Google's rich snippet display.
+      </div>
+    </div>
+  </section>
+
+  <!-- PHASE 5 -->
+  <section class="phase" id="phase-5">
+    <div class="phase-header">
+      <span class="phase-num">Phase 5</span>
+      <h2 class="phase-title">App Blocks — Reconnect in Symmetry</h2>
+    </div>
+    <p class="phase-desc">App embeds (in Theme Settings → App Embeds) carry over automatically. App blocks added to templates (sections) need to be re-added manually in Symmetry's editor. Here's what was in the live theme.</p>
+
+    <div class="card card-grid single" style="overflow-x:auto;">
+      <table class="app-table">
+        <thead>
+          <tr>
+            <th>App</th>
+            <th>Where</th>
+            <th>Action</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><div class="app-name">CodeUp – Custom Code</div><div class="app-note">Head &amp; Body blocks</div></td>
+            <td>App Embeds</td>
+            <td>Enable in Symmetry → Theme Settings → App Embeds</td>
+            <td><span class="badge badge-manual">Manual</span></td>
+          </tr>
+          <tr>
+            <td><div class="app-name">InstaFeed</div><div class="app-note">Head block</div></td>
+            <td>App Embeds</td>
+            <td>Enable in App Embeds for Symmetry</td>
+            <td><span class="badge badge-manual">Manual</span></td>
+          </tr>
+          <tr>
+            <td><div class="app-name">STOQ – Back in Stock</div></td>
+            <td>App Embeds</td>
+            <td>Enable in App Embeds for Symmetry</td>
+            <td><span class="badge badge-manual">Manual</span></td>
+          </tr>
+          <tr>
+            <td><div class="app-name">Essential Upsell</div></td>
+            <td>App Embeds</td>
+            <td>Enable in App Embeds for Symmetry</td>
+            <td><span class="badge badge-manual">Manual</span></td>
+          </tr>
+          <tr>
+            <td><div class="app-name">Massy – B2B Wholesale</div></td>
+            <td>App Embeds + Homepage section block</td>
+            <td>Enable embed; re-add Massy registration form block to homepage <code>apps</code> section in Symmetry</td>
+            <td><span class="badge badge-manual">Manual</span></td>
+          </tr>
+          <tr>
+            <td><div class="app-name">Selecty – Variant Selector</div></td>
+            <td>App Embeds</td>
+            <td>Enable in App Embeds for Symmetry</td>
+            <td><span class="badge badge-manual">Manual</span></td>
+          </tr>
+          <tr>
+            <td><div class="app-name">SimplrSys – Google Shopping</div></td>
+            <td>App Embeds</td>
+            <td>Enable in App Embeds for Symmetry</td>
+            <td><span class="badge badge-manual">Manual</span></td>
+          </tr>
+          <tr>
+            <td><div class="app-name">Password Lock Pages</div></td>
+            <td>App Embeds</td>
+            <td>Enable in App Embeds for Symmetry</td>
+            <td><span class="badge badge-manual">Manual</span></td>
+          </tr>
+          <tr>
+            <td><div class="app-name">Klaviyo</div></td>
+            <td>App Embeds + section blocks</td>
+            <td>Enable embed; re-add Klaviyo Reviews blocks to product page and homepage in Symmetry editor</td>
+            <td><span class="badge badge-manual">Manual</span></td>
+          </tr>
+          <tr>
+            <td><div class="app-name">BARB – AI CS Agent</div><div class="app-note">Custom configuration: orange bubble (#f2581f), BARB_3.png image, 4 FAQs, welcome message</div></td>
+            <td>App Embeds</td>
+            <td>Enable in App Embeds for Symmetry. <strong>Re-enter all custom settings</strong>: chat bubble colour, bubble image, welcome message, and all 4 FAQ quick-replies. These settings are not saved cross-theme.</td>
+            <td><span class="badge badge-critical">Critical</span></td>
+          </tr>
+          <tr>
+            <td><div class="app-name">Redo – Returns</div></td>
+            <td>App Embeds</td>
+            <td>Enable in App Embeds for Symmetry</td>
+            <td><span class="badge badge-manual">Manual</span></td>
+          </tr>
+          <tr>
+            <td><div class="app-name">Breadcrumbs by Byte Apps</div></td>
+            <td>Product page template block</td>
+            <td>Re-add the breadcrumb block to Symmetry's product template; re-enter all breadcrumb settings (padding, font size, icon, align)</td>
+            <td><span class="badge badge-manual">Manual</span></td>
+          </tr>
+          <tr>
+            <td><div class="app-name">Mod Bundles – Mix &amp; Match</div></td>
+            <td>Product page section block</td>
+            <td>Re-add the mix-and-match block to the product template in Symmetry; re-enter bundle product handle (<code>aar-combo</code>) and all display settings</td>
+            <td><span class="badge badge-manual">Manual</span></td>
+          </tr>
+          <tr>
+            <td><div class="app-name">Klaviyo Reviews – Product Reviews</div></td>
+            <td>Product page section blocks (appears twice)</td>
+            <td>Add back to product template (both the average-rating block above price and the full product-reviews block below ATC)</td>
+            <td><span class="badge badge-manual">Manual</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="card card-grid single" style="margin-top:4px;">
+      <div class="card-head">
+        <span class="badge badge-manual">Manual</span>
+        <span class="card-title">Step-by-step: enable app embeds in Symmetry</span>
+      </div>
+      <div class="step-list" style="margin-top:4px;">
+        <div class="step">
+          <div class="step-n">1</div>
+          <div class="step-body">
+            <strong>Open Symmetry's theme editor</strong>
+            <p>Shopify Admin → Online Store → Themes → Symmetry (Migration WIP) → Customize.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-n">2</div>
+          <div class="step-body">
+            <strong>Go to Theme settings → App embeds</strong>
+            <p>Click the <strong>Theme settings</strong> icon (paint palette or gear) at the bottom of the left sidebar, then select <strong>App embeds</strong>. You'll see a list of all installed apps that have embed blocks.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-n">3</div>
+          <div class="step-body">
+            <strong>Toggle on every app in the table above</strong>
+            <p>Enable: CodeUp, InstaFeed, STOQ, Essential Upsell, Massy, Selecty, SimplrSys, Password Lock Pages, Klaviyo, BARB, and Redo. Save after enabling each one or save all at once.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-n">4</div>
+          <div class="step-body">
+            <strong>Reconfigure BARB — all settings reset per theme</strong>
+            <p>BARB's chat widget settings do not carry across themes. After enabling the BARB embed, open its settings panel and re-enter:</p>
+            <ul>
+              <li>Bubble colour: <code>#F2581F</code> (orange)</li>
+              <li>Bubble image: <code>BARB_3.png</code></li>
+              <li>Welcome message: re-enter from the live Sense theme BARB settings</li>
+              <li>All 4 FAQ quick-reply labels — copy from Sense before you close it</li>
+            </ul>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-n">5</div>
+          <div class="step-body">
+            <strong>Save and preview</strong>
+            <p>Save the theme. Open the Symmetry preview URL and confirm: the BARB bubble appears in the correct colour, the Klaviyo popup fires, and the STOQ back-in-stock form appears on a sold-out variant.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PHASE 6 -->
+  <section class="phase" id="phase-6">
+    <div class="phase-header">
+      <span class="phase-num">Phase 6</span>
+      <h2 class="phase-title">Custom Assets &amp; Code</h2>
+    </div>
+    <p class="phase-desc">Three categories of custom code exist in the live theme that need to be carried over.</p>
+
+    <div class="card-grid">
+      <div class="card">
+        <div class="card-head">
+          <span class="badge badge-critical">Critical</span>
+          <span class="card-title">base.css — modified 15 June 2026</span>
+        </div>
+        <p>The base CSS file has been modified from the Sense default. Identify which CSS rules were added or changed (compare against a clean Sense 15.4.1 base.css). Those custom rules need to be added to Symmetry via:</p>
+        <ul style="margin-top:8px;">
+          <li>Symmetry's built-in CSS customisation field in Theme Settings, or</li>
+          <li>A custom CSS file uploaded via the CodeUp app (already in use)</li>
+        </ul>
+        <p style="margin-top:8px;font-size:0.78rem;color:var(--muted);">Do not copy base.css wholesale — Symmetry's base.css is completely different. Only extract the custom additions.</p>
+      </div>
+      <div class="card">
+        <div class="card-head">
+          <span class="badge badge-critical">Critical</span>
+          <span class="card-title">section-image-banner.css — modified 9 June 2026</span>
+        </div>
+        <p>Custom overrides were applied to the image banner section CSS. Compare against the clean Sense version to extract those rules, then add them to Symmetry's equivalent banner section styling or via custom CSS.</p>
+        <p style="margin-top:8px;font-size:0.78rem;color:var(--muted);">The custom rule hiding the desktop banner on mobile and vice versa (<code>@media (max-width: 767px) {.banner {display: none;}}</code>) is set inline on the sections themselves in the template — those will need to be re-applied section by section in Symmetry.</p>
+      </div>
+      <div class="card">
+        <div class="card-head">
+          <span class="badge badge-manual">Manual</span>
+          <span class="card-title">AI-Generated Blocks (ai_gen_block_*.liquid)</span>
+        </div>
+        <p>Five AI-generated liquid block files exist in the live theme. The most important is <code>ai_gen_block_bb3c871.liquid</code> — the founder video + text section used on the homepage.</p>
+        <ul style="margin-top:8px;">
+          <li>Download all five <code>blocks/ai_gen_block_*.liquid</code> files from the Sense theme</li>
+          <li>Upload them to Symmetry via Edit Code → blocks/ folder</li>
+          <li>They can then be added back via the theme editor</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="card-head">
+          <span class="badge badge-warn">Note</span>
+          <span class="card-title">Pagetify Assets</span>
+        </div>
+        <p>The files <code>pagetify-page-97139523721.css</code> and <code>pagetify-page-97489649801.js</code> (413KB and 457KB respectively) are Pagetify-generated bundles. The Pagetify app manages these — you do not need to copy them manually. Simply republish the affected Pagetify pages while Symmetry is active to regenerate them.</p>
+      </div>
+    </div>
+
+    <div class="alert alert-info">
+      <span class="icon">ℹ️</span>
+      <div>
+        <strong>en.default.json was modified (27 May 2026)</strong>
+        The English locale file in Sense has custom string overrides. Compare it against the Sense default to extract any changes, then apply the same overrides to Symmetry's locale file. Common customisations include add-to-cart button text, sold-out labels, and cart strings.
+      </div>
+    </div>
+  </section>
+
+  <!-- PHASE 7 -->
+  <section class="phase" id="phase-7">
+    <div class="phase-header">
+      <span class="phase-num">Phase 7</span>
+      <h2 class="phase-title">Section Type Map — Sense → Symmetry</h2>
+    </div>
+    <p class="phase-desc">Every section type in Sense has a different name than its Symmetry equivalent. Symmetry is a full-featured theme with native equivalents for all the ss- sections — you likely don't need the third-party app at all. Use this table to find the right Symmetry section for each one.</p>
+
+    <div style="overflow-x:auto;background:var(--surface);border:1px solid var(--border);border-radius:var(--r);">
+      <table class="section-map">
+        <thead>
+          <tr>
+            <th>Sense section type</th>
+            <th>What it does</th>
+            <th>Symmetry equivalent</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="row-ok">
+            <td>image-banner</td>
+            <td>Hero image with overlay text/buttons</td>
+            <td>Image Banner (native Symmetry section)</td>
+            <td><span class="badge badge-auto">Native</span></td>
+          </tr>
+          <tr class="row-ok">
+            <td>rich-text</td>
+            <td>Full-width text block</td>
+            <td>Rich Text (native)</td>
+            <td><span class="badge badge-auto">Native</span></td>
+          </tr>
+          <tr class="row-ok">
+            <td>featured-collection</td>
+            <td>Product grid from a collection</td>
+            <td>Featured Collection (native)</td>
+            <td><span class="badge badge-auto">Native</span></td>
+          </tr>
+          <tr class="row-ok">
+            <td>collage</td>
+            <td>Mixed image/product/video mosaic</td>
+            <td>Collage (native, check section availability)</td>
+            <td><span class="badge badge-auto">Native</span></td>
+          </tr>
+          <tr class="row-ok">
+            <td>image-with-text</td>
+            <td>Side-by-side image and text</td>
+            <td>Image With Text (native)</td>
+            <td><span class="badge badge-auto">Native</span></td>
+          </tr>
+          <tr class="row-ok">
+            <td>featured-blog</td>
+            <td>Blog post grid</td>
+            <td>Blog Posts (native)</td>
+            <td><span class="badge badge-auto">Native</span></td>
+          </tr>
+          <tr class="row-ok">
+            <td>apps</td>
+            <td>App block container</td>
+            <td>Apps (native — same in all OS2.0 themes)</td>
+            <td><span class="badge badge-auto">Native</span></td>
+          </tr>
+          <tr class="row-ok">
+            <td>slideshow</td>
+            <td>Auto-rotating hero slides</td>
+            <td>Slideshow (native, currently disabled in Sense)</td>
+            <td><span class="badge badge-auto">Native</span></td>
+          </tr>
+          <tr class="row-ok">
+            <td>ss-slider-2</td>
+            <td>Product card slider with images/GIFs</td>
+            <td><strong>Symmetry: Featured Collection</strong> with slider layout enabled. Supports product cards with image/GIF media. Set columns to 5, enable carousel/slider mode.</td>
+            <td><span class="badge badge-manual">Symmetry native</span></td>
+          </tr>
+          <tr class="row-ok">
+            <td>ss-hero-24</td>
+            <td>Full-bleed hero with review badge + CTA</td>
+            <td><strong>Symmetry: Image Banner</strong> — supports overlay text, multiple CTAs, and custom badge/pill text blocks. Recreate the "220+ Happy Customers" badge as a text block with custom styling.</td>
+            <td><span class="badge badge-manual">Symmetry native</span></td>
+          </tr>
+          <tr class="row-ok">
+            <td>ss-featured-collection</td>
+            <td>Styled product slider (Bundle &amp; Save)</td>
+            <td><strong>Symmetry: Featured Collection</strong> — point at the bundle-save collection. Symmetry's collection section supports heading, subheading, and slider layout natively.</td>
+            <td><span class="badge badge-manual">Symmetry native</span></td>
+          </tr>
+          <tr class="row-ok">
+            <td>ss-scrolling-logo-cloud</td>
+            <td>Infinite-scroll media logo strip</td>
+            <td><strong>Symmetry: Logo List</strong> — supports scrolling/marquee animation and a dark background colour scheme. Add the 7News, Marie Claire, WHO, and Mumbrella logos.</td>
+            <td><span class="badge badge-manual">Symmetry native</span></td>
+          </tr>
+          <tr class="row-ok">
+            <td>ss-video-with-text</td>
+            <td>Side-by-side video + text block</td>
+            <td><strong>Symmetry: Video with Text</strong> (or Image with Text using a video embed). Supports left/right layout and background colour selection.</td>
+            <td><span class="badge badge-manual">Symmetry native</span></td>
+          </tr>
+          <tr class="row-ok">
+            <td>ss-slider-8</td>
+            <td>Editorial card slider (currently disabled)</td>
+            <td><strong>Symmetry: Multicolumn</strong> or <strong>Slideshow</strong> — rebuild if/when you re-enable it. Currently disabled in Sense so low priority.</td>
+            <td><span class="badge badge-auto">Skip (disabled)</span></td>
+          </tr>
+          <tr class="row-ok">
+            <td>ss-instafeed-6</td>
+            <td>Instagram image marquee strip</td>
+            <td><strong>Symmetry: Image Banner row / Marquee</strong> for the static images, or reconnect the InstaFeed app section. The 5 static images with links can also be rebuilt using Symmetry's scrolling announcement bar or a custom image row section.</td>
+            <td><span class="badge badge-manual">Symmetry native</span></td>
+          </tr>
+          <tr class="row-ok">
+            <td>section-divider</td>
+            <td>Whitespace spacer</td>
+            <td>Not needed as a separate section. Use the <strong>top/bottom padding settings</strong> on adjacent sections in Symmetry's editor to achieve the same spacing.</td>
+            <td><span class="badge badge-auto">Use padding</span></td>
+          </tr>
+          <tr class="row-critical">
+            <td>_blocks (ai_gen_block)</td>
+            <td>Founder video with text (AI-generated block)</td>
+            <td>Copy block .liquid files to Symmetry's code (see Phase 6)</td>
+            <td><span class="badge badge-manual">Copy file</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- PHASE 8 -->
+  <section class="phase" id="phase-8">
+    <div class="phase-header">
+      <span class="phase-num">Phase 8</span>
+      <h2 class="phase-title">Homepage Rebuild — Section by Section</h2>
+    </div>
+    <p class="phase-desc">The current homepage has 24 sections in this order. Rebuild them in Symmetry's editor from top to bottom. Sections currently marked "disabled" in Sense can be skipped or added as disabled.</p>
+
+    <div class="card card-grid single" style="padding:0;overflow:hidden;">
+      <div style="overflow-x:auto;">
+        <table class="section-map">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Section</th>
+              <th>Content summary</th>
+              <th>Status in Sense</th>
+              <th>Priority</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>1</td><td>section-divider → <em>padding</em></td><td>25px top / 65px bottom spacer — use top padding on section #3 instead</td><td>Active</td><td><span class="badge badge-auto">Use padding</span></td></tr>
+            <tr><td>2</td><td>slideshow</td><td>Default slides (unused)</td><td>⛔ Disabled</td><td><span class="badge badge-auto">Skip</span></td></tr>
+            <tr><td>3</td><td>image-banner → <strong>Image Banner</strong></td><td>Desktop hero: <code>Leak_Proof_Trio_HP.jpg</code> → SHOP NOW → /collections/all. Hide on mobile using Symmetry's built-in device visibility toggle.</td><td>Active</td><td><span class="badge badge-critical">Critical</span></td></tr>
+            <tr><td>4</td><td>image-banner → <strong>Image Banner</strong></td><td>Mobile hero: <code>Leak_Proof_Trio_Mobile_HP_2.jpg</code>. Hide on desktop using Symmetry's device visibility toggle.</td><td>Active</td><td><span class="badge badge-critical">Critical</span></td></tr>
+            <tr><td>5</td><td>rich-text → <strong>Rich Text</strong></td><td>"FUNCTION-FIRST PERIOD UNDERWEAR…" H1 + "SWIM | SPORT | SCHOOL | SLEEP" subtext. Apply heading size via Symmetry's section typography settings.</td><td>Active</td><td><span class="badge badge-critical">Critical</span></td></tr>
+            <tr><td>6</td><td>featured-collection → <strong>Featured Collection</strong></td><td>best-period-underwear, 6 products, slider enabled</td><td>⛔ Disabled</td><td><span class="badge badge-warn">Low</span></td></tr>
+            <tr><td>7</td><td>ss-slider-2 → <strong>Featured Collection</strong></td><td>5 product slides: UnderDance, UnderShortie, SwimSync, UnderSwim, Bumpers Briefs with GIFs. Use Symmetry's Featured Collection in slider/carousel layout. Set products per row to 5.</td><td>Active</td><td><span class="badge badge-critical">Critical</span></td></tr>
+            <tr><td>8</td><td>ss-hero-24 → <strong>Image Banner</strong></td><td>UnderSwim hero. Desktop bg: <code>UNDERSWIM_HP_DESKTOP</code>. Add a text block for the "220+ Happy Customers" review badge. CTA → /products/period-swim-undies. Set section height: 700px desktop.</td><td>Active</td><td><span class="badge badge-critical">Critical</span></td></tr>
+            <tr><td>9</td><td>_blocks (empty)</td><td>Empty block container — skip</td><td>Active</td><td><span class="badge badge-auto">Skip</span></td></tr>
+            <tr><td>10</td><td>_blocks (ai_gen_block_bb3c871) → <strong>Video with Text</strong> or copy file</td><td>Founder video (FOUNDER SIDELINE 34 v1.mp4), left layout, Sarah intro text. Try Symmetry's native Video with Text first — if it matches the layout, use it. Otherwise copy the liquid file (Phase 6).</td><td>Active</td><td><span class="badge badge-critical">Critical</span></td></tr>
+            <tr><td>11</td><td>ss-featured-collection → <strong>Featured Collection</strong></td><td>BUNDLE &amp; SAVE — bundle-save collection, 3 products. Use Symmetry's Featured Collection with a heading. Style the section with the orange colour scheme for the progress bar effect.</td><td>Active</td><td><span class="badge badge-critical">Critical</span></td></tr>
+            <tr><td>12</td><td>ss-scrolling-logo-cloud → <strong>Logo List</strong></td><td>FEATURED IN — 7News, Marie Claire, WHO, Mumbrella logos. Use Symmetry's Logo List section with marquee/scroll animation enabled, set to the dark purple colour scheme.</td><td>Active</td><td><span class="badge badge-critical">Critical</span></td></tr>
+            <tr><td>13</td><td>collage → <strong>Collage</strong></td><td>UnderDance: 3-block collage (2 images + product card). Native in both themes.</td><td>Active</td><td><span class="badge badge-manual">Manual</span></td></tr>
+            <tr><td>14</td><td>ss-video-with-text → <strong>Video with Text</strong></td><td>"Period Underwear Demonstration" (Real blood test.mp4). Use Symmetry's native Video with Text section — left video layout, white background.</td><td>Active</td><td><span class="badge badge-critical">Critical</span></td></tr>
+            <tr><td>15</td><td>ss-slider-8 → <strong>Multicolumn</strong></td><td>5-card editorial slider (Reviews, How to Wear, Pricing Promise, Care, Blog). Rebuild with Symmetry's Multicolumn section if you re-enable it.</td><td>⛔ Disabled</td><td><span class="badge badge-warn">Low</span></td></tr>
+            <tr><td>16</td><td>image-banner → <strong>Image Banner</strong></td><td>Bumpers Briefs full-width banner → /products/period-underwear-girls</td><td>⛔ Disabled</td><td><span class="badge badge-warn">Low</span></td></tr>
+            <tr><td>17</td><td>rich-text → <strong>Rich Text</strong></td><td>"VERIFIED CUSTOMER REVIEWS" heading</td><td>Active</td><td><span class="badge badge-manual">Manual</span></td></tr>
+            <tr><td>18</td><td>apps → <strong>Apps</strong> (Klaviyo Reviews)</td><td>Featured reviews carousel. Add custom CSS: <code>.card {border-radius: 20px;}</code> via Symmetry's section CSS field.</td><td>Active</td><td><span class="badge badge-critical">Critical</span></td></tr>
+            <tr><td>19</td><td>featured-blog → <strong>Blog Posts</strong></td><td>"The El(Tee)" blog section — 3 posts, cream colour scheme</td><td>Active</td><td><span class="badge badge-manual">Manual</span></td></tr>
+            <tr><td>20</td><td>section-divider → <em>padding</em></td><td>35px spacer — use bottom padding on the blog section above instead</td><td>Active</td><td><span class="badge badge-auto">Use padding</span></td></tr>
+            <tr><td>21</td><td>image-with-text → <strong>Image with Text</strong></td><td>"THE STRUGGLE IS REAL FOR GIRLS" — 63.4% stat section, stats GIF left, text right. Native in both themes.</td><td>Active</td><td><span class="badge badge-critical">Critical</span></td></tr>
+            <tr><td>22</td><td>image-banner → <strong>Image Banner</strong></td><td>Lifestyle girls hero (disabled)</td><td>⛔ Disabled</td><td><span class="badge badge-auto">Skip</span></td></tr>
+            <tr><td>23</td><td>ss-instafeed-6 → <strong>Logo List / Image Row</strong></td><td>@ELTEE.SYDNEY Instagram marquee — 5 static images with links. Use Symmetry's Logo List or a custom image row section with scroll enabled. Or reconnect the InstaFeed app section if you prefer live feed.</td><td>Active</td><td><span class="badge badge-critical">Critical</span></td></tr>
+            <tr><td>24</td><td>apps → <strong>Apps</strong> (Massy)</td><td>Massy B2B wholesale registration form. Re-add the Massy block to a new Apps section.</td><td>Active</td><td><span class="badge badge-manual">Manual</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- PHASE 9 -->
+  <section class="phase" id="phase-9">
+    <div class="phase-header">
+      <span class="phase-num">Phase 9</span>
+      <h2 class="phase-title">Product Page Rebuild</h2>
+    </div>
+    <p class="phase-desc">The current product template has this section order. Rebuild it in Symmetry's product template editor.</p>
+
+    <div class="card-grid">
+      <div class="card">
+        <div class="card-head">
+          <span class="badge badge-manual">Manual</span>
+          <span class="card-title">Product Template Structure</span>
+        </div>
+        <ol style="margin-top:4px;">
+          <li>Section divider (56px top / 36px bottom, 36px height)</li>
+          <li>Apps section → Breadcrumbs by Byte Apps (see Phase 5 for all settings)</li>
+          <li>Main product section with blocks in this order:
+            <ul style="margin-top:4px;margin-left:0.5em;">
+              <li>Product title</li>
+              <li>Klaviyo Reviews — Average Rating (above price)</li>
+              <li>Price</li>
+              <li>Variant picker (button style, circle swatches)</li>
+              <li>Description</li>
+              <li>Buy buttons (dynamic checkout on, gift card recipient on)</li>
+              <li>Klaviyo Reviews — Average Rating (below ATC, second instance)</li>
+            </ul>
+          </li>
+          <li>Apps section → Mod Bundles mix &amp; match + Klaviyo product reviews</li>
+          <li>Related Products — heading "What about...?", 4 cols desktop, 2 mobile, 4 products, adapt ratio</li>
+          <li>Apps section → Klaviyo product reviews (standalone)</li>
+        </ol>
+      </div>
+      <div class="card">
+        <div class="card-head">
+          <span class="badge badge-manual">Manual</span>
+          <span class="card-title">Main Product Section Settings</span>
+        </div>
+        <ul>
+          <li>Sticky product info: <strong>On</strong></li>
+          <li>Color scheme: background-1 (white)</li>
+          <li>Media size: <strong>Medium</strong></li>
+          <li>Constrain to viewport: <strong>On</strong></li>
+          <li>Media fit: <strong>Contain</strong></li>
+          <li>Gallery layout: <strong>Stacked</strong></li>
+          <li>Mobile thumbnails: <strong>Show</strong></li>
+          <li>Media position: <strong>Left</strong></li>
+          <li>Image zoom: <strong>Lightbox</strong></li>
+          <li>Hide variants: <strong>Off</strong></li>
+          <li>Video looping: <strong>Off</strong></li>
+        </ul>
+        <p style="margin-top:8px;font-size:0.78rem;color:var(--muted);">Symmetry may name these settings differently — match the behaviour, not the label.</p>
+      </div>
+    </div>
+
+    <div class="alert alert-info">
+      <span class="icon">ℹ️</span>
+      <div>
+        <strong>Other templates to check</strong>
+        Beyond the default product and index templates, also audit and rebuild: <code>templates/collection.json</code>, <code>templates/page.json</code>, <code>templates/search.json</code>, <code>templates/cart.json</code>, and any custom page templates (<code>page.faq-v2</code>, <code>article.sons-coach</code>) that exist in Sense.
+      </div>
+    </div>
+  </section>
+
+  <!-- PHASE CRO -->
+  <section class="phase" id="phase-cro">
+    <div class="phase-header">
+      <span class="phase-num">Phase 10</span>
+      <h2 class="phase-title">CRO Improvements During Migration</h2>
+    </div>
+    <p class="phase-desc">Your June 2026 GA4 audit identified specific friction points. The migration to Symmetry is the right moment to resolve them — new theme, clean slate. Work through these before launching.</p>
+
+    <div class="alert alert-critical">
+      <span class="icon">⚠️</span>
+      <div>
+        <strong>P1 — Fix Before You Publish</strong>
+        Two tracking issues in the current GA4 data are masking your actual funnel performance. Both need to be resolved in Symmetry before you can trust any post-migration reporting.
+      </div>
+    </div>
+
+    <div class="card-grid">
+      <div class="card">
+        <div class="card-head">
+          <span class="badge badge-critical">P1 Urgent</span>
+          <span class="card-title">Fix GA4 "(not set)" Landing Page Tracking</span>
+        </div>
+        <p style="margin-bottom:8px;">65% of sessions (106,771 of 163,785) have no landing page recorded in GA4. This makes attribution unreliable across all channels. Likely causes: cross-domain mismatch between <code>elteesydney.com.au</code> and <code>elteesydney.com</code>, or the GA4 <code>page_view</code> event not firing on initial load for some entry paths.</p>
+        <p><strong>During migration:</strong> When you copy your CodeUp (or GTM) head scripts into Symmetry's <code>theme.liquid</code>, test immediately that <code>page_view</code> fires on every template — homepage, product, collection, blog, and page. Use GA4 DebugView. Also verify cross-domain linking is set up correctly in GA4 Admin → Data Streams → Configure tag settings → Configure your domains.</p>
+      </div>
+      <div class="card">
+        <div class="card-head">
+          <span class="badge badge-critical">P1 Urgent</span>
+          <span class="card-title">Verify add_to_cart Event on All Products</span>
+        </div>
+        <p style="margin-bottom:8px;">The 3 Pack shows 441 purchases but 0 tracked add_to_cart events — the event is not firing for that product configuration. The CHOOSE YOUR POOL PERFECT COMBO has 908 add_to_cart events and $0 revenue, which suggests a checkout or availability fault.</p>
+        <p><strong>Before publishing Symmetry:</strong> Test add_to_cart firing for: UnderSwim (standard), UnderSwim G-Fit, 3 Pack (critical — currently broken), and CHOOSE YOUR POOL PERFECT COMBO. For the Combo, check whether it's marked available, has a valid price, and can reach checkout without error. Fix before launch — this is estimated at up to $81K in unblocked revenue.</p>
+      </div>
+    </div>
+
+    <div class="card-grid" style="margin-top:4px;">
+      <div class="card">
+        <div class="card-head">
+          <span class="badge badge-warn">P2 High</span>
+          <span class="card-title">Mobile Product Page — Sticky ATC</span>
+        </div>
+        <p style="margin-bottom:8px;">Mobile purchase CVR is 3.8% vs desktop 9.3% — a 2.5× gap. 92% of traffic is mobile. The primary fix is ensuring the Add to Cart button is always visible on mobile without scrolling.</p>
+        <p><strong>In Symmetry:</strong> Symmetry has native sticky ATC support. In the product template editor → Main product section, look for "Sticky add to cart" or "Sticky header" and enable it. This alone is the highest-leverage single setting change in this entire migration.</p>
+      </div>
+      <div class="card">
+        <div class="card-head">
+          <span class="badge badge-warn">P2 High</span>
+          <span class="card-title">Social Proof Above the Fold on Mobile</span>
+        </div>
+        <p style="margin-bottom:8px;">88.5% of product page viewers don't add to cart. On mobile, social proof (reviews star rating) is likely not visible without scrolling, removing the trust signal at the moment it matters most.</p>
+        <p><strong>In Symmetry product template:</strong> Place the Klaviyo Reviews Average Rating block immediately after the product title — before price, before description, before variant picker. Check this in mobile preview. The star rating should be the second thing a mobile visitor sees after the product name.</p>
+      </div>
+      <div class="card">
+        <div class="card-head">
+          <span class="badge badge-warn">P2 High</span>
+          <span class="card-title">Size Guide Visible Near Variant Picker</span>
+        </div>
+        <p style="margin-bottom:8px;">521 visitors landed directly on <code>/pages/size-chart</code> with a 70.6% bounce — they arrived, checked sizes, and left without buying. Size uncertainty is a documented barrier for this product category.</p>
+        <p><strong>In Symmetry product template:</strong> Add a size guide link or inline popup directly adjacent to the size variant picker. Most Symmetry size guide apps or custom liquid blocks can render a link that opens a modal. Do not make users navigate away from the product page to check sizing. Also update the size chart page itself with a prominent "Shop UnderSwim" / "Shop UnderDance" CTA at top and bottom.</p>
+      </div>
+      <div class="card">
+        <div class="card-head">
+          <span class="badge badge-warn">P2 High</span>
+          <span class="card-title">Cart Drawer — Shipping &amp; Returns Reassurance</span>
+        </div>
+        <p style="margin-bottom:8px;">60.5% of ATCs don't begin checkout. Cart-to-checkout abandonment at this rate typically means shipping uncertainty or first-buyer anxiety.</p>
+        <p><strong>In Symmetry cart drawer settings:</strong> Add a shipping threshold bar (e.g. "Free shipping over $X"). Add a one-line returns reassurance — "Free returns · Easy exchange" — near the checkout button. Symmetry's cart drawer supports announcement text; use it. Also confirm Apple Pay and Shop Pay express buttons are showing in the drawer on mobile (this removes friction for returning buyers).</p>
+      </div>
+    </div>
+
+    <div class="card-grid" style="margin-top:4px;">
+      <div class="card">
+        <div class="card-head">
+          <span class="badge badge-manual">P3 Medium</span>
+          <span class="card-title">Collection Pages — Intro Copy &amp; Mobile Grid</span>
+        </div>
+        <p style="margin-bottom:8px;"><code>/collections/girls-period-swimwear</code> has a 71.6% bounce rate and 4.3% CVR. Collection pages are bouncing because they don't explain which product to choose — they just show a grid.</p>
+        <p><strong>In Symmetry:</strong> Add a collection banner section with intro copy that distinguishes products (e.g. UnderSwim vs Period Swim Bikini Bottom). Symmetry collection templates support a header image + text section natively. On mobile, ensure product cards show use-case context — not just product name and price. Consider adding a "best for" badge or subtitle to each product card.</p>
+      </div>
+      <div class="card">
+        <div class="card-head">
+          <span class="badge badge-manual">P3 Medium</span>
+          <span class="card-title">Homepage Routing — Keep What's Working</span>
+        </div>
+        <p style="margin-bottom:8px;">The homepage has a 15.1% CVR and only 37% bounce rate — it's the strongest-converting landing page on the site. Don't redesign what's working.</p>
+        <p><strong>Preserve in Symmetry:</strong> The current homepage routing structure (hero → sport pathways → product slider → proof) is doing its job. Ensure the sport-specific pathways (swimming, dance, netball, school) remain clearly signposted above fold. If Symmetry's hero section supports multiple CTAs, use them: "Shop swim" and "Shop dance" alongside the main CTA, rather than a single generic "SHOP NOW".</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PHASE 11 (was 10) -->
+  <section class="phase" id="phase-10">
+    <div class="phase-header">
+      <span class="phase-num">Phase 11</span>
+      <h2 class="phase-title">Pre-Launch Checklist</h2>
+    </div>
+    <p class="phase-desc">Work through this before publishing Symmetry. Check items off as you go.</p>
+
+    <div class="card card-grid single" style="padding:0;">
+      <div class="checklist">
+        <div class="check-group-title">SEO &amp; Schema</div>
+        <label class="check-item" onclick="this.classList.toggle('checked')"><input type="checkbox"> JSON-LD Organization, ClothingStore, WebSite schemas added to Symmetry theme.liquid</label>
+        <label class="check-item" onclick="this.classList.toggle('checked')"><input type="checkbox"> All VideoObject schemas added (founder, real blood test, swim comparison, demo videos page)</label>
+        <label class="check-item" onclick="this.classList.toggle('checked')"><input type="checkbox"> FAQPage schema added for page.faq-v2 template</label>
+        <label class="check-item" onclick="this.classList.toggle('checked')"><input type="checkbox"> Article schema added for article.sons-coach template</label>
+        <label class="check-item" onclick="this.classList.toggle('checked')"><input type="checkbox"> ItemList schema added for collection pages</label>
+        <label class="check-item" onclick="this.classList.toggle('checked')"><input type="checkbox"> Pinterest domain verification meta tag in head</label>
+        <label class="check-item" onclick="this.classList.toggle('checked')"><input type="checkbox"> Google Rich Results Test passed for: homepage, /pages/erina-store, /pages/faq, /pages/period-undies-demo-videos, one collection page</label>
+
+        <div class="check-group-title">Global Settings</div>
+        <label class="check-item" onclick="this.classList.toggle('checked')"><input type="checkbox"> Logo uploaded, 80px width</label>
+        <label class="check-item" onclick="this.classList.toggle('checked')"><input type="checkbox"> Favicon uploaded</label>
+        <label class="check-item" onclick="this.classList.toggle('checked')"><input type="checkbox"> All colour schemes created (white, cream, dark purple, teal, purple, orange gradient)</label>
+        <label class="check-item" onclick="this.classList.toggle('checked')"><input type="checkbox"> Cart set to Drawer, cart note on, recommended collection set</label>
+        <label class="check-item" onclick="this.classList.toggle('checked')"><input type="checkbox"> Social links set (Facebook, Instagram, TikTok)</label>
+        <label class="check-item" onclick="this.classList.toggle('checked')"><input type="checkbox"> Page width 1600px, section spacing 0px</label>
+
+        <div class="check-group-title">App Blocks</div>
+        <label class="check-item" onclick="this.classList.toggle('checked')"><input type="checkbox"> All app embeds enabled in Symmetry theme settings</label>
+        <label class="check-item" onclick="this.classList.toggle('checked')"><input type="checkbox"> BARB AI agent: colour, bubble image, welcome message, all 4 FAQ labels re-entered</label>
+        <label class="check-item" onclick="this.classList.toggle('checked')"><input type="checkbox"> Klaviyo Reviews blocks on product page (average rating ×2 + product reviews)</label>
+        <label class="check-item" onclick="this.classList.toggle('checked')"><input type="checkbox"> Breadcrumbs block on product page with settings</label>
+        <label class="check-item" onclick="this.classList.toggle('checked')"><input type="checkbox"> Mod Bundles mix-and-match block on product page (bundle product: aar-combo)</label>
+        <label class="check-item" onclick="this.classList.toggle('checked')"><input type="checkbox"> Massy registration form block on homepage</label>
+
+        <div class="check-group-title">Homepage Sections</div>
+        <label class="check-item" onclick="this.classList.toggle('checked')"><input type="checkbox"> Desktop hero image banner (hidden on mobile)</label>
+        <label class="check-item" onclick="this.classList.toggle('checked')"><input type="checkbox"> Mobile hero image banner (hidden on desktop)</label>
+        <label class="check-item" onclick="this.classList.toggle('checked')"><input type="checkbox"> "FUNCTION-FIRST…" rich text heading with correct font sizing</label>
+        <label class="check-item" onclick="this.classList.toggle('checked')"><input type="checkbox"> Product slider (ss-slider-2 or equivalent) with all 5 products and GIFs</label>
+        <label class="check-item" onclick="this.classList.toggle('checked')"><input type="checkbox"> UnderSwim hero (ss-hero-24 or equivalent)</label>
+        <label class="check-item" onclick="this.classList.toggle('checked')"><input type="checkbox"> Founder video section (ai_gen_block_bb3c871)</label>
+        <label class="check-item" onclick="this.classList.toggle('checked')"><input type="checkbox"> Bundle &amp; Save collection section</label>
+        <label class="check-item" onclick="this.classList.toggle('checked')"><input type="checkbox"> Media mentions logo cloud (7News, Marie Claire, WHO, Mumbrella)</label>
+        <label class="check-item" onclick="this.classList.toggle('checked')"><input type="checkbox"> UnderDance collage section</label>
+        <label class="check-item" onclick="this.classList.toggle('checked')"><input type="checkbox"> Demo video with text section</label>
+        <label class="check-item" onclick="this.classList.toggle('checked')"><input type="checkbox"> Klaviyo Reviews carousel (with .card border-radius: 20px CSS override)</label>
+        <label class="check-item" onclick="this.classList.toggle('checked')"><input type="checkbox"> The El(Tee) featured blog section</label>
+        <label class="check-item" onclick="this.classList.toggle('checked')"><input type="checkbox"> "63.4%" image-with-text section with correct link and research reference</label>
+        <label class="check-item" onclick="this.classList.toggle('checked')"><input type="checkbox"> Instagram image marquee (5 posts with correct URLs)</label>
+
+        <div class="check-group-title">CRO &amp; Tracking</div>
+        <label class="check-item" onclick="this.classList.toggle('checked')"><input type="checkbox"> GA4 page_view event firing confirmed on all template types in Symmetry (use DebugView)</label>
+        <label class="check-item" onclick="this.classList.toggle('checked')"><input type="checkbox"> Cross-domain tracking between elteesydney.com.au and elteesydney.com verified in GA4 Admin → Configure domains</label>
+        <label class="check-item" onclick="this.classList.toggle('checked')"><input type="checkbox"> add_to_cart event fires for 3 Pack product (currently not tracking)</label>
+        <label class="check-item" onclick="this.classList.toggle('checked')"><input type="checkbox"> CHOOSE YOUR POOL PERFECT COMBO investigated — product availability, price, and checkout path confirmed working</label>
+        <label class="check-item" onclick="this.classList.toggle('checked')"><input type="checkbox"> Sticky ATC button enabled on mobile in Symmetry product template</label>
+        <label class="check-item" onclick="this.classList.toggle('checked')"><input type="checkbox"> Klaviyo Reviews star rating visible on mobile without scrolling (placed immediately after product title)</label>
+        <label class="check-item" onclick="this.classList.toggle('checked')"><input type="checkbox"> Size guide link or popup adjacent to size variant picker on product page</label>
+        <label class="check-item" onclick="this.classList.toggle('checked')"><input type="checkbox"> /pages/size-chart has a prominent CTA back to the relevant product page</label>
+        <label class="check-item" onclick="this.classList.toggle('checked')"><input type="checkbox"> Cart drawer shows shipping threshold bar and returns reassurance near checkout button</label>
+        <label class="check-item" onclick="this.classList.toggle('checked')"><input type="checkbox"> Apple Pay / Shop Pay visible and prominent in mobile cart drawer</label>
+        <label class="check-item" onclick="this.classList.toggle('checked')"><input type="checkbox"> Collection pages have intro copy distinguishing products (not just a grid)</label>
+
+        <div class="check-group-title">Functional Testing</div>
+        <label class="check-item" onclick="this.classList.toggle('checked')"><input type="checkbox"> Add to cart works (test drawer opens)</label>
+        <label class="check-item" onclick="this.classList.toggle('checked')"><input type="checkbox"> Cart note visible in drawer</label>
+        <label class="check-item" onclick="this.classList.toggle('checked')"><input type="checkbox"> Cart recommended products showing (best-period-underwear)</label>
+        <label class="check-item" onclick="this.classList.toggle('checked')"><input type="checkbox"> Variant selection works on all product types</label>
+        <label class="check-item" onclick="this.classList.toggle('checked')"><input type="checkbox"> Back-in-stock form appears on sold-out variants (STOQ)</label>
+        <label class="check-item" onclick="this.classList.toggle('checked')"><input type="checkbox"> Klaviyo popup fires correctly</label>
+        <label class="check-item" onclick="this.classList.toggle('checked')"><input type="checkbox"> BARB chat bubble visible, correct colour and label</label>
+        <label class="check-item" onclick="this.classList.toggle('checked')"><input type="checkbox"> Checkout flow works end-to-end in preview</label>
+        <label class="check-item" onclick="this.classList.toggle('checked')"><input type="checkbox"> Mobile layout checked on real device (iPhone)</label>
+        <label class="check-item" onclick="this.classList.toggle('checked')"><input type="checkbox"> Pagetify pages republished and loading correctly</label>
+        <label class="check-item" onclick="this.classList.toggle('checked')"><input type="checkbox"> Google Analytics / tracking intact (check via CodeUp head scripts)</label>
+      </div>
+    </div>
+  </section>
+
+  <!-- CLOSING ALERT -->
+  <div class="alert alert-info">
+    <span class="icon">✅</span>
+    <div>
+      <strong>Ready to publish?</strong>
+      Once all checklist items are ticked, go to Themes → click ··· on Symmetry → Publish. The live Sense theme moves to Unpublished automatically. Keep the "Pre-Symmetry Backup" duplicate for at least 30 days in case a rollback is needed.
+    </div>
+  </div>
+
+</main>
+
+<footer class="site-footer">
+  Sense → Symmetry Migration Guide · Eltee Sydney · elteesydney.com.au
+</footer>
+
+<script>
+  // Restore checked state across page loads
+  document.querySelectorAll('.check-item input[type="checkbox"]').forEach((cb, i) => {
+    const key = 'eltee-check-' + i;
+    cb.checked = localStorage.getItem(key) === '1';
+    if (cb.checked) cb.closest('.check-item').classList.add('checked');
+    cb.addEventListener('change', () => {
+      localStorage.setItem(key, cb.checked ? '1' : '0');
+      cb.closest('.check-item').classList.toggle('checked', cb.checked);
+    });
+  });
+</script>
