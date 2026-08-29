@@ -1,0 +1,23 @@
+Act as a Shopify Configuration Expert. I am setting up the global theme settings for Eltee Sydney's migration from Sense to Symmetry. Here is the configuration data from Phase 1 of our blueprint. Please walk me through how to apply these settings step-by-step in the Symmetry theme customizer and help me resolve any structural differences between the two themes.
+
+### Phase 1: Automated Configuration Mapping
+
+1. Brand Identity & Asset Mapping
+- Logo Image Asset: shopify://shop_images/ELTEE_SYDNEY_FULL_COLOUR_SQUARE_LOGO.png
+- Logo Desktop Display Width: 80px
+- Favicon Image Asset: shopify://shop_images/favicon-32x32.png
+- Typography Archetype: sans-serif (Heading Scale: 100% | Body Scale: 100%)
+- Global Max Page Container Width: 1600px
+
+2. Global Functional Toggles
+- Cart Presentation Interface: Set to Drawer (cart_type: "drawer")
+- Cart Drawer Upsell Target: Assign the collection "best-period-underwear" (cart_drawer_collection)
+- Order Notes: Ensure "Enable Cart Notes" is toggled ON (show_cart_note: true)
+- Currency Architecture: Set "Show Currency Code" to ON (currency_code_enabled: true)
+- Predictive Search Overlays: Toggle OFF (predictive_search_enabled: false)
+
+3. Social Footprint Verification
+- Facebook: https://facebook.com/eltee.sydney
+- Instagram: https://instagram.com/eltee.sydney
+- TikTok: https://tiktok.com/@eltee.sydney
+- Note: YouTube, Twitter, Pinterest, and Snapchat are intentionally blank.

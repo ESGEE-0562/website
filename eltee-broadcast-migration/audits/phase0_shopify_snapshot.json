@@ -1,0 +1,4405 @@
+{
+  "themes": {
+    "data": {
+      "themes": {
+        "nodes": [
+          {
+            "createdAt": "2021-04-07T07:30:21Z",
+            "id": "gid://shopify/OnlineStoreTheme/120201969801",
+            "name": "Turbo-portland",
+            "processing": false,
+            "processingFailed": false,
+            "role": "UNPUBLISHED",
+            "themeStoreId": null,
+            "updatedAt": "2026-07-30T01:47:01Z"
+          },
+          {
+            "createdAt": "2021-07-30T10:06:48Z",
+            "id": "gid://shopify/OnlineStoreTheme/120393040009",
+            "name": "Copy of Turbo-portland - POM",
+            "processing": false,
+            "processingFailed": false,
+            "role": "UNPUBLISHED",
+            "themeStoreId": null,
+            "updatedAt": "2025-03-03T02:28:16Z"
+          },
+          {
+            "createdAt": "2022-06-07T03:41:24Z",
+            "id": "gid://shopify/OnlineStoreTheme/125033152649",
+            "name": "Turbo-portland before filter",
+            "processing": false,
+            "processingFailed": false,
+            "role": "UNPUBLISHED",
+            "themeStoreId": null,
+            "updatedAt": "2025-03-03T02:28:19Z"
+          },
+          {
+            "createdAt": "2022-12-31T06:56:14Z",
+            "id": "gid://shopify/OnlineStoreTheme/128081625225",
+            "name": "Flex-trending",
+            "processing": false,
+            "processingFailed": false,
+            "role": "UNPUBLISHED",
+            "themeStoreId": null,
+            "updatedAt": "2025-07-15T08:51:41Z"
+          },
+          {
+            "createdAt": "2023-08-18T12:36:41Z",
+            "id": "gid://shopify/OnlineStoreTheme/128574783625",
+            "name": "Turbo Portland | 18-08-2023",
+            "processing": false,
+            "processingFailed": false,
+            "role": "UNPUBLISHED",
+            "themeStoreId": null,
+            "updatedAt": "2025-08-30T04:20:13Z"
+          },
+          {
+            "createdAt": "2023-08-20T07:44:10Z",
+            "id": "gid://shopify/OnlineStoreTheme/128578781321",
+            "name": "[OOTS] Copy of Turbo Portland | 18-08-2023",
+            "processing": false,
+            "processingFailed": false,
+            "role": "UNPUBLISHED",
+            "themeStoreId": null,
+            "updatedAt": "2025-10-21T06:27:23Z"
+          },
+          {
+            "createdAt": "2023-10-06T14:24:54Z",
+            "id": "gid://shopify/OnlineStoreTheme/128715489417",
+            "name": "Dawn Theme 18.09.23 (before SparkLayer)",
+            "processing": false,
+            "processingFailed": false,
+            "role": "UNPUBLISHED",
+            "themeStoreId": null,
+            "updatedAt": "2025-03-03T02:28:16Z"
+          },
+          {
+            "createdAt": "2023-11-18T07:27:35Z",
+            "id": "gid://shopify/OnlineStoreTheme/129578270857",
+            "name": "Dawn Theme with new ATC (18.10.23)",
+            "processing": false,
+            "processingFailed": false,
+            "role": "UNPUBLISHED",
+            "themeStoreId": null,
+            "updatedAt": "2025-03-03T02:28:16Z"
+          },
+          {
+            "createdAt": "2024-02-01T12:23:11Z",
+            "id": "gid://shopify/OnlineStoreTheme/131289350281",
+            "name": "Sense 13.0.0 (Feb 24)",
+            "processing": false,
+            "processingFailed": false,
+            "role": "UNPUBLISHED",
+            "themeStoreId": 1356,
+            "updatedAt": "2025-04-18T09:04:39Z"
+          },
+          {
+            "createdAt": "2024-04-08T05:19:38Z",
+            "id": "gid://shopify/OnlineStoreTheme/132850188425",
+            "name": "Pagetify Assets - DO NOT DELETE",
+            "processing": false,
+            "processingFailed": false,
+            "role": "UNPUBLISHED",
+            "themeStoreId": null,
+            "updatedAt": "2024-06-19T04:18:23Z"
+          },
+          {
+            "createdAt": "2024-06-23T12:13:16Z",
+            "id": "gid://shopify/OnlineStoreTheme/134613696649",
+            "name": "Sense 15.0.0 (June 24)",
+            "processing": false,
+            "processingFailed": false,
+            "role": "UNPUBLISHED",
+            "themeStoreId": 1356,
+            "updatedAt": "2025-06-11T10:14:59Z"
+          },
+          {
+            "createdAt": "2024-08-16T03:39:18Z",
+            "id": "gid://shopify/OnlineStoreTheme/135857668233",
+            "name": "Sense 15.0.1 (Aug 24)",
+            "processing": false,
+            "processingFailed": false,
+            "role": "UNPUBLISHED",
+            "themeStoreId": 1356,
+            "updatedAt": "2025-03-03T02:28:19Z"
+          },
+          {
+            "createdAt": "2024-10-24T11:22:23Z",
+            "id": "gid://shopify/OnlineStoreTheme/137525624969",
+            "name": "Sense 15.2.0 (Oct 24)",
+            "processing": false,
+            "processingFailed": false,
+            "role": "UNPUBLISHED",
+            "themeStoreId": 1356,
+            "updatedAt": "2026-03-30T04:21:22Z"
+          },
+          {
+            "createdAt": "2026-01-20T22:53:30Z",
+            "id": "gid://shopify/OnlineStoreTheme/150500671625",
+            "name": "Copy of Sense 15.2.0 (Oct 24)",
+            "processing": false,
+            "processingFailed": false,
+            "role": "UNPUBLISHED",
+            "themeStoreId": 1356,
+            "updatedAt": "2026-03-30T04:21:22Z"
+          },
+          {
+            "createdAt": "2026-03-26T22:04:48Z",
+            "id": "gid://shopify/OnlineStoreTheme/152278204553",
+            "name": "Sense 15.4.1 (March 2026)",
+            "processing": false,
+            "processingFailed": false,
+            "role": "MAIN",
+            "themeStoreId": 1356,
+            "updatedAt": "2026-08-25T03:59:21Z"
+          },
+          {
+            "createdAt": "2026-05-12T01:38:00Z",
+            "id": "gid://shopify/OnlineStoreTheme/153521913993",
+            "name": "Backup of Sense 15.4.1 (May 2026)",
+            "processing": false,
+            "processingFailed": false,
+            "role": "UNPUBLISHED",
+            "themeStoreId": 1356,
+            "updatedAt": "2026-05-12T01:42:05Z"
+          },
+          {
+            "createdAt": "2026-07-20T10:14:26Z",
+            "id": "gid://shopify/OnlineStoreTheme/155379237001",
+            "name": "Broadcast",
+            "processing": false,
+            "processingFailed": false,
+            "role": "UNPUBLISHED",
+            "themeStoreId": 868,
+            "updatedAt": "2026-08-26T08:43:00Z"
+          }
+        ],
+        "pageInfo": {
+          "endCursor": "eyJsYXN0X2lkIjoxNTUzNzkyMzcwMDEsImxhc3RfdmFsdWUiOjE1NTM3OTIzNzAwMX0=",
+          "hasNextPage": false
+        }
+      }
+    }
+  },
+  "products": {
+    "data": {
+      "products": {
+        "nodes": [
+          {
+            "handle": "period-swim-undies",
+            "id": "gid://shopify/Product/7087978381449",
+            "onlineStoreUrl": "https://elteesydney.com.au/products/period-swim-undies",
+            "seo": {
+              "description": "UnderSwim: Official Swimming Australia Period-Safe Swim Underwear. 4 regular tampons worth of confidence and protection. Sizes G10-12/W4-W14.",
+              "title": "UnderSwim: Swimming Australia Period-Safe Swim Underwear"
+            },
+            "status": "ACTIVE",
+            "templateSuffix": "swim-bottoms",
+            "title": "UnderSwim: Period Swim Underwear",
+            "updatedAt": "2026-08-27T11:20:16Z"
+          },
+          {
+            "handle": "first-period-kit",
+            "id": "gid://shopify/Product/7156462387337",
+            "onlineStoreUrl": null,
+            "seo": {
+              "description": "Find out what makes our first period kit the best prep for tween & teen girls. Perfect size for school bag or locker. Loaded with period care options.",
+              "title": "First Period Kit | Perfect size for school bags or lockers"
+            },
+            "status": "ARCHIVED",
+            "templateSuffix": "kit",
+            "title": "First Period Kit",
+            "updatedAt": "2026-08-22T01:32:09Z"
+          },
+          {
+            "handle": "period-underwear-girls",
+            "id": "gid://shopify/Product/7521371095177",
+            "onlineStoreUrl": "https://elteesydney.com.au/products/period-underwear-girls",
+            "seo": {
+              "description": "Period underwear for teen girls. Exclusive leak-locking 'Bumpers'. Made for her first period & the early years of her cycle. ",
+              "title": "First & Early Period Years Underwear for Girls | Eltee Sydney"
+            },
+            "status": "ACTIVE",
+            "templateSuffix": "play-on-black",
+            "title": "Bumpers Briefs: First & Early Period Years Underwear",
+            "updatedAt": "2026-08-27T08:58:03Z"
+          },
+          {
+            "handle": "period-dance-gym",
+            "id": "gid://shopify/Product/7811751936137",
+            "onlineStoreUrl": "https://elteesydney.com.au/products/period-dance-gym",
+            "seo": {
+              "description": "UnderDance: period underwear for dancers and gymnasts. Leak-proof, designed to disappear under leos, activewear, and high-cut costumes.",
+              "title": "Period Leotard Underwear for Dance, Gymnastics, Cheer, Acro"
+            },
+            "status": "ACTIVE",
+            "templateSuffix": "underdance",
+            "title": "UnderDance: High-Cut Active Period Undies",
+            "updatedAt": "2026-08-27T11:21:56Z"
+          },
+          {
+            "handle": "period-boyshort-undies",
+            "id": "gid://shopify/Product/7843771285641",
+            "onlineStoreUrl": "https://elteesydney.com.au/products/period-boyshort-undies",
+            "seo": {
+              "description": "Comfy boyleg period underwear with front-to-back leak-proof protection. UnderShortie is designed for girls who prefer fuller coverage for school days and sleep.",
+              "title": "UnderShortie Boyleg Period Briefs | Comfy Everyday Periodwear"
+            },
+            "status": "ACTIVE",
+            "templateSuffix": "girlleg",
+            "title": "UnderShortie: Boyleg Leak-Proof Period Briefs",
+            "updatedAt": "2026-08-27T07:56:17Z"
+          },
+          {
+            "handle": "wet-pouch",
+            "id": "gid://shopify/Product/7849077833865",
+            "onlineStoreUrl": "https://elteesydney.com.au/products/wet-pouch",
+            "seo": {
+              "description": "Discreet waterproof period wet bag for worn period underwear and swimwear. Zip-sealed, school-bag sized and reusable in four colour-block options.",
+              "title": "Period Wet Bag for Period Underwear | Eltee Sydney"
+            },
+            "status": "ACTIVE",
+            "templateSuffix": "stash-bag",
+            "title": "Wet Pouch",
+            "updatedAt": "2026-08-27T09:12:28Z"
+          },
+          {
+            "handle": "period-starter-emergency-kit",
+            "id": "gid://shopify/Product/7878436126857",
+            "onlineStoreUrl": null,
+            "seo": {
+              "description": "Period Starter & Emergency Kit. Discreet, lightweight lifesaver for surprise breakthrough bleeds and periods. No panic. No drama. Just confidence on standby.",
+              "title": "Period Starter & Emergency Kit | Eltee Sydney"
+            },
+            "status": "ARCHIVED",
+            "templateSuffix": "period-starter-kit",
+            "title": "Period Starter & Emergency Kit",
+            "updatedAt": "2026-08-22T01:32:17Z"
+          },
+          {
+            "handle": "period-swimwear-bottoms-for-teens",
+            "id": "gid://shopify/Product/7942146162825",
+            "onlineStoreUrl": "https://elteesydney.com.au/products/period-swimwear-bottoms-for-teens",
+            "seo": {
+              "description": "Period bikini bottoms for tweens and teens with 30 ml absorbency, silicone-grip leg seals and a sealed barrier for confident pool and beach days.",
+              "title": "Period Bikini Bottoms for Teens | 30 ml Leak Protection"
+            },
+            "status": "ACTIVE",
+            "templateSuffix": "period-swimwear-briefs",
+            "title": "Period Bikini Bottoms for Teens",
+            "updatedAt": "2026-08-27T09:06:23Z"
+          },
+          {
+            "handle": "g-fit-underswim-period-swim-underwear",
+            "id": "gid://shopify/Product/8004465393801",
+            "onlineStoreUrl": "https://elteesydney.com.au/products/g-fit-underswim-period-swim-underwear",
+            "seo": {
+              "description": "Period Swim Underwear: Water Blocked, Period Locked. Exclusive to Eltee Sydney. Tween / teen girls and womens sizes W4-W18. Moderate absorbency same as 4 pads.",
+              "title": "Period Swim Underwear: Water Blocked, Period Locked"
+            },
+            "status": "ACTIVE",
+            "templateSuffix": "underswim-gfit",
+            "title": "UnderSwim: Period Swim Underwear (G-Fit)",
+            "updatedAt": "2026-08-27T09:19:26Z"
+          },
+          {
+            "handle": "the-pool-perfect-combo",
+            "id": "gid://shopify/Product/8080070410377",
+            "onlineStoreUrl": null,
+            "seo": {
+              "description": "Your Swim, Your Way! Create your pool perfect UnderSwim combo from 2 x OG in any colour of your choice and 1 x G-Fit.... and save $$$. ",
+              "title": "The Pool Perfect Combo | UnderSwim Spend & Save Bundle"
+            },
+            "status": "ARCHIVED",
+            "templateSuffix": "bundles",
+            "title": "The Pool Perfect Combo",
+            "updatedAt": "2026-08-22T01:32:07Z"
+          },
+          {
+            "handle": "underliner-girls-leak-proof",
+            "id": "gid://shopify/Product/8103196131465",
+            "onlineStoreUrl": "https://elteesydney.com.au/products/underliner-girls-leak-proof",
+            "seo": {
+              "description": "Ultra-thin absorbency for girls. UnderLiner catches those early surprises—think spotting, discharge and other pre-period plot twists. ",
+              "title": "UnderLiner: Built-In Backup for Light Days & Just-in-Case Situations"
+            },
+            "status": "ACTIVE",
+            "templateSuffix": "underliner",
+            "title": "UnderLiner",
+            "updatedAt": "2026-08-27T08:47:47Z"
+          },
+          {
+            "handle": "aar-combo-arch",
+            "id": "gid://shopify/Product/8110984429705",
+            "onlineStoreUrl": null,
+            "seo": {
+              "description": "The Active All-Rounder Combo. Perfect for girls who thrive in a mix of sports and activities. Everything she needs to tackle the action without limits.",
+              "title": "The Active All-Rounder Combo | For Girls Who Love to Move"
+            },
+            "status": "ARCHIVED",
+            "templateSuffix": "bundly",
+            "title": "The Active All-Rounder Combo",
+            "updatedAt": "2026-08-22T01:32:07Z"
+          },
+          {
+            "handle": "tpp-arch",
+            "id": "gid://shopify/Product/8121749569673",
+            "onlineStoreUrl": null,
+            "seo": {
+              "description": "Your Swim, Your Way! Create your pool perfect UnderSwim combo from 2 x OG in any colour of your choice and 1 x G-Fit.... and save $$$.",
+              "title": "The Pool Perfect Combo | UnderSwim Spend & Save Bundle"
+            },
+            "status": "ARCHIVED",
+            "templateSuffix": "bundly",
+            "title": "The Pool Perfect Combo",
+            "updatedAt": "2026-08-22T01:32:15Z"
+          },
+          {
+            "handle": "aar-arch",
+            "id": "gid://shopify/Product/8121778962569",
+            "onlineStoreUrl": null,
+            "seo": {
+              "description": "The Active All-Rounder Combo. 3 x best selling period underwear - dance, swim + shorties. Tackle the action and manage your cycle - drama free. Central Coast, Australia.",
+              "title": "The Active All-Rounder Combo | Designed on the Central Coast, Australia"
+            },
+            "status": "ARCHIVED",
+            "templateSuffix": "bundly",
+            "title": "The Active All Rounder Combo",
+            "updatedAt": "2026-08-22T01:32:06Z"
+          },
+          {
+            "handle": "teen-period-pads",
+            "id": "gid://shopify/Product/8125539582089",
+            "onlineStoreUrl": null,
+            "seo": {
+              "description": "Period pads for tween and teen girls—perfect for first-timers. Shorter, ultra-slim, and chemical-free for comfy, low-fuss period protection.",
+              "title": "Period Pads for Tween & Teen Girls – Shorter, Comfier, Kinder to Skin"
+            },
+            "status": "ARCHIVED",
+            "templateSuffix": "disposables",
+            "title": "Cottons Teen Pads with Wings",
+            "updatedAt": "2026-08-22T01:32:08Z"
+          },
+          {
+            "handle": "teen-girl-tampons",
+            "id": "gid://shopify/Product/8154530152585",
+            "onlineStoreUrl": null,
+            "seo": {
+              "description": "Girl-Sized Tampons are the natural choice for teen and tween girls. Safe, gentle, and made for beginners.",
+              "title": "Girl-Sized Tampons | Safe & Girl Sized | 100% Cotton & Zero Nasties"
+            },
+            "status": "ARCHIVED",
+            "templateSuffix": "tampons",
+            "title": "Cottons Girl-Sized Tampons",
+            "updatedAt": "2026-08-22T01:32:07Z"
+          },
+          {
+            "handle": "stain-slayer-single-use-wipe",
+            "id": "gid://shopify/Product/8162437955721",
+            "onlineStoreUrl": "https://elteesydney.com.au/products/stain-slayer-single-use-wipe",
+            "seo": {
+              "description": "Blood spot? Boom. Gone. Her pocket-sized wipe for period mishaps that hit mid-game, mid-class, or mid-anything. No water needed, no drama caused.",
+              "title": "Stain Slayer Single Use Wipe | Blood spot? Boom. Gone."
+            },
+            "status": "ACTIVE",
+            "templateSuffix": "",
+            "title": "Stain Slayer Single Use Wipe",
+            "updatedAt": "2026-08-26T03:46:27Z"
+          },
+          {
+            "handle": "arch-2",
+            "id": "gid://shopify/Product/8181675131017",
+            "onlineStoreUrl": null,
+            "seo": {
+              "description": "For girls who go from class to calisthenics, from school camp to stretch class. Whether it’s day one or day five of her period, this bundle is on the same schedule.",
+              "title": "Period Dance & Gym + Starter Underwear Bundle | Save Over $35"
+            },
+            "status": "ARCHIVED",
+            "templateSuffix": "bundly",
+            "title": "The Ready-for-Anything Pack (Dance Edition)",
+            "updatedAt": "2026-08-22T01:32:15Z"
+          },
+          {
+            "handle": "arch",
+            "id": "gid://shopify/Product/8181712453769",
+            "onlineStoreUrl": null,
+            "seo": {
+              "description": "8-piece tween and teen girl period underwear bundle. Keeps up through school bells, swim squad, sleepovers and everything in between. Bundle and save.",
+              "title": "Period Swim & Starter Underwear Bundle | Save Over $35"
+            },
+            "status": "ARCHIVED",
+            "templateSuffix": "bundly",
+            "title": "The Ready-for-Anything Pack (Swim Edition)",
+            "updatedAt": "2026-08-22T01:32:07Z"
+          },
+          {
+            "handle": "underrider",
+            "id": "gid://shopify/Product/8214424682633",
+            "onlineStoreUrl": "https://elteesydney.com.au/products/underrider",
+            "seo": {
+              "description": null,
+              "title": null
+            },
+            "status": "UNLISTED",
+            "templateSuffix": "",
+            "title": "UnderRider",
+            "updatedAt": "2026-08-22T01:32:07Z"
+          },
+          {
+            "handle": "the-encore-bundle-1",
+            "id": "gid://shopify/Product/8279008837769",
+            "onlineStoreUrl": null,
+            "seo": {
+              "description": null,
+              "title": null
+            },
+            "status": "ARCHIVED",
+            "templateSuffix": "bundly",
+            "title": "The Encore Bundle",
+            "updatedAt": "2026-08-22T01:32:13Z"
+          },
+          {
+            "handle": "how-to-wear-inserts",
+            "id": "gid://shopify/Product/8312673992841",
+            "onlineStoreUrl": "https://elteesydney.com.au/products/how-to-wear-inserts",
+            "seo": {
+              "description": null,
+              "title": null
+            },
+            "status": "UNLISTED",
+            "templateSuffix": "",
+            "title": "How to Wear Inserts",
+            "updatedAt": "2026-08-25T20:29:47Z"
+          },
+          {
+            "handle": "swimsync-period-one-piece-swimsuit",
+            "id": "gid://shopify/Product/8318788468873",
+            "onlineStoreUrl": "https://elteesydney.com.au/products/swimsync-period-one-piece-swimsuit",
+            "seo": {
+              "description": "SwimSync Period Pro: a period-safe one-piece for tween and teen swimmers. Streamlined fit, leak-proof protection, made for training and squad.",
+              "title": null
+            },
+            "status": "ACTIVE",
+            "templateSuffix": "swimsync-2",
+            "title": "SwimSync Period One-Piece Swimsuit",
+            "updatedAt": "2026-08-27T11:10:56Z"
+          },
+          {
+            "handle": "underaustin",
+            "id": "gid://shopify/Product/8390218612873",
+            "onlineStoreUrl": "https://elteesydney.com.au/products/underaustin",
+            "seo": {
+              "description": "Period underwear for sport. UnderAustin's free-moving panel holds 3-4 pads' worth of protection. Co-designed with pro netballer Kiera Austin.",
+              "title": "UnderAustin | Best Period Underwear for Sports | Eltee Sydney"
+            },
+            "status": "ACTIVE",
+            "templateSuffix": "underaustin",
+            "title": "UnderAustin Performance Period Undershort",
+            "updatedAt": "2026-08-27T07:56:17Z"
+          },
+          {
+            "handle": "period-starter-bundle-5-pack",
+            "id": "gid://shopify/Product/8462007730313",
+            "onlineStoreUrl": "https://elteesydney.com.au/products/period-starter-bundle-5-pack",
+            "seo": {
+              "description": "Period Underwear Starter 5 Pack for Girls. Save 20%. Keep her protected, fresh and comfortable all cycle round. 5 for the price of 4. ",
+              "title": "Period Underwear Starter 5 Pack for Girls | 5 for 4 | Eltee Sydney"
+            },
+            "status": "ACTIVE",
+            "templateSuffix": "bundles-mm",
+            "title": "Build Your Period Starter Bundle",
+            "updatedAt": "2026-08-22T01:32:08Z"
+          },
+          {
+            "handle": "the-ready-for-anything-pack-dance-edition",
+            "id": "gid://shopify/Product/8462051213449",
+            "onlineStoreUrl": "https://elteesydney.com.au/products/the-ready-for-anything-pack-dance-edition",
+            "seo": {
+              "description": "Period Dance & Gym + Teen Underwear Bundle & Save. She's got a got a full schedule and this 8 piece kit’s got her covered. Eltee Sydney. ",
+              "title": "Period Dance & Gym + Teen Underwear Bundle & Save | Eltee Sydney"
+            },
+            "status": "ACTIVE",
+            "templateSuffix": "bundles-mm",
+            "title": "Create Your Dance Edition Bundle",
+            "updatedAt": "2026-08-22T01:32:09Z"
+          },
+          {
+            "handle": "the-ready-for-anything-pack-swim-edition",
+            "id": "gid://shopify/Product/8462055899273",
+            "onlineStoreUrl": "https://elteesydney.com.au/products/the-ready-for-anything-pack-swim-edition",
+            "seo": {
+              "description": "Tween and Teen Girl Period Swim & Starter Underwear 8-piece Bundle. Keeps up through school bells, swim squad, sleepovers and everything in between.",
+              "title": "Period Swim & Starter Underwear Bundle | Bundle & Save | Eltee Sydney"
+            },
+            "status": "ACTIVE",
+            "templateSuffix": "bundles-mm",
+            "title": "Create Your Swim Edition Bundle",
+            "updatedAt": "2026-08-22T01:32:07Z"
+          },
+          {
+            "handle": "tpp-combo",
+            "id": "gid://shopify/Product/8462059110537",
+            "onlineStoreUrl": "https://elteesydney.com.au/products/tpp-combo",
+            "seo": {
+              "description": "The Pool Perfect Combo: bundled period swim essentials for tween and teen girls. Period-safe swimwear times 3, for confident swim days.",
+              "title": "The Pool Perfect Combo | UnderSwim Spend & Save Bundle"
+            },
+            "status": "ACTIVE",
+            "templateSuffix": "bundles",
+            "title": "Choose Your Pool Perfect Combo",
+            "updatedAt": "2026-08-22T01:32:07Z"
+          },
+          {
+            "handle": "aar-combo",
+            "id": "gid://shopify/Product/8463170896009",
+            "onlineStoreUrl": "https://elteesydney.com.au/products/aar-combo",
+            "seo": {
+              "description": "UnderDance, UnderShortie + UnderSwim school. School, sleep and sport-ready period underwear, sorted. Easy to mix, match and make it hers. Bundle and save.",
+              "title": "The Active All Rounder Bundle | School, Sport, Sleep Period Bundle"
+            },
+            "status": "ACTIVE",
+            "templateSuffix": "bundles-mm",
+            "title": "THE ACTIVE ALL-ROUNDER BUNDLE",
+            "updatedAt": "2026-08-22T01:32:11Z"
+          },
+          {
+            "handle": "age-champs-bundle",
+            "id": "gid://shopify/Product/8536566595721",
+            "onlineStoreUrl": null,
+            "seo": {
+              "description": null,
+              "title": null
+            },
+            "status": "ACTIVE",
+            "templateSuffix": "",
+            "title": "AGE CHAMPS BUNDLE",
+            "updatedAt": "2026-08-22T01:53:46Z"
+          },
+          {
+            "handle": "free-unlimited-return-for-3-48-valid-in-us-and-ca",
+            "id": "gid://shopify/Product/8624378347657",
+            "onlineStoreUrl": "https://elteesydney.com.au/products/free-unlimited-return-for-3-48-valid-in-us-and-ca",
+            "seo": {
+              "description": null,
+              "title": null
+            },
+            "status": "UNLISTED",
+            "templateSuffix": null,
+            "title": "Free Returns",
+            "updatedAt": "2026-08-26T23:35:57Z"
+          },
+          {
+            "handle": "vdf-bundle",
+            "id": "gid://shopify/Product/8635775713417",
+            "onlineStoreUrl": null,
+            "seo": {
+              "description": null,
+              "title": null
+            },
+            "status": "ARCHIVED",
+            "templateSuffix": "",
+            "title": "VDF BUNDLE",
+            "updatedAt": "2026-08-22T01:53:47Z"
+          },
+          {
+            "handle": "the-encore-bundle-2",
+            "id": "gid://shopify/Product/8641804501129",
+            "onlineStoreUrl": "https://elteesydney.com.au/products/the-encore-bundle-2",
+            "seo": {
+              "description": "Three pairs. One less thing to think about on stage.\nChoose any 3 UnderDance and save. Go 3 x black. Or mix in neutral and brown. Or grab a size up for later. ",
+              "title": "The Encore Bundle | UnderDance Bundle & Save"
+            },
+            "status": "ACTIVE",
+            "templateSuffix": "bundles",
+            "title": "The Encore Bundle",
+            "updatedAt": "2026-08-22T01:32:08Z"
+          }
+        ],
+        "pageInfo": {
+          "endCursor": "eyJsYXN0X2lkIjo4NjQxODA0NTAxMTI5LCJsYXN0X3ZhbHVlIjoiODY0MTgwNDUwMTEyOSJ9",
+          "hasNextPage": false
+        }
+      }
+    }
+  },
+  "collections": {
+    "data": {
+      "collections": {
+        "nodes": [
+          {
+            "handle": "teen-period-underwear",
+            "id": "gid://shopify/Collection/283436744841",
+            "seo": {
+              "description": "Teen period underwear made from sustainable bamboo. Leak-proof protection for school, sport, and sleepovers. Sized for tweens through to teens.",
+              "title": "Teen Period Underwear | Leak-Proof Comfort"
+            },
+            "templateSuffix": "teen-period-undies",
+            "title": "Bumpers Briefs: Teen Period Underwear",
+            "updatedAt": "2026-08-27T11:03:36Z"
+          },
+          {
+            "handle": "girls-period-swimwear",
+            "id": "gid://shopify/Collection/283440447625",
+            "seo": {
+              "description": "Period swimwear for tween and teen girls. Leak-proof protection for training, racing, and pool days. Made to move with her, any time of the month.",
+              "title": "Teen Period Swimwear | Girls Leak-Proof Swimwear"
+            },
+            "templateSuffix": "period-swimwear",
+            "title": "Teen Period Swimwear",
+            "updatedAt": "2026-08-27T11:03:36Z"
+          },
+          {
+            "handle": "all",
+            "id": "gid://shopify/Collection/284583723145",
+            "seo": {
+              "description": "Period underwear for girls who refuse to be sidelined. Styles designed to keep girls moving during their first and early period years and beyond.",
+              "title": "Period Underwear for Unstoppable Girls"
+            },
+            "templateSuffix": "shop-2",
+            "title": "Shop All | Active Girls Period Underwear",
+            "updatedAt": "2026-08-27T11:03:36Z"
+          },
+          {
+            "handle": "ex-bundles",
+            "id": "gid://shopify/Collection/286636933257",
+            "seo": {
+              "description": null,
+              "title": null
+            },
+            "templateSuffix": "",
+            "title": "Ex Bundles",
+            "updatedAt": "2026-08-27T11:03:36Z"
+          },
+          {
+            "handle": "best-first-period-tween-teen-girl",
+            "id": "gid://shopify/Collection/300248662153",
+            "seo": {
+              "description": "Best First Period Products for Tween and Teen Girls. Girls period underwear, swimwear, kits, pads, tampons and more, designed especially for early menstruation.",
+              "title": "Best First Period Products for Tween and Teen Girls"
+            },
+            "templateSuffix": "kits-first-period",
+            "title": "Best Period Products for Tween and Teen Girls",
+            "updatedAt": "2026-08-27T11:03:36Z"
+          },
+          {
+            "handle": "pre-orders",
+            "id": "gid://shopify/Collection/300727894153",
+            "seo": {
+              "description": null,
+              "title": null
+            },
+            "templateSuffix": "",
+            "title": "Preorders",
+            "updatedAt": "2026-08-27T11:03:36Z"
+          },
+          {
+            "handle": "full-cycle-bumpers-briefs-bundle",
+            "id": "gid://shopify/Collection/302616051849",
+            "seo": {
+              "description": "Period Underwear Starter 5 Pack for Girls. Keep her protected, fresh and comfortable all cycle round. Save $24.95.",
+              "title": "Period Underwear Starter Pack for Girls"
+            },
+            "templateSuffix": "",
+            "title": "Period Underwear Starter Kit",
+            "updatedAt": "2026-08-27T11:03:36Z"
+          },
+          {
+            "handle": "bundle-save",
+            "id": "gid://shopify/Collection/302695153801",
+            "seo": {
+              "description": "Period underwear and swimwear bundles for tween and teen girls. Save on multi-packs of UnderSwim, UnderShortie, Bumpers Briefs, and more.",
+              "title": "Bundle & Save Girls Period Underwear Packs"
+            },
+            "templateSuffix": "bundles",
+            "title": "Bundle & Save Period Underwear Combos",
+            "updatedAt": "2026-08-19T02:09:42Z"
+          },
+          {
+            "handle": "the-active-all-rounder-bundle",
+            "id": "gid://shopify/Collection/302700986505",
+            "seo": {
+              "description": "The Active All-Rounder Bundle. Perfect period underwear pack for girls who love to mix it up in different sports and activities. ",
+              "title": "The Active All-Rounder Bundle | Period Underwear Pack"
+            },
+            "templateSuffix": "bundles",
+            "title": "The Active All-Rounder Bundle",
+            "updatedAt": "2026-08-27T11:03:36Z"
+          },
+          {
+            "handle": "wholesale",
+            "id": "gid://shopify/Collection/304135471241",
+            "seo": {
+              "description": null,
+              "title": null
+            },
+            "templateSuffix": "",
+            "title": "Wholesale",
+            "updatedAt": "2026-08-27T11:03:36Z"
+          },
+          {
+            "handle": "the-pool-perfect-combo",
+            "id": "gid://shopify/Collection/304249929865",
+            "seo": {
+              "description": null,
+              "title": null
+            },
+            "templateSuffix": "bundles",
+            "title": "The Pool Perfect Combo",
+            "updatedAt": "2026-08-27T11:03:36Z"
+          },
+          {
+            "handle": "meta-set",
+            "id": "gid://shopify/Collection/306333384841",
+            "seo": {
+              "description": null,
+              "title": null
+            },
+            "templateSuffix": "",
+            "title": "Meta Set",
+            "updatedAt": "2026-08-27T11:03:36Z"
+          },
+          {
+            "handle": "the-encore-bundle",
+            "id": "gid://shopify/Collection/309409284233",
+            "seo": {
+              "description": null,
+              "title": null
+            },
+            "templateSuffix": "bundles",
+            "title": "The Encore Bundle",
+            "updatedAt": "2026-08-27T11:03:36Z"
+          },
+          {
+            "handle": "us-shop-all",
+            "id": "gid://shopify/Collection/311306158217",
+            "seo": {
+              "description": null,
+              "title": null
+            },
+            "templateSuffix": "shop-all",
+            "title": "US SHOP ALL",
+            "updatedAt": "2026-08-27T11:03:36Z"
+          },
+          {
+            "handle": "the-ready-for-anything-pack-swim-edition",
+            "id": "gid://shopify/Collection/316169912457",
+            "seo": {
+              "description": null,
+              "title": null
+            },
+            "templateSuffix": "",
+            "title": "The Ready-for-Anything Pack (Swim Edition)",
+            "updatedAt": "2026-08-27T11:03:36Z"
+          },
+          {
+            "handle": "us-taxable-product",
+            "id": "gid://shopify/Collection/323437199497",
+            "seo": {
+              "description": null,
+              "title": null
+            },
+            "templateSuffix": "",
+            "title": "US TAXABLE PRODUCT",
+            "updatedAt": "2026-08-27T11:03:36Z"
+          },
+          {
+            "handle": "us-tax-exempt-products",
+            "id": "gid://shopify/Collection/323437396105",
+            "seo": {
+              "description": null,
+              "title": null
+            },
+            "templateSuffix": "",
+            "title": "US TAX EXEMPT PRODUCTS",
+            "updatedAt": "2026-08-27T11:03:36Z"
+          },
+          {
+            "handle": "re-route",
+            "id": "gid://shopify/Collection/323487727753",
+            "seo": {
+              "description": null,
+              "title": null
+            },
+            "templateSuffix": "",
+            "title": "RE-ROUTE",
+            "updatedAt": "2026-08-27T11:03:36Z"
+          },
+          {
+            "handle": "google-feed",
+            "id": "gid://shopify/Collection/324426203273",
+            "seo": {
+              "description": null,
+              "title": null
+            },
+            "templateSuffix": "",
+            "title": "Google Set",
+            "updatedAt": "2026-08-27T11:03:36Z"
+          },
+          {
+            "handle": "for-shopify-performance-tracking",
+            "id": "gid://shopify/Collection/325385650313",
+            "seo": {
+              "description": null,
+              "title": null
+            },
+            "templateSuffix": null,
+            "title": "New! Shopify performance sharing is now turned on",
+            "updatedAt": "2026-08-27T11:03:36Z"
+          },
+          {
+            "handle": "promo-set",
+            "id": "gid://shopify/Collection/326224871561",
+            "seo": {
+              "description": null,
+              "title": null
+            },
+            "templateSuffix": null,
+            "title": "PROMO SET",
+            "updatedAt": "2026-08-27T11:03:36Z"
+          },
+          {
+            "handle": "the-starting-line-up",
+            "id": "gid://shopify/Collection/326440353929",
+            "seo": {
+              "description": null,
+              "title": null
+            },
+            "templateSuffix": null,
+            "title": "The Starting Line-Up",
+            "updatedAt": "2026-08-27T11:03:36Z"
+          },
+          {
+            "handle": "period-swim-underwear",
+            "id": "gid://shopify/Collection/326476824713",
+            "seo": {
+              "description": "Shop period swim underwear and period swim bottoms for period-safe training, competing and recreation. Official Swimming Australia Period-Safe Underwear.",
+              "title": "Official Swimming Australia Period-Safe Underwear | Eltee Sydney"
+            },
+            "templateSuffix": "period-swimwear",
+            "title": "Period Swimwear",
+            "updatedAt": "2026-08-27T11:03:36Z"
+          }
+        ],
+        "pageInfo": {
+          "endCursor": "eyJsYXN0X2lkIjozMjY0NzY4MjQ3MTMsImxhc3RfdmFsdWUiOiIzMjY0NzY4MjQ3MTMifQ==",
+          "hasNextPage": false
+        }
+      }
+    }
+  },
+  "pages": {
+    "data": {
+      "pages": {
+        "nodes": [
+          {
+            "handle": "size-chart",
+            "id": "gid://shopify/Page/79389917321",
+            "templateSuffix": "sizes",
+            "title": "Size Chart & Measuring Tips",
+            "updatedAt": "2025-06-26T00:29:23Z"
+          },
+          {
+            "handle": "contact-us",
+            "id": "gid://shopify/Page/79392374921",
+            "templateSuffix": "contact",
+            "title": "Contact Us",
+            "updatedAt": "2024-01-01T04:49:15Z"
+          },
+          {
+            "handle": "shipping-returns-faqs",
+            "id": "gid://shopify/Page/79392505993",
+            "templateSuffix": "faq",
+            "title": "Delivery & Returns",
+            "updatedAt": "2025-06-29T11:37:34Z"
+          },
+          {
+            "handle": "privacy-policy",
+            "id": "gid://shopify/Page/79399780489",
+            "templateSuffix": "",
+            "title": "Privacy Policy",
+            "updatedAt": "2024-02-01T12:34:32Z"
+          },
+          {
+            "handle": "terms-conditions",
+            "id": "gid://shopify/Page/79399878793",
+            "templateSuffix": "",
+            "title": "Terms & Conditions",
+            "updatedAt": "2026-07-29T05:34:33Z"
+          },
+          {
+            "handle": "family-movement-sessions",
+            "id": "gid://shopify/Page/79795191945",
+            "templateSuffix": "family-movement",
+            "title": "Family Movement Sessions",
+            "updatedAt": "2024-01-01T03:51:25Z"
+          },
+          {
+            "handle": "shop-insta",
+            "id": "gid://shopify/Page/80432365705",
+            "templateSuffix": "shop-insta",
+            "title": "SHOP INSTA",
+            "updatedAt": "2024-01-01T03:51:25Z"
+          },
+          {
+            "handle": "reviews",
+            "id": "gid://shopify/Page/85165670537",
+            "templateSuffix": "all-reviews",
+            "title": "Eltee Sydney Customer Reviews",
+            "updatedAt": "2024-10-16T03:13:59Z"
+          },
+          {
+            "handle": "search-results-page",
+            "id": "gid://shopify/Page/85966356617",
+            "templateSuffix": null,
+            "title": "Search Results",
+            "updatedAt": "2024-01-01T03:51:25Z"
+          },
+          {
+            "handle": "podcast-mighty-girls-keeping-girls-engaged-in-sport",
+            "id": "gid://shopify/Page/89510543497",
+            "templateSuffix": "mighty-girls",
+            "title": "Podcast: Mighty Girls | Keeping Girls Engaged in Sport",
+            "updatedAt": "2024-01-01T03:51:26Z"
+          },
+          {
+            "handle": "trade-login",
+            "id": "gid://shopify/Page/91529347209",
+            "templateSuffix": "trade-login",
+            "title": "Trade Login",
+            "updatedAt": "2024-01-01T03:51:26Z"
+          },
+          {
+            "handle": "mission",
+            "id": "gid://shopify/Page/92793077897",
+            "templateSuffix": "about-us",
+            "title": "Mission",
+            "updatedAt": "2024-04-25T11:25:16Z"
+          },
+          {
+            "handle": "wholesale",
+            "id": "gid://shopify/Page/94725374089",
+            "templateSuffix": "wholesale",
+            "title": "Apply for a Wholesale Account",
+            "updatedAt": "2025-08-08T06:44:05Z"
+          },
+          {
+            "handle": "period-undies-demo-videos",
+            "id": "gid://shopify/Page/95411503241",
+            "templateSuffix": "demo-videos",
+            "title": "Demo videos",
+            "updatedAt": "2024-10-17T22:52:22Z"
+          },
+          {
+            "handle": "first-period-underwear-for-girls",
+            "id": "gid://shopify/Page/95692423305",
+            "templateSuffix": "teen-period-undies",
+            "title": "First Period Underwear for Girls",
+            "updatedAt": "2026-04-03T08:19:46Z"
+          },
+          {
+            "handle": "returns-exchanges",
+            "id": "gid://shopify/Page/96572145801",
+            "templateSuffix": "returns",
+            "title": "Returns & Exchanges",
+            "updatedAt": "2025-06-29T11:36:40Z"
+          },
+          {
+            "handle": "eltee-pharmacy",
+            "id": "gid://shopify/Page/97139523721",
+            "templateSuffix": "pagetify",
+            "title": "eltee-pharmacy",
+            "updatedAt": "2024-06-11T04:01:15Z"
+          },
+          {
+            "handle": "stock-eltee-sydney",
+            "id": "gid://shopify/Page/97489649801",
+            "templateSuffix": "pagetify",
+            "title": "stock-eltee-sydney",
+            "updatedAt": "2024-07-08T07:27:33Z"
+          },
+          {
+            "handle": "period-proof-care-info",
+            "id": "gid://shopify/Page/98268676233",
+            "templateSuffix": "care",
+            "title": "How to Wash Period Undies",
+            "updatedAt": "2024-08-19T15:55:31Z"
+          },
+          {
+            "handle": "customer-portal",
+            "id": "gid://shopify/Page/101793267849",
+            "templateSuffix": "page",
+            "title": "Customer Portal",
+            "updatedAt": "2025-06-29T11:37:12Z"
+          },
+          {
+            "handle": "our-pricing-promise-eltee-sydney",
+            "id": "gid://shopify/Page/103284277385",
+            "templateSuffix": "pricing-eltee-sydney",
+            "title": "Our Pricing Promise",
+            "updatedAt": "2024-12-25T05:49:34Z"
+          },
+          {
+            "handle": "tips-to-ensure-a-leak-free-wear",
+            "id": "gid://shopify/Page/103892517001",
+            "templateSuffix": "fit",
+            "title": "Tips to Ensure a Leak-Free Wear",
+            "updatedAt": "2025-01-10T00:43:08Z"
+          },
+          {
+            "handle": "collection-bundle",
+            "id": "gid://shopify/Page/108292046985",
+            "templateSuffix": null,
+            "title": "Mix and Match",
+            "updatedAt": "2025-04-16T11:27:10Z"
+          },
+          {
+            "handle": "girls-periods-pool",
+            "id": "gid://shopify/Page/108480725129",
+            "templateSuffix": "periods-pools",
+            "title": "Club Pricing and Resources for Swim Coaches and  Centres",
+            "updatedAt": "2025-05-14T04:51:31Z"
+          },
+          {
+            "handle": "quick-order-ws",
+            "id": "gid://shopify/Page/109041451145",
+            "templateSuffix": "samitaWS-QuickOrderForm",
+            "title": "Quick Order Form",
+            "updatedAt": "2025-05-06T10:09:56Z"
+          },
+          {
+            "handle": "faq",
+            "id": "gid://shopify/Page/111201812617",
+            "templateSuffix": "faq-v2",
+            "title": "Frequently Asked Questions",
+            "updatedAt": "2025-07-15T08:51:40Z"
+          },
+          {
+            "handle": "size-chart-inches",
+            "id": "gid://shopify/Page/111510945929",
+            "templateSuffix": "sizes",
+            "title": "Size Chart (Inches)",
+            "updatedAt": "2025-07-06T11:13:00Z"
+          },
+          {
+            "handle": "size-chart-cms",
+            "id": "gid://shopify/Page/111510978697",
+            "templateSuffix": "sizes",
+            "title": "Size Chart Eltee Sydney",
+            "updatedAt": "2025-07-07T09:08:08Z"
+          },
+          {
+            "handle": "store-locator",
+            "id": "gid://shopify/Page/115717144713",
+            "templateSuffix": "store-locator",
+            "title": "Store Locator",
+            "updatedAt": "2025-12-31T03:26:26Z"
+          },
+          {
+            "handle": "join-the-team",
+            "id": "gid://shopify/Page/116280393865",
+            "templateSuffix": "eltee-jobs",
+            "title": "Join the Team",
+            "updatedAt": "2025-11-01T11:23:43Z"
+          },
+          {
+            "handle": "eltee-sydney-x-share-the-dignity",
+            "id": "gid://shopify/Page/116570030217",
+            "templateSuffix": "share-the-dignity",
+            "title": "Eltee Sydney x Share the Dignity",
+            "updatedAt": "2025-11-13T23:28:25Z"
+          },
+          {
+            "handle": "period-inclusive-swim-campaign",
+            "id": "gid://shopify/Page/116901970057",
+            "templateSuffix": "inclusive-swim",
+            "title": "Period-Inclusive Swim Campaign",
+            "updatedAt": "2025-11-18T00:23:27Z"
+          },
+          {
+            "handle": "erina-store",
+            "id": "gid://shopify/Page/116916256905",
+            "templateSuffix": "erina-hq",
+            "title": "Erina Store",
+            "updatedAt": "2026-05-13T01:56:47Z"
+          },
+          {
+            "handle": "returns-jj",
+            "id": "gid://shopify/Page/118208528521",
+            "templateSuffix": "returns",
+            "title": "Returns",
+            "updatedAt": "2025-12-18T01:37:29Z"
+          },
+          {
+            "handle": "returns-es",
+            "id": "gid://shopify/Page/118209151113",
+            "templateSuffix": "returns",
+            "title": "Returns & Exchanges",
+            "updatedAt": "2025-12-10T02:28:48Z"
+          },
+          {
+            "handle": "bloody-good-sport",
+            "id": "gid://shopify/Page/120889442441",
+            "templateSuffix": "bloody-good-sport",
+            "title": "Bloody Good Sport",
+            "updatedAt": "2026-04-10T03:45:01Z"
+          },
+          {
+            "handle": "period-swim-underwear-for-sailing",
+            "id": "gid://shopify/Page/125534634121",
+            "templateSuffix": "sailing-underswim",
+            "title": "Period Swim Underwear for Sailing",
+            "updatedAt": "2026-03-28T04:54:51Z"
+          },
+          {
+            "handle": "comp-swimmers",
+            "id": "gid://shopify/Page/126480449673",
+            "templateSuffix": "tech-suits",
+            "title": "Period Solutions for Competitive Swimmers",
+            "updatedAt": "2026-04-01T03:52:58Z"
+          },
+          {
+            "handle": "para-swimmers",
+            "id": "gid://shopify/Page/126511120521",
+            "templateSuffix": "para-swimmers",
+            "title": "Period Solutions for Para Swimmers",
+            "updatedAt": "2026-04-01T04:14:31Z"
+          }
+        ],
+        "pageInfo": {
+          "endCursor": "eyJsYXN0X2lkIjoxMjY1MTExMjA1MjEsImxhc3RfdmFsdWUiOiIxMjY1MTExMjA1MjEifQ==",
+          "hasNextPage": false
+        }
+      }
+    }
+  },
+  "articles": {
+    "data": {
+      "articles": {
+        "nodes": [
+          {
+            "blog": {
+              "handle": "period-info-guides",
+              "title": "-"
+            },
+            "handle": "school-holiday-activities-adults-enjoy",
+            "id": "gid://shopify/Article/555594645641",
+            "templateSuffix": "gem-555594645641-template",
+            "title": "8 School Holiday Activities For Curious, Sporty and Creative Kids",
+            "updatedAt": "2022-10-01T23:55:22Z"
+          },
+          {
+            "blog": {
+              "handle": "period-info-guides",
+              "title": "-"
+            },
+            "handle": "all-about-confidence",
+            "id": "gid://shopify/Article/555597103241",
+            "templateSuffix": "",
+            "title": "A How To Guide for Building Body Acceptance and Self-Assurance in Girls",
+            "updatedAt": "2024-08-19T17:57:14Z"
+          },
+          {
+            "blog": {
+              "handle": "period-info-guides",
+              "title": "-"
+            },
+            "handle": "sport-doesnt-like-it",
+            "id": "gid://shopify/Article/555597234313",
+            "templateSuffix": "",
+            "title": "Sport, She Just Doesn't Like It",
+            "updatedAt": "2021-04-22T07:17:02Z"
+          },
+          {
+            "blog": {
+              "handle": "period-info-guides",
+              "title": "-"
+            },
+            "handle": "lava-tribe-2021-best-fairest-award",
+            "id": "gid://shopify/Article/555605622921",
+            "templateSuffix": "",
+            "title": "LAVA TRIBE 2021 BEST & FAIREST AWARD",
+            "updatedAt": "2021-04-16T06:25:05Z"
+          },
+          {
+            "blog": {
+              "handle": "period-info-guides",
+              "title": "-"
+            },
+            "handle": "mastering-her-cycle",
+            "id": "gid://shopify/Article/555613880457",
+            "templateSuffix": "",
+            "title": "Mastering Her Cycle Early: The Ultimate Performance Hack for Girls in Sports",
+            "updatedAt": "2024-08-19T18:08:11Z"
+          },
+          {
+            "blog": {
+              "handle": "period-info-guides",
+              "title": "-"
+            },
+            "handle": "mia-freedman-lava-tribe-product-review",
+            "id": "gid://shopify/Article/555647959177",
+            "templateSuffix": "",
+            "title": "Mia Freedman: Lava Tribe product review",
+            "updatedAt": "2024-01-22T07:33:57Z"
+          },
+          {
+            "blog": {
+              "handle": "period-info-guides",
+              "title": "-"
+            },
+            "handle": "why-girls-who-play-sport-win-at-wellbeing",
+            "id": "gid://shopify/Article/555656806537",
+            "templateSuffix": "",
+            "title": "Why Girls Who Play Sport Win At Wellbeing",
+            "updatedAt": "2022-03-21T07:49:17Z"
+          },
+          {
+            "blog": {
+              "handle": "period-info-guides",
+              "title": "-"
+            },
+            "handle": "girls-gym-ready",
+            "id": "gid://shopify/Article/555658477705",
+            "templateSuffix": "sarah-blog-new",
+            "title": "My daughter wants to join the gym, is she too young?",
+            "updatedAt": "2022-07-09T00:07:43Z"
+          },
+          {
+            "blog": {
+              "handle": "period-info-guides",
+              "title": "-"
+            },
+            "handle": "spotlight-on-isla-14-gymnastics-qld",
+            "id": "gid://shopify/Article/555786010761",
+            "templateSuffix": "",
+            "title": "SPOTLIGHT ON: Isla | 14 | Gymnastics | QLD",
+            "updatedAt": "2024-01-02T01:31:50Z"
+          },
+          {
+            "blog": {
+              "handle": "period-info-guides",
+              "title": "-"
+            },
+            "handle": "spotlight-on-sybella-w-12-para-athlete-nsw",
+            "id": "gid://shopify/Article/555786043529",
+            "templateSuffix": "",
+            "title": "SPOTLIGHT ON: Sybella W | 12 | Para Athlete | NSW",
+            "updatedAt": "2021-05-23T01:51:30Z"
+          },
+          {
+            "blog": {
+              "handle": "period-info-guides",
+              "title": "-"
+            },
+            "handle": "six-trailblazing-women-in-australian-sport",
+            "id": "gid://shopify/Article/555807539337",
+            "templateSuffix": "",
+            "title": "Six trailblazing women in Australian sport",
+            "updatedAt": "2021-07-08T23:10:54Z"
+          },
+          {
+            "blog": {
+              "handle": "period-info-guides",
+              "title": "-"
+            },
+            "handle": "four-ways-to-get-the-fam-moving-during-self-isolation",
+            "id": "gid://shopify/Article/555832803465",
+            "templateSuffix": "",
+            "title": "Four ways to get the fam moving during self isolation",
+            "updatedAt": "2021-06-08T10:59:49Z"
+          },
+          {
+            "blog": {
+              "handle": "period-info-guides",
+              "title": "-"
+            },
+            "handle": "8-celebrity-who-rock-their-sporty-style",
+            "id": "gid://shopify/Article/555990253705",
+            "templateSuffix": "",
+            "title": "5 Celebrities Who Rock Their Sporty Style",
+            "updatedAt": "2024-01-02T01:31:58Z"
+          },
+          {
+            "blog": {
+              "handle": "period-info-guides",
+              "title": "-"
+            },
+            "handle": "skin-changes-in-pre-teens",
+            "id": "gid://shopify/Article/556028002441",
+            "templateSuffix": "",
+            "title": "Healthy Skincare Habits Begin Pre-Teen",
+            "updatedAt": "2024-08-19T18:29:25Z"
+          },
+          {
+            "blog": {
+              "handle": "period-info-guides",
+              "title": "-"
+            },
+            "handle": "doing-the-best-i-can",
+            "id": "gid://shopify/Article/556070043785",
+            "templateSuffix": "",
+            "title": "\"Doing the best I can\"",
+            "updatedAt": "2021-08-12T05:34:52Z"
+          },
+          {
+            "blog": {
+              "handle": "period-info-guides",
+              "title": "-"
+            },
+            "handle": "girls-breast-development",
+            "id": "gid://shopify/Article/557782925449",
+            "templateSuffix": "breast-development",
+            "title": "Bosom Buddies: A Relatable Guide to Breast Development",
+            "updatedAt": "2024-02-19T01:01:24Z"
+          },
+          {
+            "blog": {
+              "handle": "period-info-guides",
+              "title": "-"
+            },
+            "handle": "active-life-active-mind-how-sports-and-fitness-help-kids-stay-on-track-at-school",
+            "id": "gid://shopify/Article/558128038025",
+            "templateSuffix": "",
+            "title": "Active Life, Active Mind: How Sports and Fitness Help Kids Stay on Track at School",
+            "updatedAt": "2022-09-27T03:06:47Z"
+          },
+          {
+            "blog": {
+              "handle": "period-info-guides",
+              "title": "-"
+            },
+            "handle": "6-simple-skincare-steps-for-sporty-girls",
+            "id": "gid://shopify/Article/559097282697",
+            "templateSuffix": "new-blog-27-09",
+            "title": "6 Simple Skincare Tips for Sporty Girls",
+            "updatedAt": "2022-09-27T03:03:47Z"
+          },
+          {
+            "blog": {
+              "handle": "period-info-guides",
+              "title": "-"
+            },
+            "handle": "support-sporty-girls-adolescence",
+            "id": "gid://shopify/Article/559531360393",
+            "templateSuffix": "five-ways",
+            "title": "Championing Change: 5 Ways to Keep Her in the Game During Puberty",
+            "updatedAt": "2024-08-19T17:48:42Z"
+          },
+          {
+            "blog": {
+              "handle": "period-info-guides",
+              "title": "-"
+            },
+            "handle": "survey-periods-impact-sport",
+            "id": "gid://shopify/Article/559649980553",
+            "templateSuffix": "blog-period-survey",
+            "title": "Survey: Periods and the Impact on Girls’ Participation in Sport",
+            "updatedAt": "2023-10-30T07:23:24Z"
+          },
+          {
+            "blog": {
+              "handle": "period-info-guides",
+              "title": "-"
+            },
+            "handle": "why-girls-quit-sport",
+            "id": "gid://shopify/Article/559906324617",
+            "templateSuffix": "the-tee-post-default",
+            "title": "Why Girls Quit Sport & How We Can Beat the Dropout Rate",
+            "updatedAt": "2025-02-16T04:53:30Z"
+          },
+          {
+            "blog": {
+              "handle": "period-info-guides",
+              "title": "-"
+            },
+            "handle": "the-gloves-are-on",
+            "id": "gid://shopify/Article/560298786953",
+            "templateSuffix": "",
+            "title": "The Gloves Are On",
+            "updatedAt": "2024-06-07T08:27:55Z"
+          },
+          {
+            "blog": {
+              "handle": "period-info-guides",
+              "title": "-"
+            },
+            "handle": "empowering-girls-through-activewear-and-beyond-a-fathers-vision",
+            "id": "gid://shopify/Article/560407347337",
+            "templateSuffix": "",
+            "title": "A Father's Mission: How a Central Coast dad built the go-to brand for tomorrow's female sports superstars",
+            "updatedAt": "2024-01-02T01:32:11Z"
+          },
+          {
+            "blog": {
+              "handle": "period-info-guides",
+              "title": "-"
+            },
+            "handle": "play-on-tween-and-teen-girls-period-undies",
+            "id": "gid://shopify/Article/560785916041",
+            "templateSuffix": "",
+            "title": "What's so good about our period underwear? Glad you asked!",
+            "updatedAt": "2024-08-19T17:26:41Z"
+          },
+          {
+            "blog": {
+              "handle": "period-info-guides",
+              "title": "-"
+            },
+            "handle": "4-period-signs",
+            "id": "gid://shopify/Article/560961519753",
+            "templateSuffix": "the-tee-post-default",
+            "title": "First Period Alert: 4 Surefire Signs That It's On Its Way",
+            "updatedAt": "2024-10-08T05:01:37Z"
+          },
+          {
+            "blog": {
+              "handle": "period-info-guides",
+              "title": "-"
+            },
+            "handle": "pads-vs-period-undies-whats-the-difference",
+            "id": "gid://shopify/Article/561661837449",
+            "templateSuffix": "pads-vs-period-undies",
+            "title": "Pads vs. Period Underwear: Which is Best for Tweens and Teens?",
+            "updatedAt": "2025-02-16T04:15:18Z"
+          },
+          {
+            "blog": {
+              "handle": "period-info-guides",
+              "title": "-"
+            },
+            "handle": "what-can-girls-wear-under-a-leotard-during-their-period",
+            "id": "gid://shopify/Article/562151784585",
+            "templateSuffix": "period-and-leotards",
+            "title": "What Makes Dance Period Underwear the Best Choice for Active Teens?",
+            "updatedAt": "2024-11-13T19:30:05Z"
+          },
+          {
+            "blog": {
+              "handle": "period-info-guides",
+              "title": "-"
+            },
+            "handle": "first-guide-to-using-pads-and-tampons",
+            "id": "gid://shopify/Article/562602213513",
+            "templateSuffix": "article",
+            "title": "Ultimate First Timer’s Guide to Using Pads and Tampons",
+            "updatedAt": "2025-02-22T06:05:02Z"
+          },
+          {
+            "blog": {
+              "handle": "period-info-guides",
+              "title": "-"
+            },
+            "handle": "keep-your-tropes-sheargold-matildas-remarks-are-no-joke",
+            "id": "gid://shopify/Article/562645565577",
+            "templateSuffix": "marty",
+            "title": "Marty Sheargold’s Matildas Remarks Are No Joke",
+            "updatedAt": "2025-03-03T02:16:42Z"
+          },
+          {
+            "blog": {
+              "handle": "period-info-guides",
+              "title": "-"
+            },
+            "handle": "period-positivity-for-dads",
+            "id": "gid://shopify/Article/562824446089",
+            "templateSuffix": "dads-guide-period",
+            "title": "Period Positivity for Dads With Daughters",
+            "updatedAt": "2025-03-30T04:47:41Z"
+          },
+          {
+            "blog": {
+              "handle": "period-info-guides",
+              "title": "-"
+            },
+            "handle": "mums-v-chappell-roan",
+            "id": "gid://shopify/Article/562851086473",
+            "templateSuffix": "the-tee-post-default",
+            "title": "A Tale of Two Lies: Mums v Chappell Roan",
+            "updatedAt": "2025-04-05T00:50:08Z"
+          },
+          {
+            "blog": {
+              "handle": "period-info-guides",
+              "title": "-"
+            },
+            "handle": "sport-girls-leadership",
+            "id": "gid://shopify/Article/563031113865",
+            "templateSuffix": "raise-leader",
+            "title": "Want to Raise a Leader? Keep Her in Sport",
+            "updatedAt": "2026-03-08T00:34:59Z"
+          },
+          {
+            "blog": {
+              "handle": "period-info-guides",
+              "title": "-"
+            },
+            "handle": "leotards-first-periods-the-awkward-in-between",
+            "id": "gid://shopify/Article/563618480265",
+            "templateSuffix": "leotards-first-periods",
+            "title": "Leotards, First Periods & The Awkward In-Between",
+            "updatedAt": "2025-09-15T09:00:08Z"
+          },
+          {
+            "blog": {
+              "handle": "period-info-guides",
+              "title": "-"
+            },
+            "handle": "first-period-checklist-for-mums",
+            "id": "gid://shopify/Article/563679821961",
+            "templateSuffix": "first-period-checklist",
+            "title": "First Period Checklist for Mums",
+            "updatedAt": "2025-10-01T00:42:48Z"
+          },
+          {
+            "blog": {
+              "handle": "period-info-guides",
+              "title": "-"
+            },
+            "handle": "periodwear-care-tips",
+            "id": "gid://shopify/Article/563752009865",
+            "templateSuffix": "periodwear-care-tips",
+            "title": "Periodwear Care Tips",
+            "updatedAt": "2025-10-15T02:36:59Z"
+          },
+          {
+            "blog": {
+              "handle": "period-info-guides",
+              "title": "-"
+            },
+            "handle": "sport-uniforms-and-periods",
+            "id": "gid://shopify/Article/563810074761",
+            "templateSuffix": "sport-uniforms-periods",
+            "title": "Sport Uniforms and Periods",
+            "updatedAt": "2025-10-28T22:35:02Z"
+          },
+          {
+            "blog": {
+              "handle": "period-info-guides",
+              "title": "-"
+            },
+            "handle": "halloween-stigma-real-horror",
+            "id": "gid://shopify/Article/563833012361",
+            "templateSuffix": "default-actual",
+            "title": "You Want Scary? Try Centuries of Period Stigma.",
+            "updatedAt": "2025-10-31T04:03:57Z"
+          },
+          {
+            "blog": {
+              "handle": "period-info-guides",
+              "title": "-"
+            },
+            "handle": "periodwear-sustainability",
+            "id": "gid://shopify/Article/563886948489",
+            "templateSuffix": "periodwear-sustainability",
+            "title": "Periodwear Sustainability",
+            "updatedAt": "2025-11-13T23:48:05Z"
+          },
+          {
+            "blog": {
+              "handle": "period-info-guides",
+              "title": "-"
+            },
+            "handle": "before-the-podiums",
+            "id": "gid://shopify/Article/564432011401",
+            "templateSuffix": "the-tee-post-default",
+            "title": "Before the Podiums, There Were the Parents",
+            "updatedAt": "2026-02-23T06:28:17Z"
+          },
+          {
+            "blog": {
+              "handle": "period-info-guides",
+              "title": "-"
+            },
+            "handle": "ausviran",
+            "id": "gid://shopify/Article/564531855497",
+            "templateSuffix": "asian-cup",
+            "title": "TONIGHT: Australia v Iran: Playing for a Country at War",
+            "updatedAt": "2026-03-05T05:02:52Z"
+          },
+          {
+            "blog": {
+              "handle": "period-info-guides",
+              "title": "-"
+            },
+            "handle": "australian-female-athletes-shape-of-sport",
+            "id": "gid://shopify/Article/564557545609",
+            "templateSuffix": "women-in-sport",
+            "title": "12 Australian Women Who Changed the Shape of Sport",
+            "updatedAt": "2026-03-08T09:40:32Z"
+          },
+          {
+            "blog": {
+              "handle": "period-info-guides",
+              "title": "-"
+            },
+            "handle": "eltee-sydney-period-swim-comparison",
+            "id": "gid://shopify/Article/564639563913",
+            "templateSuffix": "knicked-period-swim",
+            "title": "Other Period Swimwear vs Eltee Sydney UnderSwim",
+            "updatedAt": "2026-05-21T00:41:32Z"
+          },
+          {
+            "blog": {
+              "handle": "period-info-guides",
+              "title": "-"
+            },
+            "handle": "your-sons-coach-is-teaching-him-more-than-sport",
+            "id": "gid://shopify/Article/564890173577",
+            "templateSuffix": "sons-coach",
+            "title": "Your Son's Coach Is Teaching Him More Than Sport",
+            "updatedAt": "2026-04-27T10:39:32Z"
+          },
+          {
+            "blog": {
+              "handle": "period-info-guides",
+              "title": "-"
+            },
+            "handle": "womens-sport-australia-media",
+            "id": "gid://shopify/Article/565046608009",
+            "templateSuffix": "code-sports",
+            "title": "Women's Sport in Australia: Huge Ratings, Buried by Media",
+            "updatedAt": "2026-06-03T06:34:27Z"
+          },
+          {
+            "blog": {
+              "handle": "period-info-guides",
+              "title": "-"
+            },
+            "handle": "netball-brand-partnerships",
+            "id": "gid://shopify/Article/565073215625",
+            "templateSuffix": "jlp-business-leadership",
+            "title": "What JLP Knows About Netball (That Most Brands Don't... Yet)",
+            "updatedAt": "2026-06-03T02:42:01Z"
+          },
+          {
+            "blog": {
+              "handle": "period-info-guides",
+              "title": "-"
+            },
+            "handle": "women-sport-excellence",
+            "id": "gid://shopify/Article/565379399817",
+            "templateSuffix": "excellence-habit",
+            "title": "Excellence Has a Habit of Spilling Over",
+            "updatedAt": "2026-07-04T01:14:17Z"
+          }
+        ],
+        "pageInfo": {
+          "endCursor": "eyJsYXN0X2lkIjo1NjUzNzkzOTk4MTcsImxhc3RfdmFsdWUiOiI1NjUzNzkzOTk4MTcifQ==",
+          "hasNextPage": false
+        }
+      }
+    }
+  },
+  "menus": {
+    "data": {
+      "menus": {
+        "nodes": [
+          {
+            "handle": "main-menu",
+            "id": "gid://shopify/Menu/56622186562",
+            "items": [
+              {
+                "id": "gid://shopify/MenuItem/555462721673",
+                "resourceId": "gid://shopify/Collection/284583723145",
+                "title": "SHOP ALL",
+                "type": "COLLECTION",
+                "url": "/collections/all"
+              },
+              {
+                "id": "gid://shopify/MenuItem/547798745225",
+                "resourceId": "gid://shopify/Collection/283440447625",
+                "title": "SWIM",
+                "type": "COLLECTION",
+                "url": "/collections/girls-period-swimwear"
+              },
+              {
+                "id": "gid://shopify/MenuItem/547798810761",
+                "resourceId": null,
+                "title": "ACTIVE",
+                "type": "HTTP",
+                "url": "#"
+              },
+              {
+                "id": "gid://shopify/MenuItem/547798876297",
+                "resourceId": "gid://shopify/Collection/300248662153",
+                "title": "EVERYDAY",
+                "type": "COLLECTION",
+                "url": "/collections/best-first-period-tween-teen-girl"
+              },
+              {
+                "id": "gid://shopify/MenuItem/547803693193",
+                "resourceId": null,
+                "title": "OTHER HANDY STUFF",
+                "type": "HTTP",
+                "url": "#"
+              },
+              {
+                "id": "gid://shopify/MenuItem/547798941833",
+                "resourceId": null,
+                "title": "BUNDLE & SAVE",
+                "type": "HTTP",
+                "url": "#"
+              }
+            ],
+            "title": "MAIN (ELTEE)"
+          },
+          {
+            "handle": "footer",
+            "id": "gid://shopify/Menu/56622219330",
+            "items": [],
+            "title": "About"
+          },
+          {
+            "handle": "footer-help",
+            "id": "gid://shopify/Menu/179615858825",
+            "items": [
+              {
+                "id": "gid://shopify/MenuItem/466191876233",
+                "resourceId": "gid://shopify/Page/92793077897",
+                "title": "Our Mission",
+                "type": "PAGE",
+                "url": "/pages/mission"
+              },
+              {
+                "id": "gid://shopify/MenuItem/412379381897",
+                "resourceId": "gid://shopify/Page/111201812617",
+                "title": "FAQs",
+                "type": "PAGE",
+                "url": "/pages/faq"
+              },
+              {
+                "id": "gid://shopify/MenuItem/460909707401",
+                "resourceId": "gid://shopify/Page/94725374089",
+                "title": "Apply for Wholesale Account",
+                "type": "PAGE",
+                "url": "/pages/wholesale"
+              },
+              {
+                "id": "gid://shopify/MenuItem/540798288009",
+                "resourceId": "gid://shopify/Page/108480725129",
+                "title": "Clubs and Swimming Centres",
+                "type": "PAGE",
+                "url": "/pages/girls-periods-pool"
+              },
+              {
+                "id": "gid://shopify/MenuItem/433443471497",
+                "resourceId": "gid://shopify/Page/79392374921",
+                "title": "Contact Us",
+                "type": "PAGE",
+                "url": "/pages/contact-us"
+              },
+              {
+                "id": "gid://shopify/MenuItem/412388622473",
+                "resourceId": "gid://shopify/Page/79399878793",
+                "title": "Terms & Conditions",
+                "type": "PAGE",
+                "url": "/pages/terms-conditions"
+              },
+              {
+                "id": "gid://shopify/MenuItem/412388393097",
+                "resourceId": "gid://shopify/Page/79399780489",
+                "title": "Privacy Policy",
+                "type": "PAGE",
+                "url": "/pages/privacy-policy"
+              }
+            ],
+            "title": "FOOTER"
+          },
+          {
+            "handle": "product-info",
+            "id": "gid://shopify/Menu/202179412105",
+            "items": [
+              {
+                "id": "gid://shopify/MenuItem/473326223497",
+                "resourceId": "gid://shopify/Blog/24754421826",
+                "title": "INFO & GUIDES",
+                "type": "BLOG",
+                "url": "/blogs/period-info-guides"
+              },
+              {
+                "id": "gid://shopify/MenuItem/472360157321",
+                "resourceId": "gid://shopify/Page/95411503241",
+                "title": "PRODUCT DEMOS",
+                "type": "PAGE",
+                "url": "/pages/period-undies-demo-videos"
+              },
+              {
+                "id": "gid://shopify/MenuItem/518025314441",
+                "resourceId": "gid://shopify/Page/85165670537",
+                "title": "REVIEWS",
+                "type": "PAGE",
+                "url": "/pages/reviews"
+              },
+              {
+                "id": "gid://shopify/MenuItem/523070046345",
+                "resourceId": "gid://shopify/Page/79392505993",
+                "title": "FAQs",
+                "type": "PAGE",
+                "url": "/pages/shipping-returns-faqs"
+              },
+              {
+                "id": "gid://shopify/MenuItem/472547688585",
+                "resourceId": null,
+                "title": "CARE",
+                "type": "HTTP",
+                "url": "#"
+              },
+              {
+                "id": "gid://shopify/MenuItem/472360255625",
+                "resourceId": null,
+                "title": "FIT",
+                "type": "HTTP",
+                "url": "#"
+              },
+              {
+                "id": "gid://shopify/MenuItem/472360222857",
+                "resourceId": "gid://shopify/Page/95692423305",
+                "title": "Best Period Undies for Tweens & Teens",
+                "type": "PAGE",
+                "url": "/pages/first-period-underwear-for-girls"
+              },
+              {
+                "id": "gid://shopify/MenuItem/472360288393",
+                "resourceId": "gid://shopify/Page/96572145801",
+                "title": "Returns & Exchanges",
+                "type": "PAGE",
+                "url": "/pages/returns-exchanges"
+              }
+            ],
+            "title": "PRODUCT INFO"
+          },
+          {
+            "handle": "customer-account-main-menu",
+            "id": "gid://shopify/Menu/204238389385",
+            "items": [
+              {
+                "id": "gid://shopify/MenuItem/494741422217",
+                "resourceId": "gid://shopify/CustomerAccountPage/47669084297",
+                "title": "Orders",
+                "type": "CUSTOMER_ACCOUNT_PAGE",
+                "url": "https://account.elteesydney.com.au/orders"
+              },
+              {
+                "id": "gid://shopify/MenuItem/579992486025",
+                "resourceId": "gid://shopify/CustomerAccountPage/47669117065",
+                "title": "Profile",
+                "type": "CUSTOMER_ACCOUNT_PAGE",
+                "url": "https://account.elteesydney.com.au/profile"
+              }
+            ],
+            "title": "Customer account main menu"
+          },
+          {
+            "handle": "handy-stuff",
+            "id": "gid://shopify/Menu/223247761545",
+            "items": [
+              {
+                "id": "gid://shopify/MenuItem/547023323273",
+                "resourceId": "gid://shopify/Page/111201812617",
+                "title": "HELP DESK",
+                "type": "PAGE",
+                "url": "/pages/faq"
+              },
+              {
+                "id": "gid://shopify/MenuItem/547026862217",
+                "resourceId": null,
+                "title": "PROOF & PROMISE",
+                "type": "HTTP",
+                "url": "#"
+              },
+              {
+                "id": "gid://shopify/MenuItem/534900310153",
+                "resourceId": null,
+                "title": "INFO, GUIDES & TIPS (Blog)",
+                "type": "HTTP",
+                "url": "#"
+              },
+              {
+                "id": "gid://shopify/MenuItem/547716726921",
+                "resourceId": "gid://shopify/Page/79392374921",
+                "title": "ABOUT ELTEE",
+                "type": "PAGE",
+                "url": "/pages/contact-us"
+              },
+              {
+                "id": "gid://shopify/MenuItem/566986277001",
+                "resourceId": null,
+                "title": "ADVOCACY",
+                "type": "HTTP",
+                "url": "#"
+              }
+            ],
+            "title": "HELP DESK (J&J)"
+          },
+          {
+            "handle": "mobile",
+            "id": "gid://shopify/Menu/223263359113",
+            "items": [
+              {
+                "id": "gid://shopify/MenuItem/534381953161",
+                "resourceId": null,
+                "title": "SHOP",
+                "type": "HTTP",
+                "url": "#"
+              },
+              {
+                "id": "gid://shopify/MenuItem/541783392393",
+                "resourceId": null,
+                "title": "HELP DESK",
+                "type": "HTTP",
+                "url": "#"
+              },
+              {
+                "id": "gid://shopify/MenuItem/547025682569",
+                "resourceId": null,
+                "title": "PROOF & PROMISES",
+                "type": "HTTP",
+                "url": "#"
+              },
+              {
+                "id": "gid://shopify/MenuItem/550098272393",
+                "resourceId": "gid://shopify/Page/79392374921",
+                "title": "CONTACT US",
+                "type": "PAGE",
+                "url": "/pages/contact-us"
+              },
+              {
+                "id": "gid://shopify/MenuItem/566984999049",
+                "resourceId": null,
+                "title": "ADVOCACY",
+                "type": "FRONTPAGE",
+                "url": "/"
+              }
+            ],
+            "title": "MOBILE (ELTEE)"
+          },
+          {
+            "handle": "bundle-save",
+            "id": "gid://shopify/Menu/223468224649",
+            "items": [
+              {
+                "id": "gid://shopify/MenuItem/535237755017",
+                "resourceId": null,
+                "title": "SHOP BY BUNDLE",
+                "type": "HTTP",
+                "url": "#"
+              },
+              {
+                "id": "gid://shopify/MenuItem/535204659337",
+                "resourceId": "gid://shopify/Collection/302695153801",
+                "title": "SHOP ALL BUNDLES & COMBOS",
+                "type": "COLLECTION",
+                "url": "/collections/bundle-save"
+              }
+            ],
+            "title": "BUNDLE & SAVE"
+          },
+          {
+            "handle": "product-demo-videos",
+            "id": "gid://shopify/Menu/228521738377",
+            "items": [
+              {
+                "id": "gid://shopify/MenuItem/547023814793",
+                "resourceId": "gid://shopify/Page/95411503241",
+                "title": "PRODUCT DEMO VIDEOS",
+                "type": "PAGE",
+                "url": "/pages/period-undies-demo-videos"
+              }
+            ],
+            "title": "PRODUCT DEMO VIDEOS"
+          },
+          {
+            "handle": "proof-promise",
+            "id": "gid://shopify/Menu/228522524809",
+            "items": [
+              {
+                "id": "gid://shopify/MenuItem/547025748105",
+                "resourceId": "gid://shopify/Page/95411503241",
+                "title": "PRODUCT DEMO VIDEOS",
+                "type": "PAGE",
+                "url": "/pages/period-undies-demo-videos"
+              },
+              {
+                "id": "gid://shopify/MenuItem/547025780873",
+                "resourceId": "gid://shopify/Page/85165670537",
+                "title": "REVIEWS",
+                "type": "PAGE",
+                "url": "/pages/reviews"
+              },
+              {
+                "id": "gid://shopify/MenuItem/547025813641",
+                "resourceId": "gid://shopify/Page/103284277385",
+                "title": "PRICING PROMISE",
+                "type": "PAGE",
+                "url": "/pages/our-pricing-promise-eltee-sydney"
+              }
+            ],
+            "title": "PROOF & PROMISES"
+          },
+          {
+            "handle": "main-us-can",
+            "id": "gid://shopify/Menu/235650187401",
+            "items": [
+              {
+                "id": "gid://shopify/MenuItem/564214169737",
+                "resourceId": "gid://shopify/Collection/284583723145",
+                "title": "SHOP ALL",
+                "type": "COLLECTION",
+                "url": "/collections/all"
+              },
+              {
+                "id": "gid://shopify/MenuItem/591123087497",
+                "resourceId": "gid://shopify/Collection/283440447625",
+                "title": "SWIM",
+                "type": "COLLECTION",
+                "url": "/collections/girls-period-swimwear"
+              },
+              {
+                "id": "gid://shopify/MenuItem/564213219465",
+                "resourceId": null,
+                "title": "ACTIVE",
+                "type": "HTTP",
+                "url": "#"
+              },
+              {
+                "id": "gid://shopify/MenuItem/564213481609",
+                "resourceId": "gid://shopify/Page/95692423305",
+                "title": "EVERYDAY ESSENTIALS",
+                "type": "PAGE",
+                "url": "/pages/first-period-underwear-for-girls"
+              },
+              {
+                "id": "gid://shopify/MenuItem/586829430921",
+                "resourceId": null,
+                "title": "BUNDLES",
+                "type": "HTTP",
+                "url": "#"
+              },
+              {
+                "id": "gid://shopify/MenuItem/580503306377",
+                "resourceId": null,
+                "title": "OTHER HANDY STUFF",
+                "type": "HTTP",
+                "url": "https://elteesydney.com/#"
+              }
+            ],
+            "title": "MAIN (J&J)"
+          },
+          {
+            "handle": "help-desk-eltee",
+            "id": "gid://shopify/Menu/238032781449",
+            "items": [
+              {
+                "id": "gid://shopify/MenuItem/569975210121",
+                "resourceId": "gid://shopify/Page/111201812617",
+                "title": "HELP DESK",
+                "type": "PAGE",
+                "url": "/pages/faq"
+              },
+              {
+                "id": "gid://shopify/MenuItem/569975406729",
+                "resourceId": null,
+                "title": "PROOF & PROMISE",
+                "type": "HTTP",
+                "url": "#"
+              },
+              {
+                "id": "gid://shopify/MenuItem/569975537801",
+                "resourceId": null,
+                "title": "INFO, GUIDES & TIPS (Blog)",
+                "type": "HTTP",
+                "url": "#"
+              },
+              {
+                "id": "gid://shopify/MenuItem/569975734409",
+                "resourceId": "gid://shopify/Page/79392374921",
+                "title": "ABOUT ELTEE",
+                "type": "PAGE",
+                "url": "/pages/contact-us"
+              },
+              {
+                "id": "gid://shopify/MenuItem/569975865481",
+                "resourceId": null,
+                "title": "ADVOCACY",
+                "type": "HTTP",
+                "url": "#"
+              }
+            ],
+            "title": "HELP DESK (ELTEE)"
+          },
+          {
+            "handle": "mobile-us-can-uk",
+            "id": "gid://shopify/Menu/241926242441",
+            "items": [
+              {
+                "id": "gid://shopify/MenuItem/580501110921",
+                "resourceId": null,
+                "title": "SHOP",
+                "type": "HTTP",
+                "url": "#"
+              },
+              {
+                "id": "gid://shopify/MenuItem/580502126729",
+                "resourceId": null,
+                "title": "HELP DESK",
+                "type": "HTTP",
+                "url": "#"
+              },
+              {
+                "id": "gid://shopify/MenuItem/580502290569",
+                "resourceId": null,
+                "title": "PROOF & PROMISES",
+                "type": "HTTP",
+                "url": "#"
+              },
+              {
+                "id": "gid://shopify/MenuItem/580502421641",
+                "resourceId": "gid://shopify/Page/79392374921",
+                "title": "CONTACT US",
+                "type": "PAGE",
+                "url": "/pages/contact-us"
+              }
+            ],
+            "title": "MOBILE (J&J)"
+          },
+          {
+            "handle": "blog",
+            "id": "gid://shopify/Menu/243401916553",
+            "items": [
+              {
+                "id": "gid://shopify/MenuItem/587571462281",
+                "resourceId": "gid://shopify/Blog/24754421826",
+                "title": "Blog Home",
+                "type": "BLOG",
+                "url": "/blogs/period-info-guides"
+              }
+            ],
+            "title": "Blog"
+          },
+          {
+            "handle": "new-menu-aus",
+            "id": "gid://shopify/Menu/251202109577",
+            "items": [
+              {
+                "id": "gid://shopify/MenuItem/608779272329",
+                "resourceId": null,
+                "title": "SHOP",
+                "type": "HTTP",
+                "url": "#"
+              },
+              {
+                "id": "gid://shopify/MenuItem/608872464521",
+                "resourceId": null,
+                "title": "INFO",
+                "type": "HTTP",
+                "url": "#"
+              }
+            ],
+            "title": "NEW MENU AUS"
+          }
+        ],
+        "pageInfo": {
+          "endCursor": "eyJsYXN0X2lkIjoyNTEyMDIxMDk1NzcsImxhc3RfdmFsdWUiOjI1MTIwMjEwOTU3N30=",
+          "hasNextPage": false
+        }
+      }
+    }
+  },
+  "markets": {
+    "data": {
+      "markets": {
+        "nodes": [
+          {
+            "currencySettings": {
+              "baseCurrency": {
+                "currencyCode": "AUD"
+              }
+            },
+            "handle": "australia",
+            "id": "gid://shopify/Market/53512798345",
+            "name": "Australia",
+            "status": "ACTIVE",
+            "type": "REGION"
+          },
+          {
+            "currencySettings": {
+              "baseCurrency": {
+                "currencyCode": "CAD"
+              }
+            },
+            "handle": "canada",
+            "id": "gid://shopify/Market/53512667273",
+            "name": "Canada",
+            "status": "ACTIVE",
+            "type": "REGION"
+          },
+          {
+            "currencySettings": {
+              "baseCurrency": {
+                "currencyCode": "AUD"
+              }
+            },
+            "handle": "europe",
+            "id": "gid://shopify/Market/55673749641",
+            "name": "Europe",
+            "status": "ACTIVE",
+            "type": "REGION"
+          },
+          {
+            "currencySettings": {
+              "baseCurrency": {
+                "currencyCode": "NZD"
+              }
+            },
+            "handle": "new-zealand",
+            "id": "gid://shopify/Market/30043111561",
+            "name": "New Zealand",
+            "status": "ACTIVE",
+            "type": "REGION"
+          },
+          {
+            "currencySettings": {
+              "baseCurrency": {
+                "currencyCode": "USD"
+              }
+            },
+            "handle": "other",
+            "id": "gid://shopify/Market/51456835721",
+            "name": "Other Countries & Regions",
+            "status": "ACTIVE",
+            "type": "REGION"
+          },
+          {
+            "currencySettings": {
+              "baseCurrency": {
+                "currencyCode": "GBP"
+              }
+            },
+            "handle": "united-kingdom",
+            "id": "gid://shopify/Market/52104855689",
+            "name": "United Kingdom",
+            "status": "ACTIVE",
+            "type": "REGION"
+          },
+          {
+            "currencySettings": {
+              "baseCurrency": {
+                "currencyCode": "USD"
+              }
+            },
+            "handle": "united-states-1",
+            "id": "gid://shopify/Market/53512765577",
+            "name": "United States",
+            "status": "ACTIVE",
+            "type": "REGION"
+          }
+        ],
+        "pageInfo": {
+          "endCursor": "eyJsYXN0X2lkIjo1MzUxMjc2NTU3NywibGFzdF92YWx1ZSI6IlVuaXRlZCBTdGF0ZXMifQ==",
+          "hasNextPage": false
+        }
+      }
+    }
+  },
+  "redirects": {
+    "nodes": [
+      {
+        "id": "gid://shopify/UrlRedirect/251520188553",
+        "path": "/afterpay",
+        "target": "/shipping-returns-faqs"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/251520286857",
+        "path": "/get-in-touch",
+        "target": "/contact-us"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/251706146953",
+        "path": "/products/blitz-it-shorts-graphite",
+        "target": "/products/graphite-shorts"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/251725545609",
+        "path": "/collections/accessories",
+        "target": "/collections/girls-accessories"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/253956259977",
+        "path": "/collections/crops-tops",
+        "target": "/collections/girls-sport-crop-tops"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/253956325513",
+        "path": "/collections/leggings",
+        "target": "/collections/girls-sports-leggings"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/254103945353",
+        "path": "/collections/shorts",
+        "target": "/collections/girls-sport-shorts"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/254103978121",
+        "path": "/collections/girls-sport-shorts",
+        "target": "/collections/girls-sports-shorts"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/254107123849",
+        "path": "/collections/leotards",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/254107189385",
+        "path": "/products/t-shirt?variant=15661211779138",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/254136287369",
+        "path": "/product/set-me-up-isosceles-dreams-crop-shorties-bundle",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/254136320137",
+        "path": "/product-category/collections/classique",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/254136352905",
+        "path": "/product/set-me-up-balzing-arrow-print-bundle",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/254136385673",
+        "path": "/product-category/collections/isosceles-dreams",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/254136418441",
+        "path": "/product-category/collections/blazing-arrow",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/254136451209",
+        "path": "/product/hi-po-cap",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/254136483977",
+        "path": "/product/isosceles-dreams-shorts",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/254136516745",
+        "path": "/shop-classique",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/254136549513",
+        "path": "/product/set-me-up-classique-bundle",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/254136582281",
+        "path": "/sets",
+        "target": "/collections/girls-activewear-sets"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/254136615049",
+        "path": "/product/csws-tie-up-tank",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/254136647817",
+        "path": "/product-category/crop-tops",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/254136680585",
+        "path": "/shop-id",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/254136746121",
+        "path": "/product-category/collections/bombora",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/254136778889",
+        "path": "/skylah-hamill",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/254136811657",
+        "path": "/product/mackerel-sky-shorts",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/254140088457",
+        "path": "/pages/about-us",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/254178623625",
+        "path": "/cms/wp-admin",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/254178656393",
+        "path": "/size-guide-2",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/254178689161",
+        "path": "/collection/splatterpuss",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/254179901577",
+        "path": "/products/girls-sports-crop-top-splatterpuss",
+        "target": "/products/girls-sports-crop-top-camo"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/254179934345",
+        "path": "/products/active-girls-leggings-splatterpuss",
+        "target": "/products/active-girls-leggings-camo"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/254179967113",
+        "path": "/products/girls-sports-shorts-splatterpuss",
+        "target": "/products/girls-sports-shorts-camo"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/254179999881",
+        "path": "/collections/splatterpuss",
+        "target": "/collections/camo"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/254180688009",
+        "path": "/collections/splatterpuss/products/girls-sports-crop-top-splatterpuss",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/254180753545",
+        "path": "/product/buy-the-set-and-save-blazing-arrow-graphite-bundle",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/254563352713",
+        "path": "/discount/i-heart-hoodies?redirect=%2fproducts%2fgirls-hoodie-jumper",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/254563385481",
+        "path": "?utm_campaign=newsletter-custom-288e3063f6c04ec08fe0d04cf4e36a01&utm_medium=email&utm_source=seguno",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/254576885897",
+        "path": "/collections/camo/products/girls-sports-shorts-zanzi",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/255054086281",
+        "path": "/shop-sale",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/255054119049",
+        "path": "/shop-eq",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/255054151817",
+        "path": "/shop-leggings",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/255054184585",
+        "path": "/products/pp-shorts",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/255054217353",
+        "path": "/product-category/collections/patchy-patchy",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/255054250121",
+        "path": "/girls-play-sports-win-wellbeing",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/255054282889",
+        "path": "/product-category/leotards",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/255054446729",
+        "path": "/products/girls-active-crop-chill",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/255054479497",
+        "path": "/product/hi-po-glitter-cap-blush",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/255054545033",
+        "path": "/eq-collection",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/255054676105",
+        "path": "/products/girls-tracksuit-set",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/255054807177",
+        "path": "/my-account",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/255054938249",
+        "path": "/product/lavaband",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/255054971017",
+        "path": "/product/dont-sweat-it-leotard",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/255055003785",
+        "path": "/4-ways-workout-covid-19",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/255055036553",
+        "path": "/collection/zanzi",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/255055069321",
+        "path": "/store-products-sitemap.xml",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/255055134857",
+        "path": "/ad",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/255055200393",
+        "path": "/product/blitz-it-leggings",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/255055233161",
+        "path": "/pages",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/255055265929",
+        "path": "/product/full-swing-shorts",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/255055298697",
+        "path": "/collections/crop",
+        "target": "/collections/girls-sport-crop-tops"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/255055331465",
+        "path": "/product/kaladi-crop-top",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/255055364233",
+        "path": "/shop-bombora",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/255055429769",
+        "path": "/orders",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/255055462537",
+        "path": "/challenge",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/255055495305",
+        "path": "/shop/checkout",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/255055528073",
+        "path": "/products/active-girls-leggings-camo",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/255055560841",
+        "path": "/products/girls-hoodie-jumper%f0%9f%9b%8d",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/255055593609",
+        "path": "/products/own-the-ropes-crop-tops",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/255055691913",
+        "path": "/1627619801",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/255055757449",
+        "path": "/product/fnf-tank",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/255055790217",
+        "path": "/collections/splatterpuss/splatterpuss",
+        "target": "/collections/camo"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/255055822985",
+        "path": "/collections/splatterpuss/products/girls-sports-shorts-splatterpuss",
+        "target": "/collections/camo"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/261671256201",
+        "path": "/products/girls-breeze-tank-top-dusty-pink",
+        "target": "/products/girls-breeze-tank-top"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/262455853193",
+        "path": "/collections/shop-cherry-leopard",
+        "target": "/collections/cherry-leopard-girls-activewear-set"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/262455918729",
+        "path": "/collections/zanzi",
+        "target": "/collections/zanzi-girls-activewear-set"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/262456017033",
+        "path": "/collections/performance-black",
+        "target": "/collections/performance-black-girls-activewear-set"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/262456049801",
+        "path": "/collections/paisley",
+        "target": "/collections/paisley-girls-activewear-set"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/262456148105",
+        "path": "/collections/joie-print",
+        "target": "/collections/joie-girls-activewear-set"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/262652264585",
+        "path": "/products/ponytail-cap-blush",
+        "target": "/collections/ponytail-caps"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/262652297353",
+        "path": "/collections/girls-accessories/products/ponytail-cap-chrome",
+        "target": "/collections/ponytail-caps"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/262799392905",
+        "path": "/products/lava-tribe-girls-activewear-gift-card",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/262799425673",
+        "path": "/product/girls-hoodie-jumper",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/262799458441",
+        "path": "/shop-accessories",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/262799491209",
+        "path": "/product/girls-fleece-track-pants",
+        "target": "/collections/girls-tracksuits"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/262811713673",
+        "path": "/cart__trashed",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/262811746441",
+        "path": "/collections/girls-tracksuits/products/z2lybhmtag",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/262811779209",
+        "path": "/collections/z2lybhmtc3",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/262811811977",
+        "path": "/collections/cgvyzm9ybw",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/262856212617",
+        "path": "/products/ywn0axzllw",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/262861291657",
+        "path": "/collections/ponytail-caps",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/262861357193",
+        "path": "/girls-activewear",
+        "target": "/collections/kids-activewear"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/262881247369",
+        "path": "/collections/collections",
+        "target": "/collections/girls-activewear-sets"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/262918602889",
+        "path": "/collections/zanzi-girls-activewear-set",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/262918635657",
+        "path": "/products/yi1mcmvzac",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/263765033097",
+        "path": "/collections/mackerel-sky",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/263765065865",
+        "path": "/collections/patchy-patchy",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/263765098633",
+        "path": "/blogs/tribe-vibes/z2lybhmty3",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/263765131401",
+        "path": "/collections/z2lybhmtdh",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/263765164169",
+        "path": "/collections/c2hvcc1jag",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/263765196937",
+        "path": "/cms",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/263765229705",
+        "path": "/collections/y2hlcnj5lw",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/263765262473",
+        "path": "/pages/c2hpchbpbm",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/263765295241",
+        "path": "/product/mackerel-sky-girls-crop",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/263765328009",
+        "path": "/aad",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/263765360777",
+        "path": "/collections/girls-accessories",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/263765426313",
+        "path": "/products/fierce-not-fancy-tie-up-sports-top",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/266238918793",
+        "path": "/collections/heyday-set/products/z2lybhmtc3",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/266238951561",
+        "path": "/collections/am9pzs1nax",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/266238984329",
+        "path": "/collections/z2lybhmtzx",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/266239017097",
+        "path": "/collections/heyday-set/products/z2lybhmtzn",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/266239049865",
+        "path": "/shop-blazing-arrow",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/266239082633",
+        "path": "/collections/shop-offer%22",
+        "target": "/collections/shop-offer"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/266239115401",
+        "path": "/products/z2lybhmtym",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/266239148169",
+        "path": "/products/z2lybhmtc3",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/266239213705",
+        "path": "/products/z2lybhmtcg",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/266936385673",
+        "path": "/products/seamless-girls-period-hi-cut-briefs",
+        "target": "/products/seamless-girls-period-hi-cut-bikini"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/267283431561",
+        "path": "/collections/girls-sports-leggings/products/active-girls-leggings-camo",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/267283464329",
+        "path": "/collections/z3jvd2luzy",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/267283497097",
+        "path": "/collections/mantra-tanks",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/267283529865",
+        "path": "/collections/c2fszs1hbg",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/267553013897",
+        "path": "/blogs/tribe-vibes/10-ways-to-attack-a-school-holiday-screen-slump",
+        "target": "/blogs/tribe-vibes/school-holiday-activities-adults-enjoy"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/267590500489",
+        "path": "/blogs/tribe-vibes/c2nob29slw",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/267590533257",
+        "path": "/collections/z2lybhmtyw",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/267590566025",
+        "path": "/products/venice-beach-tracksuit-pants",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/268034900105",
+        "path": "/pages/cg9ky2fzdc",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/268034932873",
+        "path": "/kids-activewear",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/268034965641",
+        "path": "/products/venice-beach-soft-hoodie",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/268034998409",
+        "path": "/collections/shop-accessories/products/z2lybhmtc3",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/268035031177",
+        "path": "/product/bombora-girls-active-cami-crop-chill",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/268035063945",
+        "path": "/products/venice-beach-girls-tracksuit-pants-blush-pink",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/268162138249",
+        "path": "/collections/kids-activewear",
+        "target": "/collections/girls-sportswear"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/268179210377",
+        "path": "/collections/girls-sportswear-sets",
+        "target": "/collections/girls-activewear-sets"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/268554272905",
+        "path": "/products/breeze-tank-soft-khaki",
+        "target": "/products/sports-tank-top-khaki"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/268554305673",
+        "path": "/products/girls-breeze-tank-top",
+        "target": "/products/sports-tank-top-pink"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/268559581321",
+        "path": "/products/ponytail-cap-chrome",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/268559614089",
+        "path": "/products/venice-beach-girls-hoodie-jumper-blush-pink",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/268559646857",
+        "path": "/products/d2vsy29tzs",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/268559679625",
+        "path": "/products/awtvlwnhbg",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/268559712393",
+        "path": "/products/z3jhy2utb2",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/268559745161",
+        "path": "/products/z2lybhmtzm",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/268559777929",
+        "path": "/products/z2lybhmtag",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/268559810697",
+        "path": "/products/pick-me-up-cards",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/268559843465",
+        "path": "/product/fierce-not-fancy-tie-up-sports-top",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/268559876233",
+        "path": "/products/ponytail-cap-chill",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/269023805577",
+        "path": "/collections/shop-accessories",
+        "target": "/collections/shop-sporty-girl-gifts"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/269053558921",
+        "path": "/collections/gift-vouchers",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/269053689993",
+        "path": "/products/girls-skincare-travel-pack",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/269053722761",
+        "path": "/privacy-policy",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/269053755529",
+        "path": "/cms/wp-content/uploads/2018/10/leotard-back-800x1200.jpg",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/269053788297",
+        "path": "/cms/wp-content/uploads/2019/08/lt_fullswing_callati-2160-1-800x1200.jpg",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/269053821065",
+        "path": "/cms/wp-content/uploads/2019/02/leotard-side.jpg",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/269053886601",
+        "path": "/products/active-girls-shorts-powerplum",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/269053919369",
+        "path": "/pages/3voucherscomp",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/269053952137",
+        "path": "/pages/3xvoucherscomp",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/269053984905",
+        "path": "/competition",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/269054017673",
+        "path": "/compeition",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/269054115977",
+        "path": "/product/girls-skincare-travel-pack",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/269054148745",
+        "path": "/products/cgvyaw9klx",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/269054181513",
+        "path": "/collections/ywxslwdpcm",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/269413679241",
+        "path": "/products/grace-back-on-the-court-by-nsw-swifts-maddy-proud",
+        "target": "/products/maddy-proud-netball-book"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/269593772169",
+        "path": "/collections/sporty-girls-books",
+        "target": "/collections/sporty-girl-books"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/272119988361",
+        "path": "/blogs/tribe-vibes/survey-periods-and-the-impact-on-girls-participation-in-sport",
+        "target": "/blogs/tribe-vibes/survey-periods-impact-sport"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/272165601417",
+        "path": "/.../products/girls-sport-socks",
+        "target": "/products/girls-sport-socks"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/272165666953",
+        "path": "/collections/ponytail-caps/products/cg9uexrhaw",
+        "target": "/products/ponytail-cap-gold"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/272248045705",
+        "path": "/collections/growing-up-stuff",
+        "target": "/collections/girls-sports-essentials"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/272589619337",
+        "path": "/products/girls-first-period-kit-with-case",
+        "target": "/products/girls-first-period-pouch-kit"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/272589947017",
+        "path": "/products/her-first-period-kit",
+        "target": "/products/girls-first-period-pouch-kit"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/274271043721",
+        "path": "/collections/girls-feminine-hygiene",
+        "target": "/collections/girls-period-products"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/274504941705",
+        "path": "/products/pb-sports-crop-top",
+        "target": "/products/pbv2-sports-crop-top"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/274628935817",
+        "path": "/collections/performance-black-girls-activewear-set",
+        "target": "/collections/pbv2-activewear-set"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/275856818313",
+        "path": "/pages/girls-activewear-sets-1",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/275856851081",
+        "path": "/comments",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/275928645769",
+        "path": "/collections/girls-sports-essentials",
+        "target": "/collections/period-products"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/275957285001",
+        "path": "/pages/3-vouchers-comp",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/275957317769",
+        "path": "/wp-admin",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/275957350537",
+        "path": "/products/own-the-ropes-crop-top-isosceles-dreams",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/275957416073",
+        "path": "/products/girls-leggings-blue-chill",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/275957448841",
+        "path": "/products/csws-tie-up-tank",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/275957481609",
+        "path": "/products/no-holds-tank-aqua",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/275957514377",
+        "path": "/products/girls-crop-powerplum",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/275957547145",
+        "path": "/products/clean-sweep-girls-active-tee-blossom",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/275957579913",
+        "path": "/products/pp-leggings",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/275957612681",
+        "path": "/products/girls-sports-crop-top-camo",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/275957645449",
+        "path": "/products/mackerel-sky-girls-crop",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/275957678217",
+        "path": "/products/graphite-leggings",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/275957710985",
+        "path": "/products/girls-performance-black-leggings",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/275957743753",
+        "path": "/products/mackerel-sky-leggings",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/275957776521",
+        "path": "/products/active-girls-shorts-chill",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/275957809289",
+        "path": "/products/graphite-shorts",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/275957842057",
+        "path": "/products/pp-crop",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/275957874825",
+        "path": "/products/girls-black-shorts",
+        "target": "/products/period-shortie-briefs"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/275957940361",
+        "path": "/products/eq-leggings",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/275957973129",
+        "path": "/products/lava-tie-up-sports-top",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/275958005897",
+        "path": "/products/girls-fleece-track-pants",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/275958038665",
+        "path": "/products/blitz-it-shorts-arrow-print",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/275958071433",
+        "path": "/products/isosceles-dreams-shorts",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/275958104201",
+        "path": "/products/clean-sweep-tee-aqua",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/275958136969",
+        "path": "/products/girls-sports-shorts-camo",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/275958169737",
+        "path": "/products/active-girls-sports-shorts-zanzi",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/275958202505",
+        "path": "/collections/gift-ideas/products/lava-tribe-girls-activewear-gift-card",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/275958235273",
+        "path": "/tribe-vibes-blog",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/275971473545",
+        "path": "/products/mackerel-sky-shorts",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/276209467529",
+        "path": "/collections/vendors",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/276342472841",
+        "path": "/collections/camo/camo",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/276359086217",
+        "path": "/products/c3bvcnrzlx",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/276359118985",
+        "path": "/products/c2vhbwxlc3",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/276359151753",
+        "path": "/products/z2lybhmtzn",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/276484391049",
+        "path": "/pages/eltee-wholesale-partners",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/276507132041",
+        "path": "/wholesale",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/276510343305",
+        "path": "/pagess/reviews",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/276593934473",
+        "path": "/collections/girls-sports-shorts/products/girls-sports-shorts-camo",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/276697677961",
+        "path": "/ethical-sourcing",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/276706295945",
+        "path": "/blogs/tribe-vibes",
+        "target": "/blogs/the-tee"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/276706328713",
+        "path": "/blogs/tribe-vibes/the-gloves-are-on",
+        "target": "/blogs/the-tee/the-gloves-are-on"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/276706361481",
+        "path": "/blogs/tribe-vibes/research-results-breaking-the-barriers-menstruation-and-sports-participation-among-tween-and-teen-girls",
+        "target": "/blogs/the-tee/research-results-breaking-the-barriers-menstruation-and-sports-participation-among-tween-and-teen-girls"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/276706394249",
+        "path": "/blogs/tribe-vibes/survey-periods-impact-sport",
+        "target": "/blogs/the-tee/survey-periods-impact-sport"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/276706427017",
+        "path": "/blogs/tribe-vibes/support-sporty-girls-adolescence",
+        "target": "/blogs/the-tee/support-sporty-girls-adolescence"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/276706459785",
+        "path": "/blogs/tribe-vibes/school-holiday-activities-adults-enjoy",
+        "target": "/blogs/the-tee/school-holiday-activities-adults-enjoy"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/276706492553",
+        "path": "/blogs/tribe-vibes/6-simple-skincare-steps-for-sporty-girls",
+        "target": "/blogs/the-tee/6-simple-skincare-steps-for-sporty-girls"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/276706525321",
+        "path": "/blogs/tribe-vibes/girls-gym-ready",
+        "target": "/blogs/the-tee/girls-gym-ready"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/276706558089",
+        "path": "/blogs/tribe-vibes/active-life-active-mind-how-sports-and-fitness-help-kids-stay-on-track-at-school",
+        "target": "/blogs/the-tee/active-life-active-mind-how-sports-and-fitness-help-kids-stay-on-track-at-school"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/276706590857",
+        "path": "/blogs/tribe-vibes/girls-crop-tops-when-how-and-how",
+        "target": "/blogs/the-tee/girls-crop-tops-when-how-and-how"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/276706623625",
+        "path": "/blogs/tribe-vibes/why-girls-who-play-sport-win-at-wellbeing",
+        "target": "/blogs/the-tee/why-girls-who-play-sport-win-at-wellbeing"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/276706689161",
+        "path": "/blogs/tribe-vibes/doing-the-best-i-can",
+        "target": "/blogs/the-tee/doing-the-best-i-can"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/276706721929",
+        "path": "/blogs/tribe-vibes/skin-changes-in-pre-teens",
+        "target": "/blogs/the-tee/skin-changes-in-pre-teens"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/276706754697",
+        "path": "/blogs/tribe-vibes/six-trailblazing-women-in-australian-sport",
+        "target": "/blogs/the-tee/six-trailblazing-women-in-australian-sport"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/276706787465",
+        "path": "/blogs/tribe-vibes/lava-tribe-2021-best-fairest-award",
+        "target": "/blogs/the-tee/lava-tribe-2021-best-fairest-award"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/276706820233",
+        "path": "/blogs/tribe-vibes/there-s-nothing-taboo-about-menstruation-period",
+        "target": "/blogs/the-tee/there-s-nothing-taboo-about-menstruation-period"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/276706853001",
+        "path": "/blogs/tribe-vibes/mia-freedman-lava-tribe-product-review",
+        "target": "/blogs/the-tee/mia-freedman-lava-tribe-product-review"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/276706885769",
+        "path": "/blogs/tribe-vibes/8-celebrity-who-rock-their-sporty-style",
+        "target": "/blogs/the-tee/8-celebrity-who-rock-their-sporty-style"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/276706918537",
+        "path": "/blogs/tribe-vibes/sport-doesnt-like-it",
+        "target": "/blogs/the-tee/sport-doesnt-like-it"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/276706951305",
+        "path": "/blogs/tribe-vibes/spotlight-on-isla-14-gymnastics-qld",
+        "target": "/blogs/the-tee/spotlight-on-isla-14-gymnastics-qld"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/276716880009",
+        "path": "/family-movement-sessions",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/276720615561",
+        "path": "/collections/paisley-girls-activewear-set",
+        "target": "/collections/ko-activewear-set"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/276764754057",
+        "path": "/instagram.com/eltee.sydney",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/276770488457",
+        "path": "/account/unsubscribe",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/276775075977",
+        "path": "/blogs/the-tee/lavatribe.com.au/collections/crops-tops",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/276821835913",
+        "path": "/products/girls-black-crop-top",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/276896383113",
+        "path": "/products_preview",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/276971913353",
+        "path": "/collections/girls-period-swim-1",
+        "target": "/collections/girls-performance-swim"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/277035253897",
+        "path": "/products/span-data-mce-fragment-1-%f0%9f%92%a5-span-strong-data-mce-fragment-1-special-offer-strong-span-data-mce-fragment-1-%f0%9f%92%a5-span-swimsync-pro-bundle",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/277098758281",
+        "path": "/products/period-swimwear-one-piece",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/277100200073",
+        "path": "/collections/end-season",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/277113700489",
+        "path": "/blogs/the-tee/cmvzzwfyy2",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/277129461897",
+        "path": "/collections/period-products",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/277160231049",
+        "path": "/collections/promotions",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/277199814793",
+        "path": "/products/ss-pro-bundle",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/277205057673",
+        "path": "/2019/10",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/277206171785",
+        "path": "/six-trailblazing-women-in-australian-sport",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/277206204553",
+        "path": "/collections/tops/products/lava-tie-up-sports-top",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/277206466697",
+        "path": "/product/blitz-it-leggings-arrow-print",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/277221638281",
+        "path": "/2019/12",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/277264629897",
+        "path": "/author/sarah-greenaway",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/277264695433",
+        "path": "/products/celebration-of-sport-photo-shoot-package",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/277333475465",
+        "path": "/2020/04",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/277333508233",
+        "path": "/collections/collections-patchy-patchy",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/277339865225",
+        "path": "/2019/08",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/277345108105",
+        "path": "/product/pp-leggings",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/277347401865",
+        "path": "/2019/11",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/277349302409",
+        "path": "/product/clean-sweep-tee",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/277396553865",
+        "path": "/products/snagless-girls-hair-ties",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/277397799049",
+        "path": "/4-ways-workout-with-your-daughter",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/277423194249",
+        "path": "/products/c3dpbxn5bm",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/277423227017",
+        "path": "/products/y3jvcc10b3",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/277478506633",
+        "path": "/products/b-fresh-deodorant",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/277483978889",
+        "path": "/collections/shop_everything",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/277484011657",
+        "path": "/collections/shop-everything",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/277910552713",
+        "path": "/h",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/277920678025",
+        "path": "/products/active-girls-leggings-powerplum",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/277927035017",
+        "path": "/product/blitz-it-shorts-graphite",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/278643900553",
+        "path": "/products/the-amazing-sam-kerr-illustrated-fiction",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/281654755465",
+        "path": "/products/underarm-sweat-absorber-pads-40-pack",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/281665208457",
+        "path": "/policies/instagram.com/eltee.sydney",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/281676218505",
+        "path": "/products/glam-body-lip-balm",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/281720062089",
+        "path": "/products/girls-sport-socks",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/281720094857",
+        "path": "/products/crop-top-maverick",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/281720750217",
+        "path": "/products/girls-hoodie-jumper",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/281721831561",
+        "path": "/products/joie-active-girls-leggings",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/281722093705",
+        "path": "/products/girls-sports-shorts-paisley",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/281722749065",
+        "path": "/products/period-shortie-briefs",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/281724190857",
+        "path": "/products/girls-sports-crop-top-paisley",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/281724780681",
+        "path": "/products/sports-shorts-maverick",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/281726320777",
+        "path": "/products/girls-free-rein-sports-crop-heyday",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/281726582921",
+        "path": "/products/active-girls-sports-shorts-cherry-leopard",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/281727434889",
+        "path": "/collections/ko-activewear-set",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/281728778377",
+        "path": "/products/first-period-briefs-retro",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/281729499273",
+        "path": "/collections/girls-performance-swim",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/281730744457",
+        "path": "/products/first-period-briefs-black",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/281731039369",
+        "path": "/collections/girls-sports-leggings",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/281731465353",
+        "path": "/products/girls-sports-side-pocket-shorts-heyday",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/281731661961",
+        "path": "/collections/girls-sports-shorts",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/281732579465",
+        "path": "/products/the-girls-guide-to-growing-up",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/281733005449",
+        "path": "/collections/fan-faves",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/281767510153",
+        "path": "/products/sports-tank-top-khaki",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/281768198281",
+        "path": "/products/girls-buff",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/282155745417",
+        "path": "/blogs",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/282214039689",
+        "path": "/pages/our-credo",
+        "target": "/pages/mission"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/282215317641",
+        "path": "/blogs/the-tee/first-period-alert-3-surefire-signs-that-its-on-its-way",
+        "target": "/blogs/the-tee/4-period-signs"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/282353467529",
+        "path": "/products/streamline-active-tank-top-black",
+        "target": "/products/athletic-tank"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/282353500297",
+        "path": "/collections/pbv2-activewear-set",
+        "target": "/collections/girls-sportswear"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/284474278025",
+        "path": "/products/swimsync-pro-period",
+        "target": "/products/girls-period-swimwear"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/285243211913",
+        "path": "/products/girls-period-undies-neutral",
+        "target": "/products/teen-period-underwear-neutral"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/285296820361",
+        "path": "/products/period-swimwear-bottoms",
+        "target": "/products/girls-period-swim-bottoms"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/285805936777",
+        "path": "/products/teen-period-underwear-neutral",
+        "target": "/products/period-undies-for-girls"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/286041669769",
+        "path": "/products/period-undies-for-girls",
+        "target": "/products/period-undies-for-girls-neutral"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/286470865033",
+        "path": "/collections/first-period-kits",
+        "target": "/collections/kits-first-period"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/286472044681",
+        "path": "/products/first-period-survival-kit",
+        "target": "/products/soothing-first-period-kit"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/286473126025",
+        "path": "/products/girls-first-period-pouch-kit",
+        "target": "/products/first-period-kit"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/288978174089",
+        "path": "/blogs/the-tee/there-s-nothing-taboo-about-menstruation-period",
+        "target": "/blogs/the-tee/mastering-her-cycle"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/289500561545",
+        "path": "/blogs/the-tee/research-results-breaking-the-barriers-menstruation-and-sports-participation-among-tween-and-teen-girls",
+        "target": "/blogs/the-tee/why-girls-quit-sport"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/290130526345",
+        "path": "/blogs/the-tee/facebook.com/lavatribe",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/290130657417",
+        "path": "/blogs/the-tee/facebook.com.au/lavatribe",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/290130690185",
+        "path": "/blogs/the-tee/instagram.com/lava_tribe",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/290130722953",
+        "path": "/blogs/the-tee/lavatribe.com.au",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/290133770377",
+        "path": "/products/period-undies-for-girls-with-bumpers-black",
+        "target": "/products/period-underwear-girls"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/290149892233",
+        "path": "/products/mix-match-bonza-bundle",
+        "target": "/products/first-period-underwear-pack-one"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/290156314761",
+        "path": "/products/bundle-offer-5",
+        "target": "/products/teen-period-underwear-pack-2"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/290159886473",
+        "path": "/collections/bundles",
+        "target": "/collections/girls-period-bundle-packs"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/290508341385",
+        "path": "/products/first-period-underwear-pack-one",
+        "target": "https://elteesydney.com.au/collections/girls-period-bundle-packs"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/291165864073",
+        "path": "/products/girls-period-undies-black",
+        "target": "https://elteesydney.com.au/products/period-underwear-girls"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/296479981705",
+        "path": "/pages/teen-period-underwear-bumpers",
+        "target": "/pages/teen"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/296567275657",
+        "path": "/pages/teen",
+        "target": "/pages/teen-period-underwear"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/298315448457",
+        "path": "/pages/teen-period-undies",
+        "target": "/pages/teen-period-underwear"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/299023007881",
+        "path": "/pages/care-guide",
+        "target": "/pages/period-proof-care-info"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/301254672521",
+        "path": "/products/girls-period-leotard-undies",
+        "target": "/products/period-dance-gym"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/301798129801",
+        "path": "/collections/period-underwear-for-girls",
+        "target": "/collections/teen-period-underwear"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/305605705865",
+        "path": "/products/period-undies-for-girls-neutral?srsltid=afmbooqhyohdzp4kibi9mmrfyfed1uv6rmy2b8obpd5vkh3f3bsbr6mj",
+        "target": "/products/period-undies-for-girls-neutral"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/305606197385",
+        "path": "/products/period-undies-for-girls-neutral?srsltid=afmboore3ksf98vn3i_y-f7idasvdvvcdqjsrqbbrreqtjaig8oyoo_f",
+        "target": "https://elteesydney.com.au/products/period-undies-for-girls-neutral"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/305606361225",
+        "path": "/products/period-undies-for-girls-neutral?srsltid=afmbooo4ovaauxcxb1g7mx4zivpkcu8merilwykhkrntselrfxkprj3y",
+        "target": "https://elteesydney.com.au/products/period-undies-for-girls-neutral"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/305606459529",
+        "path": "/collections/teen-period-underwear?srsltid=afmbooqvcrbreiicu46ltqledaxmrahbllshzhzwisueuljvrak0fogt",
+        "target": "https://elteesydney.com.au/collections/teen-period-underwear"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/305783505033",
+        "path": "/products/girls-period-swim-bottom",
+        "target": "/products/girls-period-swim-bottoms"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/309463875721",
+        "path": "/pages/teen-period-underwear",
+        "target": "/pages/best-period-underwear-tween-teen"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/309965160585",
+        "path": "/products/leakproof-girls-briefs",
+        "target": "/products/teen-period-boyshort-undies"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/311088414857",
+        "path": "/period-undies-for-girls-neutral",
+        "target": "/products/period-underwear-girls"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/319216713865",
+        "path": "/products/everyday-basic-girls-period-briefs",
+        "target": "/products/everyday-basics-teenage-underwear"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/319987384457",
+        "path": "/pages/demo-videos",
+        "target": "/pages/period-undies-demo-videos"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/320871760009",
+        "path": "/products/copy-total-freedom-trio-neutral",
+        "target": "/products/period-underwear-girls"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/320871792777",
+        "path": "/products/swim-undies-2-pack",
+        "target": "/products/girls-period-swim-bottoms"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/321732935817",
+        "path": "/products/girls-period-swim-bottoms",
+        "target": "/products/period-swim-undies"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/321864466569",
+        "path": "/404",
+        "target": "https://elteesydney.com.au/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/321864499337",
+        "path": "/collections/girls-period-bundle-packs",
+        "target": "https://elteesydney.com.au/products/period-underwear-girls"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/321864532105",
+        "path": "/collections/girls-period-pads-tampons",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/321864564873",
+        "path": "/collections/girls-skincare",
+        "target": "https://elteesydney.com.au/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/321864597641",
+        "path": "/null",
+        "target": "https://elteesydney.com.au/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/321864630409",
+        "path": "/pages/null",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/321864728713",
+        "path": "/products/mini-tampons-for-girls-12-pack",
+        "target": "/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/321864794249",
+        "path": "/products/period-undies-for-girls-neutral",
+        "target": "https://elteesydney.com.au/products/period-underwear-girls"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/321864827017",
+        "path": "/products/teen-period-underwear-pack-2",
+        "target": "https://elteesydney.com.au/products/period-underwear-girls"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/321882128521",
+        "path": "/products/teen-period-boyshort-undies",
+        "target": "/products/period-boyshort-undies"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/322142109833",
+        "path": "/products/stash-bag",
+        "target": "/products/wet-pouch"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/326108479625",
+        "path": "/all",
+        "target": "/collections/all"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/328396406921",
+        "path": "?locale=en&region_country=au",
+        "target": "https://account.elteesydney.com.au/"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/328603893897",
+        "path": "/collections/best-sellers",
+        "target": "/collections/best-period-underwear"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/328648523913",
+        "path": "/products/period-swimwear-briefs-for-teens",
+        "target": "/products/period-swimwear-bottoms-for-teens"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/328746696841",
+        "path": "/blogs/the-tee",
+        "target": "/blogs/period-advice"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/328746729609",
+        "path": "/blogs/the-tee/what-can-girls-wear-under-a-leotard-during-their-period",
+        "target": "/blogs/period-advice/what-can-girls-wear-under-a-leotard-during-their-period"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/328746762377",
+        "path": "/blogs/the-tee/pads-vs-period-undies-whats-the-difference",
+        "target": "/blogs/period-advice/pads-vs-period-undies-whats-the-difference"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/328746795145",
+        "path": "/blogs/the-tee/mastering-her-cycle",
+        "target": "/blogs/period-advice/mastering-her-cycle"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/328746827913",
+        "path": "/blogs/the-tee/girls-breast-development",
+        "target": "/blogs/period-advice/girls-breast-development"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/328746860681",
+        "path": "/blogs/the-tee/why-girls-quit-sport",
+        "target": "/blogs/period-advice/why-girls-quit-sport"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/328746893449",
+        "path": "/blogs/the-tee/4-period-signs",
+        "target": "/blogs/period-advice/4-period-signs"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/328746926217",
+        "path": "/blogs/the-tee/support-sporty-girls-adolescence",
+        "target": "/blogs/period-advice/support-sporty-girls-adolescence"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/328746958985",
+        "path": "/blogs/the-tee/play-on-tween-and-teen-girls-period-undies",
+        "target": "/blogs/period-advice/play-on-tween-and-teen-girls-period-undies"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/328746991753",
+        "path": "/blogs/the-tee/all-about-confidence",
+        "target": "/blogs/period-advice/all-about-confidence"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/328747024521",
+        "path": "/blogs/the-tee/survey-periods-impact-sport",
+        "target": "/blogs/period-advice/survey-periods-impact-sport"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/328747057289",
+        "path": "/blogs/the-tee/school-holiday-activities-adults-enjoy",
+        "target": "/blogs/period-advice/school-holiday-activities-adults-enjoy"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/328747090057",
+        "path": "/blogs/the-tee/6-simple-skincare-steps-for-sporty-girls",
+        "target": "/blogs/period-advice/6-simple-skincare-steps-for-sporty-girls"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/328747122825",
+        "path": "/blogs/the-tee/girls-gym-ready",
+        "target": "/blogs/period-advice/girls-gym-ready"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/328747155593",
+        "path": "/blogs/the-tee/active-life-active-mind-how-sports-and-fitness-help-kids-stay-on-track-at-school",
+        "target": "/blogs/period-advice/active-life-active-mind-how-sports-and-fitness-help-kids-stay-on-track-at-school"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/328747188361",
+        "path": "/blogs/the-tee/why-girls-who-play-sport-win-at-wellbeing",
+        "target": "/blogs/period-advice/why-girls-who-play-sport-win-at-wellbeing"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/328747221129",
+        "path": "/blogs/the-tee/doing-the-best-i-can",
+        "target": "/blogs/period-advice/doing-the-best-i-can"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/328747253897",
+        "path": "/blogs/the-tee/skin-changes-in-pre-teens",
+        "target": "/blogs/period-advice/skin-changes-in-pre-teens"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/328747286665",
+        "path": "/blogs/the-tee/six-trailblazing-women-in-australian-sport",
+        "target": "/blogs/period-advice/six-trailblazing-women-in-australian-sport"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/328747319433",
+        "path": "/blogs/the-tee/lava-tribe-2021-best-fairest-award",
+        "target": "/blogs/period-advice/lava-tribe-2021-best-fairest-award"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/328747352201",
+        "path": "/blogs/the-tee/sport-doesnt-like-it",
+        "target": "/blogs/period-advice/sport-doesnt-like-it"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/328766259337",
+        "path": "/collections/kits-first-period",
+        "target": "/collections/period-starter-packs"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/328808071305",
+        "path": "/collections/girls-first-period-early-cycle-years",
+        "target": "/collections/girls-first-period"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/328808169609",
+        "path": "/collections/girls-first-period",
+        "target": "/collections/best-first-period-tween-teen-girl"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/328808628361",
+        "path": "/pages/best-period-underwear-tween-teen",
+        "target": "/pages/first-period-tween-teen"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/329727737993",
+        "path": "/blogs/period-advice",
+        "target": "/blogs/period-info-guides"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/329727770761",
+        "path": "/blogs/period-advice/keep-your-tropes-sheargold-matildas-remarks-are-no-joke",
+        "target": "/blogs/period-info-guides/keep-your-tropes-sheargold-matildas-remarks-are-no-joke"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/329727803529",
+        "path": "/blogs/period-advice/first-guide-to-using-pads-and-tampons",
+        "target": "/blogs/period-info-guides/first-guide-to-using-pads-and-tampons"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/329727836297",
+        "path": "/blogs/period-advice/what-can-girls-wear-under-a-leotard-during-their-period",
+        "target": "/blogs/period-info-guides/what-can-girls-wear-under-a-leotard-during-their-period"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/329727869065",
+        "path": "/blogs/period-advice/pads-vs-period-undies-whats-the-difference",
+        "target": "/blogs/period-info-guides/pads-vs-period-undies-whats-the-difference"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/329727901833",
+        "path": "/blogs/period-advice/mastering-her-cycle",
+        "target": "/blogs/period-info-guides/mastering-her-cycle"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/329727934601",
+        "path": "/blogs/period-advice/girls-breast-development",
+        "target": "/blogs/period-info-guides/girls-breast-development"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/329727967369",
+        "path": "/blogs/period-advice/why-girls-quit-sport",
+        "target": "/blogs/period-info-guides/why-girls-quit-sport"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/329728000137",
+        "path": "/blogs/period-advice/4-period-signs",
+        "target": "/blogs/period-info-guides/4-period-signs"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/329728032905",
+        "path": "/blogs/period-advice/support-sporty-girls-adolescence",
+        "target": "/blogs/period-info-guides/support-sporty-girls-adolescence"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/329728065673",
+        "path": "/blogs/period-advice/play-on-tween-and-teen-girls-period-undies",
+        "target": "/blogs/period-info-guides/play-on-tween-and-teen-girls-period-undies"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/329728098441",
+        "path": "/blogs/period-advice/all-about-confidence",
+        "target": "/blogs/period-info-guides/all-about-confidence"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/329728131209",
+        "path": "/blogs/period-advice/survey-periods-impact-sport",
+        "target": "/blogs/period-info-guides/survey-periods-impact-sport"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/329728163977",
+        "path": "/blogs/period-advice/school-holiday-activities-adults-enjoy",
+        "target": "/blogs/period-info-guides/school-holiday-activities-adults-enjoy"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/329728196745",
+        "path": "/blogs/period-advice/6-simple-skincare-steps-for-sporty-girls",
+        "target": "/blogs/period-info-guides/6-simple-skincare-steps-for-sporty-girls"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/329728229513",
+        "path": "/blogs/period-advice/girls-gym-ready",
+        "target": "/blogs/period-info-guides/girls-gym-ready"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/329728262281",
+        "path": "/blogs/period-advice/active-life-active-mind-how-sports-and-fitness-help-kids-stay-on-track-at-school",
+        "target": "/blogs/period-info-guides/active-life-active-mind-how-sports-and-fitness-help-kids-stay-on-track-at-school"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/329728295049",
+        "path": "/blogs/period-advice/why-girls-who-play-sport-win-at-wellbeing",
+        "target": "/blogs/period-info-guides/why-girls-who-play-sport-win-at-wellbeing"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/329728327817",
+        "path": "/blogs/period-advice/doing-the-best-i-can",
+        "target": "/blogs/period-info-guides/doing-the-best-i-can"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/329728360585",
+        "path": "/blogs/period-advice/skin-changes-in-pre-teens",
+        "target": "/blogs/period-info-guides/skin-changes-in-pre-teens"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/329728393353",
+        "path": "/blogs/period-advice/six-trailblazing-women-in-australian-sport",
+        "target": "/blogs/period-info-guides/six-trailblazing-women-in-australian-sport"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/329728426121",
+        "path": "/blogs/period-advice/lava-tribe-2021-best-fairest-award",
+        "target": "/blogs/period-info-guides/lava-tribe-2021-best-fairest-award"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/329728458889",
+        "path": "/blogs/period-advice/sport-doesnt-like-it",
+        "target": "/blogs/period-info-guides/sport-doesnt-like-it"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/339086016649",
+        "path": "/products/underliner",
+        "target": "/products/underliner-girls-leak-proof"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/345858605193",
+        "path": "/everyday-basics-teenage-underwear",
+        "target": "/underliner-girls-leak-proof"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/350053302409",
+        "path": "/pages/quick-answers",
+        "target": "/pages/faq"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/351924781193",
+        "path": "/products/period-underwear-starter-kit",
+        "target": "/products/my-first-period-pack"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/429446627465",
+        "path": "/pages/returns-exchange",
+        "target": "/pages/returns-es"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/434619941001",
+        "path": "/pages/returns",
+        "target": "/pages/returns-jj"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/434635014281",
+        "path": "/pages/returns-and-exchanges",
+        "target": "/pages/returns-es"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/456464105609",
+        "path": "/pages/period-solutions-for-competitive-swimmers",
+        "target": "/pages/comp-swimmers"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/459432624265",
+        "path": "/pages/first-period-tween-teen",
+        "target": "/pages/first-period-underwear-for-girls"
+      },
+      {
+        "id": "gid://shopify/UrlRedirect/469805498505",
+        "path": "/products/the-pool-perfect-combo",
+        "target": "https://elteesydney.com.au/products/tpp-combo"
+      }
+    ],
+    "pageInfo": {
+      "hasNextPage": false,
+      "endCursor": "eyJsYXN0X2lkIjo0Njk4MDU0OTg1MDUsImxhc3RfdmFsdWUiOiI0Njk4MDU0OTg1MDUifQ==",
+      "pagesFetched": 9
+    }
+  },
+  "apps": {
+    "isError": true,
+    "structuredContent": {
+      "error": "invalid_request",
+      "error_code": "INVALID_ARGUMENT",
+      "error_description": "GraphQL errors occurred: access denied",
+      "graphql_errors": [
+        {
+          "locations": [
+            {
+              "column": 12,
+              "line": 1
+            }
+          ],
+          "message": "access denied",
+          "path": [
+            "appInstallations"
+          ]
+        }
+      ]
+    }
+  },
+  "snapshot": {
+    "capturedAt": "2026-08-27",
+    "store": "elteesydney.com.au",
+    "source": "Shopify Admin GraphQL read-only"
+  }
+}

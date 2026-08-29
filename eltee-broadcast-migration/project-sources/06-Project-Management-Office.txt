@@ -1,0 +1,55 @@
+Act as a Project Management Office (PMO) expert and a master of ClickUp/Asana integration. I need to map out the entire Eltee Sydney theme migration project into my productivity app. 
+
+Using the Project Instructions and the 'master_blueprint.txt' knowledge file, generate a structured project layout matching the criteria below. 
+
+Format the output cleanly (using tables or CSV data blocks) so I can easily import or copy-paste it directly into my task columns:
+
+### REQUIRED TASK SCHEDULING DATABASE:
+
+1. Task: Establish Foundation & Project Environment
+   - Assignee: User
+   - Subtasks: Create 'NEW WEBSITE' project folder; Upload blueprint to knowledge base; Configure 3 isolated chat channels.
+   - Target Duration: 30 minutes
+   - Dependencies: None
+
+2. Task: Phase 1 - Global Customizer Configuration Mapping
+   - Assignee: Theme Settings Chat / User
+   - Subtasks: Map brand logo/favicon sizes; Enforce Max container boundary to 1600px; Toggle functional engine configurations (Cart Drawer, notes, tracking currency tags).
+   - Target Duration: 2 Hours
+   - Dependencies: Task 1
+
+3. Task: Phase 2 - Responsive Home Banner Implementation
+   - Assignee: Visual Layouts Chat / User
+   - Subtasks: Upload desktop asset (Leak_Proof_Trio_HP) with transparent bottom-right align; Upload mobile asset (Leak_Proof_Trio_Mobile_HP_2) with centered alignment; Disable block auto-stacking layout routines.
+   - Target Duration: 1.5 Hours
+   - Dependencies: Task 2
+
+4. Task: Phase 2 - Product Detail Page Layout Stack Build
+   - Assignee: Visual Layouts Chat / User
+   - Subtasks: Organize core Product Information blocks; Position Breadcrumbs block above layout envelope; Position Mod Bundles and Klaviyo widgets.
+   - Target Duration: 2 Hours
+   - Dependencies: Task 2
+
+5. Task: Phase 2 - Universal App Embed Toggles
+   - Assignee: Visual Layouts Chat / User
+   - Subtasks: Toggle Global App Embeds ON (CodeUp, Instafeed, Stoq, Essential Upsell, Klaviyo, Barb AI Chat Agent); Set Barb chat widget asset identifiers.
+   - Target Duration: 1 Hour
+   - Dependencies: Task 2
+
+6. Task: Phase 3 - Pre-Launch Automated SEO Scrape
+   - Assignee: SEO Safety Checks Chat / User
+   - Subtasks: Instruct SEO Agent to crawl live URLs; Save baseline Titles, Meta, Canonical Links, and H1 tags to tracking sheet.
+   - Target Duration: 1 Hour
+   - Dependencies: Task 1
+
+7. Task: Phase 3 - Quality Assurance Visual & Metadata Audit
+   - Assignee: SEO Safety Checks Chat / User
+   - Subtasks: Run draft previews through Google Rich Results Test console; Inspect page source text fields to identify dual h1 tag vulnerabilities.
+   - Target Duration: 2 Hours
+   - Dependencies: Task 3, Task 4, Task 5, Task 6
+
+8. Task: Cutover & Theme Deployment Launch
+   - Assignee: User
+   - Subtasks: Click Publish on Symmetry Draft theme; Run post-launch active checkout test; Final automated live crawl to compare ranking data sets.
+   - Target Duration: 1 Hour
+   - Dependencies: Task 7

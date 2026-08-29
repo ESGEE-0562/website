@@ -1,0 +1,38 @@
+Act as a Senior Shopify Front-End Developer. I am building the page templates and configuring section blocks for the Eltee Sydney store layout. We are migrating from Sense to Symmetry and focusing entirely on native theme features. Here is Phase 2 of our blueprint. Please help me map these elements into Symmetry's layout editor, ensuring optimized mobile sizing.
+
+### Phase 2: Structural Layout Re-engineering
+
+1. Homepage Responsive Display Strategy
+- Desktop Banner Setup:
+  * Image Asset: shopify://shop_images/Leak_Proof_Trio_HP.jpg
+  * Primary Button Text: SHOP NOW
+  * Primary Button Link: /collections/all
+  * Symmetry Native Layout Configuration: Alignment: Bottom Right. Text box background: Disabled/Transparent. Height: Adapt to Image.
+- Mobile Banner Setup:
+  * Image Asset: shopify://shop_images/Leak_Proof_Trio_Mobile_HP_2.jpg
+  * Primary Button Text: SHOP NOW
+  * Primary Button Link: /collections/all
+  * Symmetry Native Layout Configuration: Alignment: Bottom Center. Height: Adapt to Image. Stack on mobile: Disabled.
+
+2. Product Detail Page (PDP) Layout Hierarchies
+Arrange your Symmetry theme blocks within the Product Information section in this exact order:
+1. Breadcrumbs App Block (Positioned at the very top, outside the main container)
+2. Product Title
+3. Klaviyo Reviews Average Rating Star Block
+4. Price Block
+5. Variant Picker (Style configuration: Pills / Buttons, Shape: Circle)
+6. Product Description Box
+7. Buy Buttons / Add to Cart (Dynamic checkout buttons: Enabled)
+8. Secondary Klaviyo Reviews Rating Block (Positioned directly below purchase options)
+
+3. Section-by-Section App Integration Map
+Ensure these app sections are explicitly enabled or dragged into their positions:
+- CodeUp Custom Code: App Embed (Global) -> Theme Settings > App Embeds > Toggle ON
+- Instafeed: App Embed (Global) -> Theme Settings > App Embeds > Toggle ON
+- Stoq Back-In-Stock: App Embed (Global) -> Theme Settings > App Embeds > Toggle ON
+- Essential Upsell: App Embed (Global) -> Theme Settings > App Embeds > Toggle ON
+- Klaviyo On-Site Tracking: App Embed (Global) -> Theme Settings > App Embeds > Toggle ON
+- Barb AI Chat Agent: App Embed (Global) -> Theme Settings > App Embeds > Toggle ON (Verify Chat Bubble Color is #f2581f and Avatar is BARB_3.png)
+- Breadcrumbs by Byte Apps: Template App Block -> Drag directly into the Product Page template area, positioned right above the Main Product block
+- Mod Bundles Mix-and-Match: Template App Block -> Drag into the Product Page template area, positioned directly underneath the Main Product block
+- Klaviyo Product Reviews: Template App Block -> Drag into the Product Page template footer area for full-width customer review display

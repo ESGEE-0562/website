@@ -1,0 +1,81 @@
+# MASTER SHOPIFY MIGRATION BLUEPRINT: SENSE TO SYMMETRY
+Store Profile: Eltee Sydney
+Target Migration Flow: Sense (Legacy Theme) to Symmetry (New Target Theme)
+Migration Constraints: 100% Native Elements Only. No Manual Code Customizations Required.
+
+==================================================
+PHASE 1: GLOBAL THEME SETTINGS CONFIGURATION MAP
+==================================================
+1. Brand Identity Assets
+- Logo Image Source: shopify://shop_images/ELTEE_SYDNEY_FULL_COLOUR_SQUARE_LOGO.png
+- Desktop Width Boundary: 80px
+- Favicon Image Source: shopify://shop_images/favicon-32x32.png
+- Font Typography Family: sans-serif
+- Typography Scale Modifiers: Headings: 100% | Body: 100%
+- Max Page Boundaries: 1600px
+
+2. Functional Engine Toggles
+- Cart Display Layout: Drawer (cart_type: "drawer")
+- Cart Cross-Sell Collection Source: best-period-underwear
+- Order Special Notes Field: Enabled / ON
+- Currency Tracking Formats: Show Currency Code enabled
+- Live Predictive Search Filters: Disabled / OFF
+
+3. Verified Brand Social Anchors
+- Facebook Address: https://facebook.com/eltee.sydney
+- Instagram Address: https://instagram.com/eltee.sydney
+- TikTok Address: https://tiktok.com/@eltee.sydney
+- Empty Accounts (Omit entirely from customizer fields): YouTube, Twitter, Pinterest, Snapchat.
+
+==================================================
+PHASE 2: PAGE DESIGN & CORE BLOCK STRATEGY
+==================================================
+1. Homepage Split Layout Setup (Responsive Image Controls)
+- Desktop-Optimized Element Block:
+  * Raw Image File: shopify://shop_images/Leak_Proof_Trio_HP.jpg
+  * Action Call Label: SHOP NOW
+  * Navigation Destination: /collections/all
+  * Alignment Parameter: Bottom Right
+  * Text Wrapper Background Frame: Disabled (Transparent)
+  * Vertical Boundary Scale: Adapt to Image
+- Mobile-Optimized Element Block:
+  * Raw Image File: shopify://shop_images/Leak_Proof_Trio_Mobile_HP_2.jpg
+  * Action Call Label: SHOP NOW
+  * Navigation Destination: /collections/all
+  * Alignment Parameter: Bottom Center
+  * Block Image Auto-Stacking Behavior: Disabled
+  * Vertical Boundary Scale: Adapt to Image
+
+2. Product Page Block Architecture Stack
+Arrange the blocks sequentially inside Symmetry's Product Info configuration module exactly as follows:
+- Block 1: Breadcrumbs App Embed Block
+- Block 2: Title Block
+- Block 3: Klaviyo Reviews Rating Block
+- Block 4: Pricing Matrix Display Block
+- Block 5: Variant Selection Swatch System (Interface: Button/Pill Layout, Shape: Circle)
+- Block 6: Core Description Box Block
+- Block 7: Checkout Core Purchase Buttons (Dynamic Express Checkout Buttons: Enabled)
+- Block 8: Secondary Duplicate Reviews Widget Element
+
+3. Universal Active Application Mapping Matrix
+- App Embed 1: CodeUp Custom Code -> Status: Global Embed Enabled
+- App Embed 2: Instafeed Layouts -> Status: Global Embed Enabled
+- App Embed 3: Stoq Restock System Alerts -> Status: Global Embed Enabled
+- App Embed 4: Essential Upsell Engine -> Status: Global Embed Enabled
+- App Embed 5: Klaviyo Tracking Onsite Pixel -> Status: Global Embed Enabled
+- App Embed 6: Barb AI Customer Chat Agent -> Status: Global Embed Enabled (Bubble Fill: #f2581f, Profile Image Target: BARB_3.png)
+- Layout App Block 1: Breadcrumbs by Byte Apps -> Status: Template Block -> Position: Above Main Product
+- Layout App Block 2: Mod Bundles Mix-and-Match -> Status: Template Block -> Position: Below Main Product
+- Layout App Block 3: Klaviyo Product Reviews Widget -> Status: Template Block -> Position: Full Width Template Footer
+
+==================================================
+PHASE 3: SEO VISIBILITY PROTOCOLS & VALIDATION
+==================================================
+1. Homepage Heading Protection Rules
+- Core Semantic Target Code: <h1>Period Underwear for Unstoppable Girls</h1>
+- Secondary Layout Core Accent Text: SWIM | SPORT | SCHOOL | SLEEP
+- Execution Rule: Validate that the title parameter inside Symmetry's banner text entry field does not inject nested double h1 properties into the generated page output. Inspect live client source text strings to ensure only one clean global instance of an <h1> tag exists on the page source code.
+
+2. Structural JSON Schema Integrity Guardrails
+- Test Step 1: Execute active validation profiles on current live product nodes utilizing Google's Rich Results Testing console. Take exact snapshot records of verified, indexed schema structures (Product arrays, pricing schemas, FAQ nodes).
+- Test Step 2: During draft theme preview evaluations, re-test template parameters in the testing environment to prevent schema item drops or structural snippet flags within search analytics.
